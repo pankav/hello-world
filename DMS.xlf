@@ -19762,6 +19762,581 @@
           <note annotates="general" from="Developer" priority="2"/>
           <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Notify Customer - EnumValue By Phone 2 - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Enum 3246506702 - EnumValue 1986027896 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>By Fax</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Notify Customer - EnumValue By Fax - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3246506702 - EnumValue 2725179097 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>By Email</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Notify Customer - EnumValue By Email - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3547765394 - EnumValue 2128328449 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>=  - Equals</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Numeric Conditions - EnumValue =  - Equals - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3547765394 - EnumValue 600851454 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>..  - Range</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Numeric Conditions - EnumValue ..  - Range - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3547765394 - EnumValue 2208105972 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&lt;  - Less</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Numeric Conditions - EnumValue &lt;  - Less - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3547765394 - EnumValue 3902166312 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&lt;= - Less or Equal</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Numeric Conditions - EnumValue &lt;= - Less or Equal - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3547765394 - EnumValue 3041554731 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&gt;  - Greater</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Numeric Conditions - EnumValue &gt;  - Greater - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3547765394 - EnumValue 599560159 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&gt;= - Greater or Equal</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Numeric Conditions - EnumValue &gt;= - Greater or Equal - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1778672113 - EnumValue 396968769 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No Check</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Posting Date Check - EnumValue No Check - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1778672113 - EnumValue 2314760951 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Empty Values</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Posting Date Check - EnumValue Empty Values - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1778672113 - EnumValue 3038763548 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document Dates</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Posting Date Check - EnumValue Document Dates - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1778672113 - EnumValue 2448168655 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Workdate</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Posting Date Check - EnumValue Workdate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3822528200 - EnumValue 1371923692 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Price Adjmt. Status - EnumValue   - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3822528200 - EnumValue 2699875056 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Adjusted</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Price Adjmt. Status - EnumValue Adjusted - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3822528200 - EnumValue 541974475 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Modified</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Price Adjmt. Status - EnumValue Modified - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1616932545 - EnumValue 3592530208 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Low</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Priority - EnumValue Low - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1616932545 - EnumValue 432767615 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Medium</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Priority - EnumValue Medium - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1616932545 - EnumValue 3116416530 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>High</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Priority - EnumValue High - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3202212196 - EnumValue 4259830144 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Release Status - EnumValue Open - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3202212196 - EnumValue 3173417624 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Released to Ship</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Release Status - EnumValue Released to Ship - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3107573340 - EnumValue 1371923692 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Replaced Item Type - EnumValue   - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3107573340 - EnumValue 521506452 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Service Item</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Replaced Item Type - EnumValue Service Item - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3107573340 - EnumValue 3276313895 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Replaced Item Type - EnumValue Item - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1458900313 - EnumValue 374497366 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Never</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Reserve (Service Line) - EnumValue Never - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1458900313 - EnumValue 2049744306 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Optional</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Reserve (Service Line) - EnumValue Optional - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1458900313 - EnumValue 3702499555 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Always</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Reserve (Service Line) - EnumValue Always - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3040023847 - EnumValue 1994964448 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Sales Type - EnumValue Customer - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3040023847 - EnumValue 2725149570 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Price Group</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Sales Type - EnumValue Customer Price Group - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3040023847 - EnumValue 2572667290 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>All Customers</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Sales Type - EnumValue All Customers - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3040023847 - EnumValue 2611991338 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Campaign</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Sales Type - EnumValue Campaign - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1772857227 - EnumValue 1994964448 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Sales Type (Discount) - EnumValue Customer - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1772857227 - EnumValue 273731812 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Disc. Group</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Sales Type (Discount) - EnumValue Customer Disc. Group - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1772857227 - EnumValue 2572667290 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>All Customers</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Sales Type (Discount) - EnumValue All Customers - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1772857227 - EnumValue 2611991338 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Campaign</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Sales Type (Discount) - EnumValue Campaign - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3495737003 - EnumValue 1821279055 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Text</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Service Item Attribute Data Type - EnumValue Text - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3495737003 - EnumValue 617522584 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Boolean</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Service Item Attribute Data Type - EnumValue Boolean - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3495737003 - EnumValue 828292189 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Option</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Service Item Attribute Data Type - EnumValue Option - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3495737003 - EnumValue 3883182266 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Integer</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Service Item Attribute Data Type - EnumValue Integer - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3495737003 - EnumValue 3350651205 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Decimal</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Service Item Attribute Data Type - EnumValue Decimal - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3495737003 - EnumValue 3192175264 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Service Item Attribute Data Type - EnumValue Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1405438534 - EnumValue 3488454915 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Marketing Text</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Service Item Text Block Types - EnumValue Marketing Text - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1405438534 - EnumValue 4150537212 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Service Text</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Service Item Text Block Types - EnumValue Service Text - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1405438534 - EnumValue 857357408 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Standard Equipment Text</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Service Item Text Block Types - EnumValue Standard Equipment Text - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2092197077 - EnumValue 1281489413 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Partial</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Shipping Advice - EnumValue Partial - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2092197077 - EnumValue 2588201939 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Complete</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Shipping Advice - EnumValue Complete - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 335635243 - EnumValue 1371923692 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Spare Part Action - EnumValue   - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 335635243 - EnumValue 1566445174 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Permanent</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Spare Part Action - EnumValue Permanent - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 335635243 - EnumValue 3488712613 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Temporary</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Spare Part Action - EnumValue Temporary - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 335635243 - EnumValue 1852544281 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Component Replaced</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Spare Part Action - EnumValue Component Replaced - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 335635243 - EnumValue 879676393 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Component Installed</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Spare Part Action - EnumValue Component Installed - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3848750374 - EnumValue 2990427396 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Pixel</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Split String Type - EnumValue Pixel - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3848750374 - EnumValue 1736694239 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>String</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Split String Type - EnumValue String - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 4074324077 - EnumValue 1371923692 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Status(Purchase) - EnumValue   - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 4074324077 - EnumValue 3611082495 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>In Quote</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Status(Purchase) - EnumValue In Quote - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 4074324077 - EnumValue 972353203 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>In Order</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Status(Purchase) - EnumValue In Order - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 4074324077 - EnumValue 3643143909 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>In Trade-In</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Status(Purchase) - EnumValue In Trade-In - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 4074324077 - EnumValue 1589921353 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>In Stock</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Status(Purchase) - EnumValue In Stock - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2524300052 - EnumValue 1371923692 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Status(Sales) - EnumValue   - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2524300052 - EnumValue 3611082495 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>In Quote</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Status(Sales) - EnumValue In Quote - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2524300052 - EnumValue 972353203 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>In Order</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Status(Sales) - EnumValue In Order - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2524300052 - EnumValue 1090071933 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shipped</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Status(Sales) - EnumValue Shipped - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2524300052 - EnumValue 110183432 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sold</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Status(Sales) - EnumValue Sold - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1423718182 - EnumValue 3481143665 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Pending</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Status (Service Header) - EnumValue Pending - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1423718182 - EnumValue 2849448176 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>In Process</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Status (Service Header) - EnumValue In Process - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1423718182 - EnumValue 293070022 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Finished</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Status (Service Header) - EnumValue Finished - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1423718182 - EnumValue 926489874 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>On Hold</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Status (Service Header) - EnumValue On Hold - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1156526116 - EnumValue 1511989657 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Service Contract</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Table Name (Service Comments) - EnumValue Service Contract - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1156526116 - EnumValue 3610197182 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Service Header</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Table Name (Service Comments) - EnumValue Service Header - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1156526116 - EnumValue 521506452 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Service Item</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Table Name (Service Comments) - EnumValue Service Item - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1156526116 - EnumValue 2246322005 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Loaner</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Table Name (Service Comments) - EnumValue Loaner - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1156526116 - EnumValue 4081358646 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Service Shipment Header</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Table Name (Service Comments) - EnumValue Service Shipment Header - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1156526116 - EnumValue 3117283677 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Service Invoice Header</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Table Name (Service Comments) - EnumValue Service Invoice Header - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1156526116 - EnumValue 3471029625 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Service Cr.Memo Header</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Table Name (Service Comments) - EnumValue Service Cr.Memo Header - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1156526116 - EnumValue 1585207951 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Service Header Archive</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Table Name (Service Comments) - EnumValue TSR Service Header Archive - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3645711661 - EnumValue 2985134972 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>0</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Table Subtype (Service Comments) - EnumValue 0 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3645711661 - EnumValue 2347438355 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>1</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Table Subtype (Service Comments) - EnumValue 1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3645711661 - EnumValue 4260528206 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>2</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Table Subtype (Service Comments) - EnumValue 2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3645711661 - EnumValue 3622831589 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>3</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Table Subtype (Service Comments) - EnumValue 3 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 98466668 - EnumValue 3705109357 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Contains</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Text Conditions - EnumValue Contains - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 98466668 - EnumValue 1675871683 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Starts With</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Text Conditions - EnumValue Starts With - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 98466668 - EnumValue 1565403074 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ends With</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Text Conditions - EnumValue Ends With - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 98466668 - EnumValue 1292313340 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Exact Match</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Text Conditions - EnumValue Exact Match - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 899116503 - EnumValue 1371923692 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Type Filter - EnumValue   - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 899116503 - EnumValue 348912950 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Resource</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Type Filter - EnumValue Resource - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 899116503 - EnumValue 3276313895 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Type Filter - EnumValue Item - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 899116503 - EnumValue 2136625594 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Service Cost</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Type Filter - EnumValue Service Cost - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 899116503 - EnumValue 1511989657 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Service Contract</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Type Filter - EnumValue Service Contract - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3151141786 - EnumValue 348912950 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Resource</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Type (Resource) - EnumValue Resource - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3151141786 - EnumValue 1315361375 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Resourcegroup</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Type (Resource) - EnumValue Resourcegroup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3151141786 - EnumValue 3703598467 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>All</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Type (Resource) - EnumValue All - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1084703171 - EnumValue 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Type (Service Comments) - EnumValue General - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1084703171 - EnumValue 213071998 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Fault</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Type (Service Comments) - EnumValue Fault - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1084703171 - EnumValue 2521221354 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Resolution</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Type (Service Comments) - EnumValue Resolution - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1084703171 - EnumValue 264312884 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Accessory</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Type (Service Comments) - EnumValue Accessory - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1084703171 - EnumValue 990296649 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Internal</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Type (Service Comments) - EnumValue Internal - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1084703171 - EnumValue 2577851549 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Service Item Loaner</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Type (Service Comments) - EnumValue Service Item Loaner - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 623259425 - EnumValue 1371923692 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Type (Service Item Instructions) - EnumValue   - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 623259425 - EnumValue 521506452 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Service Item</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Type (Service Item Instructions) - EnumValue Service Item - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 623259425 - EnumValue 3276313895 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Type (Service Item Instructions) - EnumValue Item - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2959442593 - EnumValue 1371923692 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Type (Service Line) - EnumValue   - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2959442593 - EnumValue 3276313895 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Type (Service Line) - EnumValue Item - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2959442593 - EnumValue 348912950 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Resource</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Type (Service Line) - EnumValue Resource - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2959442593 - EnumValue 4231510117 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cost</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Type (Service Line) - EnumValue Cost - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2959442593 - EnumValue 4274826855 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>G/L Account</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Type (Service Line) - EnumValue G/L Account - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2105629706 - EnumValue 1371923692 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Value Posting - EnumValue   - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2105629706 - EnumValue 2935468366 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Code Mandatory</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Value Posting - EnumValue Code Mandatory - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2105629706 - EnumValue 3335760249 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Same Code</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Value Posting - EnumValue Same Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2849924985 - EnumValue 2175200692 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Normal VAT</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR VAT Calculation Type - EnumValue Normal VAT - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2849924985 - EnumValue 410143243 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reverse Charge VAT</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR VAT Calculation Type - EnumValue Reverse Charge VAT - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2849924985 - EnumValue 83420316 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Full VAT</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR VAT Calculation Type - EnumValue Full VAT - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2849924985 - EnumValue 3225393447 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Tax</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR VAT Calculation Type - EnumValue Sales Tax - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3952993877 - EnumValue 1371923692 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Warning Status - EnumValue   - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3952993877 - EnumValue 3616808436 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>First Warning</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Warning Status - EnumValue First Warning - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3952993877 - EnumValue 3689151974 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Second Warning</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Warning Status - EnumValue Second Warning - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3952993877 - EnumValue 2137426195 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Third Warning</source>
+          <note annotates="general" from="Developer" priority="2"/>
+          <note annotates="general" from="Xliff Generator" priority="3">Enum TSR Warning Status - EnumValue Third Warning - Property Caption</note>
+        </trans-unit>
       </group>
     </body>
   </file>
