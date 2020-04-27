@@ -42,13 +42,3 @@ en:
       target_choice_keep_published: Keep
       target_choice_keep_unpublished: Keep Unpublished
       target_choice_publish: Publish
-    effort_conversion:
-      email_captured: Email Captured
-      petition_created: Petition Created
-      user_attached: User Attached
-      launched: Launched
-      unlaunched: Unlaunched
-    queries:
-      exports:
-        signatures_export:
-          end_date_cannot_be_earlier_than_start_date: cannot be earlier than the start date
