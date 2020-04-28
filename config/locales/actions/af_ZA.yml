@@ -21,14 +21,14 @@ af_ZA:
     create_petition_for_target:
       truncated_note: Petition title was automatically truncated due to length constraints
     delete_petition_data:
-      petition_ended_reason: Inactive petition was anonymized on %{anonymization_date}.
+      petition_ended_reason: "Inactive petition was anonymized on %{anonymization_date}."
     merge_locales:
       cannot_merge: "Cannot merge locales: %{errors}"
       no_merge_with_self: A locale cannot be merged with itself
       not_an_org_locale: "%{loc} is not one of the organisation's locales"
     moderate_inappropriate_petition_edits:
-      cannot_approve_with_status: Petition cannot be approved with status %{admin_status}
-      cannot_mark_as_inappropriate: Petition cannot be set to inappropriate with status %{admin_status}
+      cannot_approve_with_status: "Petition cannot be approved with status %{admin_status}"
+      cannot_mark_as_inappropriate: "Petition cannot be set to inappropriate with status %{admin_status}"
     process_abandoned_petition:
       cannot_delete_target: Target cannot be deleted
       cannot_keep_petition_and_delete_target: Target cannot be deleted unless petition is also deleted
