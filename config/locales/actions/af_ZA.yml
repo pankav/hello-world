@@ -3,7 +3,7 @@ af_ZA:
   activemodel:
     attributes:
       scope_filters/petition_query_filter:
-        admin_status: Moderation Status
+        admin_status: 1Moderation Status
         country: Country
         source: Source
         locale: Locale
