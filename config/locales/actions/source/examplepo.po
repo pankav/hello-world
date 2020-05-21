@@ -4,3 +4,6 @@ msgstr ""
 
 msgid "Next"
 msgstr ""
+
+msgid "Next"
+msgstr ""
