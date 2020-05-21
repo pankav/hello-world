@@ -5,5 +5,5 @@ msgstr ""
 msgid "Next"
 msgstr ""
 
-msgid "Next"
+msgid "Prev"
 msgstr ""
