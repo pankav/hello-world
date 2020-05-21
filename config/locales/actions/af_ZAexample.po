@@ -11,3 +11,6 @@ msgstr ""
 
 msgid "Next"
 msgstr "epomeno"
+
+msgid "Prev"
+msgstr "proigoumeno"
