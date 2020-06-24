@@ -4,6 +4,3 @@ msgstr ""
 
 msgid "Next"
 msgstr ""
-
-msgid "Prev"
-msgstr ""
