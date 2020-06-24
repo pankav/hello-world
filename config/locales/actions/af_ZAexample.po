@@ -14,3 +14,9 @@ msgstr "epomeno"
 
 msgid "Prev"
 msgstr "proigoumeno"
+
+msgid "front"
+msgstr "mprosta"
+
+msgid "Back"
+msgstr "pisw"
