@@ -10,3 +10,6 @@ msgstr ""
 
 msgid "front"
 msgstr ""
+
+msgid "back"
+msgstr ""
