@@ -4,3 +4,12 @@ msgstr ""
 
 msgid "Next"
 msgstr ""
+
+msgid "Prev"
+msgstr ""
+
+msgid "front"
+msgstr ""
+
+msgid "Back"
+msgstr ""
