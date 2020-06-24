@@ -19,4 +19,4 @@ msgid "front"
 msgstr "mprosta"
 
 msgid "Back"
-msgstr "pisw"
+msgstr ""
