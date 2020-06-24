@@ -1,0 +1,16 @@
+# 
+# Translators:
+# Panagiotis Kavrakis <pankav@transifex.com>, 2020
+# 
+msgid ""
+msgstr ""
+"Last-Translator: Panagiotis Kavrakis <pankav@transifex.com>, 2020\n"
+"Language-Team: Afrikaans (South Africa) (https://www.transifex.com/transifex-102/teams/109512/af_ZA/)\n"
+"Language: af_ZA\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Next"
+msgstr "epomeno"
+
+msgid "Prev"
+msgstr "proigoumeno"
