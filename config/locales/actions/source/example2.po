@@ -12,4 +12,4 @@ msgid "front1"
 msgstr "front1"
 
 msgid "back1"
-msgstr "back1"
+msgstr ""
