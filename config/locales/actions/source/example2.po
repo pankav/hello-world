@@ -1,0 +1,15 @@
+#
+msgid ""
+msgstr ""
+
+msgid "Next1"
+msgstr "Next1"
+
+msgid "Prev1"
+msgstr "Prev1"
+
+msgid "front1"
+msgstr "front1"
+
+msgid "back1"
+msgstr "back1"
