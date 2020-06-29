@@ -19,4 +19,4 @@ msgid "front1"
 msgstr "front1_fr"
 
 msgid "back1"
-msgstr "back1_fr"
+msgstr "back1_fr_edited"
