@@ -15,7 +15,5 @@ msgstr "Next1_GERMAN"
 msgid "Prev1"
 msgstr "Prev1_GERMAN"
 
-
-
 msgid "back1"
 msgstr "back1_GERMAN"
