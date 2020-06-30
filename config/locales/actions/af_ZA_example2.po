@@ -15,8 +15,5 @@ msgstr "Next1_AFRICANS"
 msgid "Prev1"
 msgstr "Prev1_AFRICANS"
 
-msgid "front1"
-msgstr "front1_AFRICANS"
-
 msgid "back1"
 msgstr "back1_AFRICANS"
