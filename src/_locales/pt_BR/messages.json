@@ -293,10 +293,7 @@
     "message": "Crie um <a href=\"https://github.com/web-scrobbler/web-scrobbler/issues\" target=\"_blank\">novo issue</a> no GitHub com o seu pedido e informaremos se podemos ou não adicionar suporte ao site em questão. Além disso, você mesmo pode adicionar suporte ao site criando uma bifurcação do <a href=\"http://github.com/web-scrobbler/web-scrobbler\">repositório no GitHub</a> e enviando um pull request.",
     "description": "Answer #5"
   },
-  "faqQuestion6": {
-    "message": "Você vai adicionar uma funcionalidade de ____?",
-    "description": "Question #6"
-  },
+
   "faqAnswer6": {
     "message": "Se fizer sentido, possivelmente. Mas se você quiser que eu adicione umas funções bem legais, mas que não são tão úteis, você provavelmente ficará desapontado.",
     "description": "Answer #6"
@@ -346,10 +343,7 @@
     "message": "Adicione padrões de URL que o conector deva corresponder abaixo.",
     "description": "Popup hint"
   },
-  "customPatternsAdd": {
-    "message": "Adicionar padrão",
-    "description": "Add button"
-  },
+
   "albumTooltip": {
     "message": "Do álbum \"$1\"",
     "description": "Tooltip text"
