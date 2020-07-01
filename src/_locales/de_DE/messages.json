@@ -293,10 +293,7 @@
     "message": "Eröffne ein <a href=\"https://github.com/web-scrobbler/web-scrobbler/issues\" target=\"_blank\">neues Issue</a> auf Github mit deiner Anfrage und wir werden dir sagen ob wir Unterstützung für die Seite hinzufügen können oder nicht. Außerdem kannst du die Unterstützung für die Webseite selbst hinzufügen indem du das <a href=\"http://github.com/web-scrobbler/web-scrobbler\">Github-Repository</a> forkst und uns einen Pull-Request schickst.",
     "description": "Answer #5"
   },
-  "faqQuestion6": {
-    "message": "Werdet ihr die Funktion ____ hinzufügen?",
-    "description": "Question #6"
-  },
+
   "faqAnswer6": {
     "message": "Möglicherweise, wenn es Sinn ergibt. Aber wenn du willst, dass ich eine nicht-so-nützliche-aber-wirklich-coole Funktion hinzufüge, dann wirst du vermutlich enttäuscht werden.",
     "description": "Answer #6"
@@ -346,10 +343,7 @@
     "message": "Füge URL-Muster, für die der Verbinder gelten soll unten ein.",
     "description": "Popup hint"
   },
-  "customPatternsAdd": {
-    "message": "Muster hinzufügen",
-    "description": "Add button"
-  },
+
   "albumTooltip": {
     "message": "Vom Album \"$1\"",
     "description": "Tooltip text"
