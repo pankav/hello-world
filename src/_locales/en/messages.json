@@ -293,10 +293,7 @@
     "message": "Open a <a href=\"https://github.com/web-scrobbler/web-scrobbler/issues\" target=\"_blank\">new issue</a> on GitHub with your request, and we'll tell you if we can add support for the website or not. Also, you can add support for the website by forking the <a href=\"http://github.com/web-scrobbler/web-scrobbler\">GitHub repository</a> and sending us a pull request.",
     "description": "Answer #5"
   },
-  "faqQuestion6": {
-    "message": "Will you add ____ functionality?",
-    "description": "Question #6"
-  },
+
   "faqAnswer6": {
     "message": "Possibly, if it makes sense. But if you want me to add some not-that-useful-but-really-cool functions, you'll probably get disappointed.",
     "description": "Answer #6"
@@ -346,10 +343,7 @@
     "message": "Add URL patterns that the connector should match below.",
     "description": "Popup hint"
   },
-  "customPatternsAdd": {
-    "message": "Add pattern",
-    "description": "Add button"
-  },
+
   "albumTooltip": {
     "message": "From \"$1\" album",
     "description": "Tooltip text"
