@@ -1,0 +1,22 @@
+# 
+# Translators:
+# Panagiotis Kavrakis <pankav@transifex.com>, 2020
+# 
+msgid ""
+msgstr ""
+"Last-Translator: Panagiotis Kavrakis <pankav@transifex.com>, 2020\n"
+"Language-Team: French (Canada) (https://www.transifex.com/transifex-102/teams/109512/fr_CA/)\n"
+"Language: fr_CA\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "Next"
+msgstr "fr_ca_Next_new1"
+
+msgid "Prev"
+msgstr "fr_ca Prev1"
+
+msgid "front"
+msgstr "fr_ca front"
+
+msgid "back"
+msgstr "fr_ca back"
