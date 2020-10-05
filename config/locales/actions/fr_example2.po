@@ -15,8 +15,5 @@ msgstr "Next1_fr"
 msgid "Prev1"
 msgstr "Prev1_fr"
 
-msgid "front1"
-msgstr "front1_fr"
-
 msgid "back1"
-msgstr ""
+msgstr "back1_fr_edited1"
