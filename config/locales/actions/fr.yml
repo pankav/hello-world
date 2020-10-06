@@ -4,7 +4,7 @@ fr:
     attributes:
       scope_filters/petition_query_filter:
         admin_status: panosgithub french
-        country: ""
+        country: Country french
         source: Source
         locale: Locale
         ended_type: Ended Campaigns
