@@ -1,5 +1,5 @@
-car
-Hello world
-Goodmorning
-Goodnight
-goobbye
+car:autokinhto
+Hello world:geia sou kosme
+Goodmorning: kalimera
+Goodnight: kalhnyxta
+goobbye: greia
