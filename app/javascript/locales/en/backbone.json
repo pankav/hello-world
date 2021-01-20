@@ -1,0 +1,2994 @@
+{
+   "activerecord": {
+      "models": {
+         "customer": "Customer",
+         "purchase_record": "Purchase Record",
+         "vehicle": "Vehicle",
+         "vendor": "Vendor",
+         "custom_vehicle": "Custom Vehicle",
+         "work_order_service": "Service"
+      },
+      "attributes": {
+         "purchase_record": {
+            "created_at": "Date",
+            "invoice_number": "Invoice #",
+            "payment_type": "Paid By",
+            "payment_types": {
+               "Terminal": "Terminal",
+               "Cash": "Cash",
+               "Check": "Check",
+               "Credit Card": "Credit Card",
+               "On Account": "On Account",
+               "Other": "Other"
+            }
+         },
+         "custom_vehicle": {
+            "make": "Make",
+            "model": "Model",
+            "engine": "Engine",
+            "year": "Year",
+            "vin": "VIN"
+         },
+         "vehicle": {
+            "vin": "VIN",
+            "year": "Year",
+            "make": "Make",
+            "model": "Model",
+            "trim": "Trim",
+            "plate": "Plate",
+            "body": "Body",
+            "engine": "Engine",
+            "manufacturer": "Manufacturer",
+            "sequence_number": "Sequence Number",
+            "fuel": "Fuel",
+            "engine_code": "Engine Code",
+            "driveline": "Driveline",
+            "vehicle_type": "Vehicle Type",
+            "vehicle_class": "Vehicle Class",
+            "country": "Country",
+            "horsepower": "Horsepower",
+            "check_digit": "Check Digit",
+            "jato": "JATO",
+            "mpg": "MPG",
+            "aaia": "AAIA",
+            "aaia_engine": "AAIA ENGINE",
+            "aaia_legacy": "AAIA LEGACY",
+            "aaia_transmission": "AAIA TRANSMISSION",
+            "transmission_mfgcode": "Transmission/MfgCode",
+            "curb_weight": "Curb Weight",
+            "gross_vehicle_weight_rating": "Gross vehicle weight rating",
+            "wheelbase": "Wheelbase",
+            "overall_length": "Overall length",
+            "overall_height": "Overall height",
+            "overall_width": "Overall width",
+            "bed_type": "Bed Type",
+            "bed_length": "Bed Length",
+            "warranty_whole_vehicle_months": "Warranty whole vehicle Months",
+            "warranty_whole_vehicle_miles": "Warranty whole vehicle Miles",
+            "warranty_powertrain_months": "Warranty powertrain Months",
+            "warranty_powertrain_miles": "Warranty powertrain Miles",
+            "warranty_anti_corrosion_months": "Warranty anti-corrosion Months",
+            "warranty_anti_corrosion_miles": "Warranty anti-corrosion Miles",
+            "warranty_roadside_assistance_months": "Warranty roadside Months",
+            "warranty_roadside_assistance_miles": "Warranty roadside Miles",
+            "msrp": "MSRP",
+            "brake_system": "Brake System",
+            "brake_abs": "Brake ABS",
+            "brake_front_type": "Brake Front Type",
+            "brake_rear_type": "Brake Rear Type",
+            "spring_front_type": "Spring Front Type",
+            "spring_rear_type": "Spring Rear Type",
+            "steering_type": "Steering Type",
+            "steering_system": "Steering System",
+            "assembly_plant": "Assembly Plant",
+            "gvwr_class": "GVWR Class",
+            "tonnage": "Tonnage",
+            "engine_aspiration": "Engine Aspiration",
+            "engine_cylinder_head_type": "Engine Cylinder Head Type",
+            "engine_designation": "Engine Designation",
+            "engine_manufacturer": "Engine Manufacturer",
+            "engine_ignition_system": "Engine Ignition System",
+            "engine_valves": "Engine Valves",
+            "engine_version": "Engine Version",
+            "fuel_delivery_control_type": "Fuel Delivery Control Type",
+            "fuel_delivery_subtype": "Fuel Delivery SubType",
+            "fuel_delivery_type": "Fuel Delivery Type",
+            "fuel_delivery_system_design": "Fuel Delivery System Design",
+            "restraint_system": "Restraint System",
+            "transmission": "Transmission",
+            "mfg_body_code": "Manufacturer Body Code"
+         },
+         "customer": {
+            "first_name": "First name",
+            "last_name": "Last name",
+            "contact_email": "Email",
+            "address": "Address",
+            "city": "City",
+            "state": "State",
+            "zip": "Zip Code",
+            "detail": "Notes",
+            "phone_number": "Phone Number",
+            "marketing_ok": "Marketing OK",
+            "taxable": "Taxable"
+         },
+         "phone": {
+            "preferred": "Preferred",
+            "label": "Label (e.g. Home)"
+         },
+         "shop": {
+            "supply_fee_names": {
+               "Shop Supplies": "Shop Supplies"
+            }
+         }
+      }
+   },
+   "support": {
+      "array": {
+         "two_words_connector": " and "
+      }
+   },
+   "utils": {
+      "duration_to_english": {
+         "year": "yr",
+         "year_plural": "yrs",
+         "month": "mo",
+         "month_plural": "mos",
+         "week": "wk",
+         "week_plural": "wks",
+         "day": "day",
+         "day_plural": "days",
+         "hour": "hr",
+         "hour_plural": "hrs",
+         "minute": "min",
+         "minute_plural": "mins"
+      }
+   },
+   "common": {
+      "cost": "Cost",
+      "list": "List",
+      "amount": "Amount",
+      "export": "Export",
+      "items": "Items",
+      "total": "Total",
+      "stock": "Stock",
+      "all": "All",
+      "none": "None",
+      "multiple": "Multiple",
+      "returned": "Returned",
+      "edit": "Edit",
+      "no_results_for_query": "No results for \"{{query}}\" ",
+      "n_for_subject": "{{n}} for {{subject}}",
+      "n_results_for_query": "{{n}} results for \"{{query}}\"",
+      "n_results_from": "{{n}} results from {{-startdate}} – {{-enddate}}",
+      "no_results_found": "No results found.",
+      "zero_results_for_query": "0 results for \"{{query}}\"",
+      "date": "Date",
+      "with": "with",
+      "date_at_time": "{{-date}} at {{-time}}",
+      "by_name": "by {{name}}",
+      "update": "Update",
+      "delete": "Delete",
+      "cancel": "Cancel",
+      "save": "Save",
+      "click_here": "Click here",
+      "ok": "OK",
+      "confirm": "Confirm",
+      "decline": "Decline",
+      "and_connector": " and ",
+      "ago": "ago",
+      "share": "Share",
+      "tooltip_click_triple_dot": "Click triple-dot menu for actions",
+      "save_named": "Save {{named}}",
+      "add_named": "Add {{named}}",
+      "go_bang": "Go!",
+      "adding": "Adding...",
+      "warning": "Warning!",
+      "service": "Service",
+      "close": "Close",
+      "currency_format": "${{value}}",
+      "bs_switch": {
+         "on": "ON",
+         "off": "OFF"
+      },
+      "ajax": {
+         "five_hundred_error": "500 server error. Please try again later.",
+         "four_oh_four_error": "404 resource not found."
+      },
+      "salutation": "Dear {{name}},",
+      "hello": "Hello,",
+      "forms": {
+         "select": "Select",
+         "select_all": "Select All",
+         "clear_all": "Clear All",
+         "asterisk_required": "* required",
+         "save_and_close": "Save and close",
+         "update_thing": "Update {{thing}}",
+         "creating": "Creating..."
+      },
+      "durations": {
+         "all_time": "All Time",
+         "last_month": "Last Month",
+         "this_month": "This Month",
+         "last_week": "Last Week",
+         "this_week": "This Week",
+         "yesterday": "Yesterday",
+         "today": "Today",
+         "tomorrow": "Tomorrow"
+      },
+      "editable": {
+         "empty_text": "None"
+      },
+      "requests": {
+         "generic_error": "There was an issue processing your request. Please try again later.",
+         "permissions": "You do not have permission to perform that action."
+      },
+      "time": {
+         "day": "Day",
+         "week": "Week",
+         "month": "Month",
+         "today": "Today",
+         "month_full": [
+            "January",
+            "February",
+            "March",
+            "April",
+            "May",
+            "June",
+            "July",
+            "August",
+            "September",
+            "October",
+            "November",
+            "December"
+         ],
+         "month_short": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+         ],
+         "day_full": [
+            "Sunday",
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday"
+         ],
+         "day_short": [
+            "Sun",
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+         ]
+      },
+      "search": {
+         "title": "Search",
+         "filter": "Filter"
+      }
+   },
+   "estimates": {
+      "calendar": {
+         "unassigned": "Unassigned",
+         "filter_by_label": "Filter by Label"
+      }
+   },
+   "no_service_added": "No service added.  Click '+ Service' to add one.",
+   "notifications": {
+      "alert": "Alert",
+      "success": "Success",
+      "notice": "Notice",
+      "please_wait": "Please wait",
+      "exceeded_range": "Exceeded the maximum range of access, results are limited to the last {{period}}"
+   },
+   "confirmation_modal": {
+      "remove_this_thing": "Remove this {{thing}} from the page?",
+      "cancel": "Cancel",
+      "remove": "Remove",
+      "convert_service": "Convert Service",
+      "convert_service_disclaimer": "Converting the service will remove it from the RO and replace it as a recommendation in the most recent, currently unpublished note. This will clear any associated technician time clocks or sublet details."
+   },
+   "financial_details": {
+      "successfully_updated_model": "Successfully Updated {{model}}",
+      "unable_to_update_model": "Unable to Update {{model}}",
+      "financials_for_ro": "Financials for RO #{{number}}",
+      "current_labor_rate": "Current Labor Rate",
+      "specific_labor_rate": "Specific Labor Rate",
+      "custom_labor_rate": "Custom Labor Rate",
+      "please_enter_valid_dollar_amount": "Please enter a valid dollar amount",
+      "choose_specific_labor_rate": "Choose a specific labor rate or switch to custom labor rate.",
+      "enter_custom_labor_rate": "Enter a custom labor rate or switch to specific labor rate.",
+      "total_billed_hours": "Total Billed Hours",
+      "assign_service_a_category": "Assign this service a category to track it in your financials.",
+      "service_category": "Service Category",
+      "calculated": {
+         "gross_profit": "Gross Profit",
+         "gp": "GP",
+         "gp_over_bh": "GP/BH",
+         "taxable": "Taxable",
+         "labor": "Labor",
+         "parts": "Parts",
+         "sublet": "Sublet",
+         "all_non_labor": "All Non Labor",
+         "estimate_total": "Estimate Total",
+         "recommendations_total": "Recommendations Total",
+         "sell_through": "Sell Through",
+         "opportunity": "Opportunity",
+         "grand_total": "Grand Total"
+      }
+   },
+   "sidebar": {
+      "time_clock": {
+         "clock_in": "Clock In",
+         "clock_out": "Clock Out",
+         "clocked_in": "CLOCKED IN",
+         "clocked_out": "CLOCKED OUT",
+         "clocked_out_success": "You have successfully clocked out",
+         "clocked_in_success": "You have successfully clocked in",
+         "clock_in_action_failed_msg": "Error: You have not clocked in. Please contact your admin to correct your time clock.",
+         "clock_out_action_failed_msg": "Error: You have not clocked out. Please contact your admin to correct your time clock."
+      }
+   },
+   "return_orders": {
+      "modal": {
+         "po_number": "P.O. Number",
+         "part_name": "Part Name",
+         "part_number": "Part #",
+         "on_hand": "On Hand",
+         "returned": "Returned"
+      },
+      "notification": {
+         "return_order_deleted": "Return order deleted.",
+         "return_order_updated": "Return order updated.",
+         "return_quantity_error": "Return quantity cannot be increased; it can only be decreased.",
+         "parts_returned": "Parts returned and return record created."
+      }
+   },
+   "purchase_records": {
+      "search": {
+         "description": "Search vendor name, invoice number, part number, or vehicle VIN…",
+         "all_time": "All Time",
+         "last_month": "Last Month",
+         "this_month": "This Month",
+         "button": "Search",
+         "receive": "Receive",
+         "to": "to",
+         "subtotal": "Subtotal",
+         "results": "Purchase Record Results",
+         "multiple": "Multiple",
+         "stock": "Stock",
+         "return": "Stock Return"
+      },
+      "modal": {
+         "return_record_number": "Return Record #{{number}}",
+         "purchase_record_number": "Purchase Record #{{number}}",
+         "back_to_purchase_history": "Back to Purchase History",
+         "vendor": "Vendor",
+         "customer": "Customer",
+         "vehicle": "Vehicle",
+         "ordered": "Ordered",
+         "credited": "Credited",
+         "returned": "Returned",
+         "received": "Received",
+         "paid_by": "Paid By",
+         "po_number": "P.O. Number",
+         "invoice_number": "Invoice Number",
+         "part_name": "Part Name",
+         "part_number": "Part #",
+         "ordered_as": "Ordered as",
+         "cost": "Cost",
+         "list": "List",
+         "amount": "Amount",
+         "return_order": "Return Order",
+         "purchase_order": "Purchase Order",
+         "open": "Open",
+         "return": "Return",
+         "update_this_order": "Update This Order",
+         "po_update_warning": "Updates to this PO# will not be synced to Accounting solution. Please address them there manually"
+      },
+      "vendor_payment_types_select": {
+         "select_payment_type": "Select Payment Type"
+      }
+   },
+   "purchase_orders": {
+      "modal": {
+         "purchase_order_deleted": "Purchase order deleted.",
+         "purchase_order_updated": "Purchase order updated.",
+         "parts_received": "Parts received and purchase record created.",
+         "po_number": "P.O. Number",
+         "part_name": "Part Name",
+         "part_number": "Part #",
+         "ordered": "Ordered",
+         "cost": "Cost",
+         "list": "List",
+         "amount": "Amount",
+         "receive": "Receive",
+         "n_for_stock": "{{n}} for Stock",
+         "n_for": "{{n}} for ",
+         "open_purchase": "Open Purchase",
+         "return_order": "Return Order",
+         "purchase_order": "Purchase Order",
+         "open_return_order_number": "Open Return Order #{{number}}",
+         "open_purchase_order_number": "Open Purchase Order #{{number}}"
+      }
+   },
+   "pagination": {
+      "first": "First",
+      "last": "Last",
+      "previous": "Previous",
+      "next": "Next",
+      "page_of_page": "Page {{currentPage}} of {{totalPages}}"
+   },
+   "shopware": {
+      "views": {
+         "csv_export_notification": {
+            "title": "Generating CSV export...",
+            "export_requested_for": "Export requested for {{file_name}}",
+            "export_underway_for": "Export underway for {{file_name}}",
+            "export_complete_for": "Export complete for {{file_name}}",
+            "large_export_warning": "This process can take a few minutes for large exports.",
+            "report_creation_failed": "Report creation failed. Please try again, or contact support@shop-ware.com"
+         }
+      }
+   },
+   "carfax": {
+      "timeout_message": "CARFAX is taking too long to respond, please try again later.",
+      "plate_not_found": "Plate {{plate}} not found.",
+      "check_for_typos": "Please check for typos.",
+      "description": "Opt in to access Carfax-enabled services: QuickVIN, Service History and myCarfax Service Shop.",
+      "connection": "Carfax Connection",
+      "activate": "Activate",
+      "activated_by": "Activated by {{name}} at {{date}}",
+      "deactivate": "Deactivate",
+      "contact_info": "Contact Info",
+      "default_state": "Default State",
+      "notification": {
+         "deactivated": {
+            "title": "CARFAX",
+            "text": "myCARFAX Service Shop features deactivated."
+         }
+      },
+      "modal": {
+         "activate": {
+            "heading": "Activate myCARFAX Service Shop",
+            "activating": "Activating...",
+            "notification": {
+               "title": "Shop enrollment sent to CARFAX",
+               "text": "Please wait 10 minutes for your account to be enabled and features to be active.",
+               "timeout": "CARFAX is taking too long to respond, please try again later."
+            },
+            "eula": {
+               "title": "End User License Agreement",
+               "details": "FOR ACCESS AND USE OF myCARFAX"
+            },
+            "terms_and_conditions": "Terms and Conditions",
+            "terms": {
+               "p1": {
+                  "part1": "By accepting these",
+                  "part2": "I certify that I am authorized to enter into this myCARFAX Service Shop Agreement on behalf of {{name}} (the \"Facility\") and bind the Facility to the Agreement."
+               },
+               "p2": "I understand that Shop-Ware Inc. is not responsible for any agreement made between {{name}} and CARFAX Inc.",
+               "p3": {
+                  "part1": "The following information will be sent to CARFAX Inc. to enroll {{name}}. The same information ",
+                  "part2": "will appear on Vehicle History reports."
+               }
+            },
+            "form": {
+               "required_fields": "All fields are required:",
+               "required_missing": "* all fields are required",
+               "labels": {
+                  "address": "Address",
+                  "city": "City",
+                  "state_zip": "State/Zip",
+                  "phone": "Phone",
+                  "name": "Contact Name",
+                  "email": "Contact Email"
+               }
+            },
+            "buttons": {
+               "accept": "Accept",
+               "decline": "Decline"
+            }
+         },
+         "deactivate": "Deactivate myCARFAX",
+         "disconnect_notice": "Disconnecting from myCARFAX Service Shop will deactivate QuickVIN (license plate decodes), Service History, and all other data transfers to and from CARFAX."
+      }
+   },
+   "vin_decode": {
+      "create_a_custom_vehicle": "create a custom vehicle...",
+      "motor_timeout_message": "MOTOR is taking too long to respond, please try again later.",
+      "check_for_typos": "Check for typos or ",
+      "entry_can_only_be_letters_and_numbers": "Entry can only be letters and numbers.",
+      "missing_vin": "Enter a VIN",
+      "enter_a_vin": "Enter a VIN or ",
+      "enter_a_vin_or_plate": "Enter a VIN or Plate or "
+   },
+   "canned_jobs": {
+      "service": "Service",
+      "create": {
+         "title": "Create Canned Job",
+         "description": "A canned job is your shop's recipe for a particular service: labor, parts, etc. You can recall it separately from past services, for better speed and accuracy.",
+         "title_required": "Title (required) ",
+         "specific_labor_rate": "Specific Labor Rate",
+         "category": "Category",
+         "canned_job_for": "This canned job is for",
+         "all_cars": "all cars.",
+         "success_message": "Canned Job has been created."
+      },
+      "edit": {
+         "header": "Edit Canned Job",
+         "title": "Title",
+         "category": "Category",
+         "enter_title": "Enter title...",
+         "specific_labor_rate": "Specific Labor Rate",
+         "part_optimizer_ok": "Part Optimizer Ok",
+         "part_optimizer_tooltip": "Leave checked to optimize parts profit; service price will vary. Uncheck if you want to keep price steady (menu item).",
+         "applies_to_all_cars": "Applies to all cars",
+         "applies_to_all_ros": "Applies to all ROs",
+         "applies_to_all_ros_tooltip": "Check if you want this canned job to automatically add to new estimates. (All cars only)",
+         "matched_vehicles": "Matched Vehicles",
+         "labor": "Labor",
+         "parts": "Parts",
+         "tech": "Tech",
+         "hours": "Hours",
+         "price": "Price",
+         "price_empty_text": "price",
+         "total_before_tax": "Total before Tax",
+         "and_others": "and {{count}} others...",
+         "confirm_delete": "Are you sure you want to delete this canned job?",
+         "subtotal_parts": "SUBTOTAL PARTS:",
+         "subtotal_labor": "SUBTOTAL LABOR:",
+         "labor_item_name": "Labor item name",
+         "delete_item": "Delete item",
+         "do_not_tax": "Do not tax",
+         "include_in_tax": "Include in tax",
+         "add_hours_needed": "Add hours needed...",
+         "list": "List",
+         "qty": "Qty",
+         "inspections": "Inspections",
+         "inspection_item_name": "Inspection item name",
+         "sublet": "Sublet",
+         "subtotal_sublet": "SUBTOTAL SUBLET:",
+         "hazmat_fee_item_name": "Hazmat/fee item name",
+         "subtotal_fees": "SUBTOTAL FEES:",
+         "fee": "Fee",
+         "sublet_item_name": "Sublet item name",
+         "updated": "Canned Job has been successfully updated.",
+         "add_an_item_name": "Add an item name...",
+         "search_part_name_or_number": "Search part name or number",
+         "quantity": "Quantity",
+         "name": "Name",
+         "name_empty_text": "name",
+         "enter_qty": "Enter Qty.",
+         "list_price": "List price",
+         "enter_list_price": "Enter list price",
+         "detail": "Detail",
+         "add_details": "Add details...",
+         "invoice": "Invoice",
+         "hazmats_and_fees": {
+            "title": "Hazmats and Fees",
+            "add_a_hazmat_name": "Add a hazmat name...",
+            "parts_fees_cannot_be_edit_canned_job": "Parts fee cannot be edited on Canned Job"
+         }
+      },
+      "delete": {
+         "confirm_delete_canned_job": "Are you sure you want to delete '{{name}}' from the Canned Job '{{title}}'?"
+      }
+   },
+   "work_orders": {
+      "estimate": "Estimate",
+      "work_order": "Work Order",
+      "invoice": "Invoice",
+      "shop": "Shop",
+      "advisor": "Advisor",
+      "tech": "Tech",
+      "label": "Label",
+      "my_current_jobs": "My Current Jobs",
+      "incoming_jobs": "Incoming Jobs",
+      "outgoing_jobs": "Outgoing Jobs",
+      "your_inbox_is_clear": "Your inbox is clear",
+      "current_recommendations": "Current Recommendations",
+      "past_recommendations": "Past Recommendations",
+      "not_including_tax": "not including tax",
+      "grand_totals_and_approvals": "Grand Total + Approvals",
+      "with_discounts": "with discounts, supplies, and tax",
+      "with_quick_recs": "w/ quick recs",
+      "click_plus_to_add": "click \"+\" for new customer",
+      "click_plus_to_add_part": "(click '+' to add new part)",
+      "customer_search_placeholder": "Enter name, phone, email",
+      "reset_to_pending": "Reset to pending",
+      "approve_in_estimate": "Approve in Estimate",
+      "approved_in_person": "Approved in Person",
+      "approved_by_phone": "Approved by Phone",
+      "approved_by_email": "Approved by Email",
+      "mark_as_done": "Mark As Done",
+      "undo_postpone": "Undo Postpone",
+      "postpone": "Postpone",
+      "postponed_at": "Postponed at",
+      "delete": "Delete",
+      "customer_info": "Customer Info",
+      "please_complete_inspection": "Please complete the inspection before marking the service as done.",
+      "please_approve_additional_services": "Please approve these additional services:",
+      "services_pending_approval": "Outstanding services still pending your approval:",
+      "view_notes": "View Notes",
+      "sources": {
+         "None": "None",
+         "Repeat": "Repeat",
+         "Referral": "Referral",
+         "SEO/Website": "SEO/Website",
+         "Email Reminder": "Email Reminder",
+         "Direct Mail": "Direct Mail",
+         "Yelp": "Yelp",
+         "Signage/Drive By": "Signage/Drive By"
+      },
+      "tools_menu": {
+         "view_financials": "View financials",
+         "view_time_summary": "View Time Summary",
+         "open_as_pdf": "Open as PDF",
+         "creating_pdf": "Creating PDF...",
+         "delete_job": "Delete job",
+         "repair_order_has_a_payment": "This repair order has a payment and cannot be deleted.",
+         "view_clocks": "View clocks",
+         "save_service_as_a_canned_job": "Save service as a canned job",
+         "convert_service_to_a_recommendation": "Convert service to a recommendation",
+         "delete_service": "Delete service"
+      },
+      "time_summary": {
+         "ro_time_summary_for": "RO #{{number}} - Time Summary",
+         "total_billed_hours": "Total Billed Hours",
+         "total_service_hours": "Total Service Hours",
+         "time_remaining": "Time Remaining",
+         "total_efficiency": "Total Efficiency"
+      },
+      "bottom_buttons": {
+         "preview_service": "Preview Service",
+         "reopen_job": "Reopen Job",
+         "print_view": "Print View",
+         "parts": "Parts",
+         "picked_up": "Picked Up",
+         "start_job": "Start Job",
+         "close_job": "Close Job",
+         "edit_mode": "Edit Mode",
+         "work_mode": "Work Mode",
+         "vehicle_is_required": "A vehicle is required to start the job. Please go back to the estimate and select a vehicle.",
+         "opening_print_view": "Opening print view...",
+         "all_services_and_parts_required_error_message": "All services must be marked complete and all parts must be received to close the job",
+         "all_parts_must_be_received_error_message": "All parts must be received to close the job",
+         "all_services_must_be_complete_error_message": "All services must be marked complete to close the job",
+         "add_a_service": "Add a Service",
+         "states": {
+            "finish": "Closing job...",
+            "reopen": "Reopening job..."
+         }
+      },
+      "dates": {
+         "due_in": "Due In",
+         "due_out": "Due Out",
+         "saving": "Saving ...",
+         "saved": "Saved",
+         "date_range_invalid": "Date range invalid. Please check selections.",
+         "start_date_invalid": "Start date is invalid. Please check selections.",
+         "end_date_invalid": "End date is invalid. Please check selections."
+      },
+      "open_jobs": {
+         "label": "Label",
+         "status": "Status",
+         "created": "Created",
+         "started": "Started",
+         "closed": "Closed",
+         "date": "Date",
+         "ro_number": "RO #",
+         "first": "First",
+         "last": "Last",
+         "vehicle": "Vehicle",
+         "title": "Title",
+         "notes": "Notes",
+         "advisor": "Advisor",
+         "tech": "Tech"
+      },
+      "my_jobs": {
+         "advisor": "Advisor",
+         "tech": "Tech",
+         "parts": "Parts",
+         "status": "Status",
+         "no_current_jobs": "No current jobs",
+         "outbox_clear": "Your outbox is clear",
+         "work_order_number": "Work Order #{{number}}",
+         "part_statuses": {
+            "needed": "Needed",
+            "ordered": "Ordered",
+            "in_progress": "In Progress",
+            "none": "None"
+         },
+         "incoming_items": {
+            "accept": "Accept"
+         },
+         "outgoing_items": {
+            "cancel": "Cancel",
+            "customer_waiting": "Customer waiting",
+            "no_message": "NO MESSAGE"
+         }
+      },
+      "transfer_modal": {
+         "transfer_ro": "Transfer RO",
+         "transfer": "Transfer",
+         "transfer_to": "Transfer To",
+         "status": "Status",
+         "no_status": "No Status",
+         "message": "Message",
+         "select_placeholder": "Select a Coworker"
+      },
+      "transfer_alert": {
+         "person_sent_you_this_job": "{{person}} sent you this job",
+         "person_sent_you_a_job": "{{person}} sent you a job",
+         "person_cancelled_transfering_this_job_to_you": "{{person}} cancelled transferring this job to you",
+         "person_cancelled_a_job_transfer_to_you": "{{person}} cancelled a job transfer to you",
+         "person_accepted_your_job": "{{person}} accepted your job"
+      },
+      "navbar": {
+         "my_jobs": "My Jobs",
+         "workflow": "Workflow",
+         "open_jobs": "Open Jobs",
+         "closed_jobs": "Closed Jobs"
+      },
+      "customer": {
+         "view_customer_profile": "View Customer Profile",
+         "edit_contact_info": "Edit Contact Info",
+         "email": "Email",
+         "phone": "Phone",
+         "source": "Source",
+         "best_contact": "Best Contact",
+         "waiting": "Waiting",
+         "text": "Text",
+         "see_notes": "See notes",
+         "hide_notes": "Hide notes",
+         "previous_visit": "previous visit",
+         "previous_visit_plural": "previous visits",
+         "this_visit": "This visit",
+         "out_of_stock": "Out of Stock",
+         "expeditor": {
+            "created": "Created",
+            "started": "Started",
+            "closed": "Closed",
+            "assigned_to": "Assigned to",
+            "accept": "Accept",
+            "transfer": "Transfer",
+            "cancel": "Cancel"
+         },
+         "visits": {
+            "visit": "visit",
+            "visits": "visits",
+            "total_spend": "total spend",
+            "average_ro": "average RO",
+            "original_source": "Original Source",
+            "last_source": "Last Source",
+            "no_source": "None"
+         }
+      },
+      "vehicle_info": "Vehicle Info",
+      "vehicle": {
+         "enter_vehicle_manually": "Enter vehicle manually",
+         "select_existing_vehicle": "Select existing vehicle",
+         "carfax_placeholder": "Enter new VIN or plate",
+         "carfax_error": "Enter a VIN or Plate",
+         "enter_vin_or_plate": "Enter a VIN or Plate",
+         "vin_placeholder": "Enter new VIN",
+         "decoding_plate": "Decoding Plate...",
+         "decoding_vin": "Decoding VIN...",
+         "searching": "Searching...",
+         "production_date": "Prod. Date",
+         "engine": "Engine",
+         "plate": "Plate",
+         "expiration_date": "Exp. Date",
+         "search_placeholder": "Search by year make model keywords",
+         "fleet_number": "Fleet Number",
+         "color": "Color",
+         "odometer_in": "Odometer In",
+         "odometer_out": "Out",
+         "view_service_history": "View Service History",
+         "edit_vehicle": "Edit Vehicle",
+         "view_vin_details": "View VIN details",
+         "view_specs": "View Specs",
+         "mitchell_repair_info": "Mitchell Repair Info",
+         "change_vehicle": "Change Vehicle",
+         "enter_new_vehicle_information": "Enter new vehicle information",
+         "delete_vehicle": "Delete Vehicle",
+         "motor_slow_error": "MOTOR is taking too long to respond, please try again later.",
+         "vin_decode_unsuccessful": "Vin decode unsuccessful",
+         "select_vehicle": "Select vehicle..."
+      },
+      "vin_container": {
+         "vin": "VIN",
+         "vin_does_not_decode": "VIN does not decode",
+         "given_vin_does_not_decode": "VIN {{vin}} does not decode"
+      },
+      "totals": {
+         "total_labor": "Total Labor",
+         "labor_discount": "Labor Discount",
+         "total_parts": "Total Parts",
+         "parts_discount": "Parts Discount",
+         "total_fees": "Total Fees",
+         "total_sublets": "Total Sublets",
+         "shop_supplies": "Shop Supplies",
+         "sales_tax": "Sales Tax",
+         "grand_total": "Grand Total",
+         "checkout": "Checkout",
+         "pre_approved": "Pre-approved",
+         "approve_estimate": "Approve Estimate",
+         "paid_by": "Paid by",
+         "notes": "Notes",
+         "paid": "PAID",
+         "balance_due": "BALANCE DUE",
+         "credit": "CREDIT",
+         "approved_grand_total": "Approved Grand Total",
+         "expected_total_price_message": "Expected total price including approvals, supplies, and sales tax"
+      },
+      "staff": {
+         "recommend_service": "Recommend Service",
+         "tabs": {
+            "calendar_view": "Calendar View",
+            "near_term": "Near Term",
+            "next_7": "Next 7",
+            "over_7": "Over 7",
+            "no_show": "No Show",
+            "quotes": "Quotes"
+         },
+         "scheduler": {
+            "appointment": {
+               "enter_appointment_info": "Enter appointment information",
+               "ro": "RO",
+               "title": "Title",
+               "description": "Description",
+               "start": "Start",
+               "end": "End",
+               "new_estimate": "New Estimate",
+               "save_appointment": "Save Appointment",
+               "plate_number": "Plate #{{number}}",
+               "fleet_number": "Fleet #{{number}}",
+               "delete_confirmation": "Event will be deleted permanently, are you sure?",
+               "new_event": "New event",
+               "service": "Service",
+               "n_services": "{{n}} Services",
+               "hour": "hr",
+               "n_hours": "{{n}} hrs",
+               "n_completed": "{{n}} Completed",
+               "n_remaining": "{{n}} Remaining",
+               "title_and_ro_required": "Title and RO can not both be blank.",
+               "start_date_required": "Start date can not be empty.",
+               "end_date_required": "End date can not be empty.",
+               "end_date_must_be_after_start": "The ending date must be after the start date."
+            }
+         },
+         "table_with_shortfall": {
+            "n_appts": "{{n}} appts",
+            "n_hours": "{{n}} hours",
+            "due_in": "Due In",
+            "parts": "Parts",
+            "short": "Short",
+            "ordered": "Ordered",
+            "on_hand": "On Hand"
+         },
+         "estimates_table": {
+            "label": "Label",
+            "created_date": "Created Date",
+            "due_in_date": "Due In Date",
+            "customer": "Customer",
+            "tech": "Tech",
+            "advisor": "Advisor",
+            "vehicle": "Vehicle",
+            "title": "Title",
+            "notes": "Notes"
+         },
+         "estimate_action_dropdown": {
+            "actions": "Actions",
+            "delete_estimates": "Delete Estimates"
+         },
+         "delete_estimate_modal": {
+            "delete_estimate": "Delete Estimate",
+            "deleting_n_warning": "You are going to delete {{n}} estimate(s). This action is irreversible.",
+            "delete_forever_prompt": "To proceed, type 'DELETE FOREVER' in the form below and submit.",
+            "the_value_is_incorrect": "The value is incorrect.",
+            "deleting": "Deleting",
+            "delete_forever": "Delete Forever"
+         },
+         "empty_estimates_table": {
+            "click_estimate_to_get_started": "Click 'New Estimate' to get started."
+         },
+         "additional_vehicles": {
+            "and_others": " and {{count}} others..."
+         },
+         "service_search": {
+            "build_one": "or build one from scratch...",
+            "deselect_all": "Deselect All",
+            "canned_jobs": "Canned Jobs",
+            "past_services": "Past Services",
+            "estimator": "Estimator",
+            "third_party_estimate_unavailable": "Third-party estimating unavailable.  Vehicle not recognized by MOTOR Information Systems.",
+            "maintenance": "Maintenance",
+            "maintenance_guide_unavailable": "Maintenance guide unavailable.  Vehicle not recognized by MOTOR Information Systems.",
+            "upgrade_your_subscription": "Upgrade your subscription for third-party estimating. Contact Support@Shop-Ware.com",
+            "upgrade_your_subscription_for_maintenance": "Upgrade your subscription for third-party maintenance guides.  Contact Support@Shop-Ware.com",
+            "build_a_recommended_service": "Build a Recommended Service",
+            "search_title": "Search title, service item names, vehicle info, customer name"
+         },
+         "past_service_search_results": {
+            "date": "Date",
+            "name": "Name",
+            "vehicle": "Vehicle",
+            "title": "Title",
+            "total": "Total"
+         },
+         "service_preview": {
+            "view_job": "View Job",
+            "hours_at_rate": "{{hours}} hours @ ${{rate}} rate",
+            "labor_cost": "${{cost}} labor",
+            "parts_at_cost": "{{quantity}} parts, ${{cost}}",
+            "no_parts": "no parts",
+            "total_plus_tax": "${{total}} +tax",
+            "actions": "Actions",
+            "edit_service": "Edit Service",
+            "save_as_canned_job": "Save as Canned Job",
+            "labor": "Labor",
+            "hours": "Hours",
+            "parts": "Parts",
+            "qty": "Qty",
+            "price": "Price",
+            "hazmats_and_fees": "Hazmats and Fees",
+            "sublets": "Sublets",
+            "inspections": "Inspections",
+            "recommendation_preview_title": "Preview Recommendation - {{service_title}}",
+            "see_details": "See Details",
+            "preview_recommendation": "Preview Recommendation",
+            "recommend_service": "Recommend a Service"
+         },
+         "service_search_results": {
+            "results_for": "Results for ",
+            "on": "on",
+            "results_limited_to": "Results were limited to {{limit}} results.  You can try to narrow the search by specifying another keyword.",
+            "build_a_service": "Build a service from scratch...",
+            "deselect_vin_parameters": "Deselect VIN parameters or ",
+            "build_a_service_lower": "build a service from scratch..."
+         },
+         "canned_job_search_result": {
+            "on": "on",
+            "on_all_cars": "on all cars",
+            "no_parts": "no parts",
+            "hours_at_rate": "{{hours_total}} hours @ ${{effective_rate}} rate",
+            "quantity_at_price": "{{quantity}} parts, ${{price}}"
+         },
+         "search_service_preview_modal": {
+            "back_to_search_results": "Back to search results"
+         },
+         "canned_job_preview": {
+            "no_parts": "no parts",
+            "hours_at_rate": "{{hours}} hours @ ${{rate}} rate",
+            "quantity_at_price": "{{quantity}} parts, ${{price}}",
+            "labor": "Labor",
+            "hours": "Hours",
+            "parts": "Parts",
+            "qty": "Qty",
+            "price": "Price",
+            "hazmats_and_fees": "Hazmats and Fees",
+            "sublets": "Sublets",
+            "inspections": "Inspections"
+         },
+         "recommend_past_service_button": {
+            "edit_recommendation": "Edit Recommendation",
+            "service_has_legacy_parts": "Service has legacy parts, since deleted from inventory. Those parts are removed; refer to service preview for reference."
+         },
+         "add_past_service_button": {
+            "service_has_legacy_parts": "Service has legacy parts, since deleted from inventory. Those parts are removed; refer to service preview for reference."
+         },
+         "time_clock": {
+            "clock_in_to": "Would you like to clock into the service \"{{service_name}}\"?",
+            "clock_on": "Clock On"
+         },
+         "recommendations": {
+            "service": "Service",
+            "edit_recommendation": "Edit Recommendation",
+            "preview_recommendation": "Preview Recommendation - {{name}}",
+            "continue": "Continue"
+         },
+         "estimator": {
+            "details_modal": {
+               "labor_at_rate": "Labor: {{labor}} @ ${{rate}}",
+               "parts": "Parts: {{parts}}",
+               "total_before_tax": "Total before tax/fees: $ {{total}}",
+               "book_time_multiplier_on": "Book Time Multiplier On",
+               "results_for": "Results for:",
+               "back_to_search_results": "Back to search results",
+               "service": "Service",
+               "time": "Time",
+               "qty": "Qty.",
+               "see_labor_time_notes": "See labor time notes",
+               "hide_labor_time_notes": "Hide labor time notes"
+            }
+         }
+      },
+      "payment": {
+         "title": "Payment",
+         "amount_paid": "Amount Paid",
+         "amount_due": "Amount Due",
+         "email_pdf_to_email": "Email a PDF of this repair order and payment receipt to {{email}}",
+         "unable_to_email": "Unable to email a PDF of this repair order and payment receipt because customer has no email address",
+         "vehicle_picked_up": "Vehicle picked up",
+         "post_payment": "Post Payment",
+         "notes_placeholder": "Add accounting notes..."
+      },
+      "totals_payment_form": {
+         "post_payment": "Post Payment",
+         "terminal": "Terminal",
+         "waiting_for_terminal": "Waiting for Terminal...",
+         "posting_payment": "Posting Payment...",
+         "partial_authorization_for_amount": "Partial authorization for ${{amount}}. You may charge again for the balance due.",
+         "invoice_emailed_to_customer": "Invoice PDF emailed to customer",
+         "payment_emailed_to_customer": "Payment PDF emailed to customer",
+         "date_is_invalid": "Date is invalid. Please check selections."
+      },
+      "modal": {
+         "recommendation": {
+            "build": "Build a Recommended Service"
+         }
+      },
+      "reclose_modal": {
+         "pick_closing_date_and_time": "Pick closing date and time",
+         "job_was_closed_before": "This job was closed in the past and is now being re-closed. Pick which closing date and time is best.",
+         "previously_closed": "Previously Closed:",
+         "today": "Today:",
+         "current_time": "Current Time",
+         "new_date": "New Date:",
+         "pick_a_date": "Pick a date:",
+         "close_job": "Close Job",
+         "reclosing_job": "Reclosing job..."
+      },
+      "close_modal": {
+         "tech": "Tech:",
+         "close_ro": "Close RO #{{work_order_number}}",
+         "odometer_out": "Odometer Out:",
+         "odometer_in": "Odometer In",
+         "assigned_tech_required": "* An assigned Tech is required",
+         "save_and_proceed": "Save and Proceed",
+         "close_job": "Close Job",
+         "saving": "Saving...",
+         "service_category": "Service Category:",
+         "service_requires_category": "* This service requires a category"
+      },
+      "bulk_delete_notification": {
+         "title": "Deleting estimates...",
+         "time_warning": "This process can take a few minutes for large bunches.",
+         "estimates_have_been_deleted": "Estimates have been deleted.",
+         "reload_message": "to refresh the list",
+         "error_message": "Something went wrong while deleting the estimates. Please try again, or contact support@shop-ware.com"
+      },
+      "service_tile": {
+         "enter_service_title": "Enter service title...",
+         "add_a_comment": "Add a comment...",
+         "total": "Total:",
+         "rate": "Rate",
+         "labor_rate": "Labor Rate",
+         "labors_total_price": "Labor: ${{labors_total_price}}",
+         "parts_total_price": "Parts: ${{parts_total_price}}",
+         "hazmats_total_price": "Fees: ${{hazmats_total_price}}",
+         "sublets_total_price": "Sublet: ${{sublets_total_price}}",
+         "grand_total": "Total: ${{grand_total}}",
+         "actions_dropdown": {
+            "view_financials": "View financials",
+            "view_clocks": "View clocks",
+            "save_as_canned_job": "Save service as a canned job",
+            "convert_to_recommendation": "Convert service to a recommendation",
+            "delete_service": "Delete service"
+         }
+      },
+      "pre_approval_modal": {
+         "start_job": "Start Job",
+         "starting_job": "Starting job...",
+         "customer_estimate_approval": "Customer Estimate Approval",
+         "estimate_total_with_tax": "Estimate Total with Tax:",
+         "pre_approved": "Pre-Approved:",
+         "odometer_in": "Odometer In: {{odometer_in}}",
+         "enter_odometer_in": "Enter odometer in",
+         "best_contact": "Best Contact: {{preferred_contact_type}}",
+         "preferred_contact": "Preferred Contact",
+         "waiting": "Waiting",
+         "phone": "Phone",
+         "email": "Email",
+         "text": "Text",
+         "see_notes": "See notes",
+         "due_out_date_time": "Due Out date/time",
+         "required": "* required",
+         "enter_odometer_tooltip": "Enter the odometer value to start the job",
+         "date_time_already_passed": "The date/time entered has already passed.",
+         "due_out_invalid": "Due out is invalid. Please check selections.",
+         "customer_does_not_have_email": "Unable to email a PDF copy of the estimate because customer does not have an email address.",
+         "email_pdf_copy": "Email a PDF copy of this estimate to",
+         "terms_of_service": "TERMS OF SERVICE",
+         "agreement_part_one": "I",
+         "agreement_part_two": "agree to the Odometer reading, Terms of Service, and Estimate Price",
+         "estimate_pdf_emailed_to_customer": "Estimate PDF emailed to the customer",
+         "approving_estimate": "Approving estimate..."
+      },
+      "signature_box": {
+         "customer_signature_here": "Customer signature here",
+         "clear": "Clear"
+      },
+      "sublet_detail_modal": {
+         "edit_sublet_information": "Edit sublet information",
+         "description": "Description",
+         "price": "Price",
+         "cost": "Cost",
+         "vendor": "Vendor",
+         "invoice_number": "Invoice Number",
+         "invoice_date": "Invoice Date",
+         "paid_by": "Paid By",
+         "accounting_link_notice": "(Notice to Accounting Link users: you must enter both Invoice Number and Invoice Date to sync sublet details to Accounts Payable. If no vendor is selected, the invoice will sync as Vendor “None Selected”.)",
+         "saving_sublet": "Saving sublet..."
+      },
+      "part_edit_modal": {
+         "edit_part_for_ro": "Edit Part - RO #{{work_order_number}}",
+         "this_parts_associated_inventory": "This part's associated Inventory part is:",
+         "deleted": "Deleted",
+         "edit_part_information_for_this_ro_only": "Edit the part information for this repair order only:",
+         "brand": "Brand",
+         "description": "Description",
+         "part_number": "Part number",
+         "cost": "Cost",
+         "optimized_price": "Optimized price",
+         "quoted": "Quoted",
+         "update_part": "Update Part",
+         "updating_part": "Updating part..."
+      },
+      "service_checkbox": {
+         "restart_job": "Restart Job",
+         "pause_job": "Pause Job",
+         "finish_job": "Finish Job",
+         "start_job": "Start Job"
+      },
+      "customer_pre_approval_modal": {
+         "customer_estimate_approval": "Customer Estimate Approval",
+         "estimate_total_with_tax": "Estimate Total with Tax:",
+         "terms_of_service": "TERMS OF SERVICE",
+         "agreement": "I agree to the Terms of Service and Estimate Total",
+         "agreement_with_name": "I, {{customer_name}}, agree to the Terms of Service and Estimate Total",
+         "confirm_estimate_approval": "Confirm Estimate Approval"
+      },
+      "customer_detail": {
+         "welcome": "Welcome {{customer_first_name}}!",
+         "here_are_your_results": "Here are your results:"
+      },
+      "parts": {
+         "modal": {
+            "header": "Parts Summary - RO # {{ro_number}}",
+            "ecomm": "eComm",
+            "eta": "ETA {{eta}}",
+            "new_vendor": {
+               "label": "Create New Vendor",
+               "action": "Create"
+            },
+            "sections": {
+               "needed": "Needed",
+               "on_order": "On Order",
+               "in_progress": "In Progress",
+               "short": "Short",
+               "on_order_stock": "On Order for Stock",
+               "on_hand": "On Hand"
+            },
+            "empty": {
+               "needed": "No parts needed.",
+               "in_progress": "No parts in progress.",
+               "on_order": "No parts on order.",
+               "short": "No parts short.",
+               "stock": "No parts on order for stock.",
+               "on_hand": "No parts on hand."
+            },
+            "columns": {
+               "qty": "Qty",
+               "cost": "Cost",
+               "quoted": "Quoted",
+               "vendor": "Vendor"
+            },
+            "order_button": {
+               "text": "Order",
+               "ordering": "Ordering...",
+               "actions": {
+                  "direct_order": "Direct Order",
+                  "find_parts": "Find Parts",
+                  "stock_order": "Stock Order",
+                  "phone_order": "Phone Order"
+               }
+            }
+         },
+         "notifications": {
+            "order_in_progress": "Order in progress with {{vendor}}. Please wait for confirmation.",
+            "partstech_unavailable": "Sorry, PartsTech is currently unavailable. Please select another vendor or try again later."
+         }
+      }
+   },
+   "customer": {
+      "modal": {
+         "add_a_new_customer": "Add a New Customer",
+         "state_zip": "State/Zip",
+         "phone_numbers": "Phone Number(s)",
+         "marketing_ok_description_html": "Checking box will opt in <br /> customer to your shop's <br /> marketing campaigns <br />if/when you enable CRM",
+         "taxable_description_html": "Check box if new estimates <br/> should automatically include <br/>sales tax."
+      }
+   },
+   "vehicle": {
+      "detailed_vehicle_information": "Detailed Vehicle Information",
+      "specs_for_vehicle": "Specs for {{vehicle}}",
+      "fluids": "FLUIDS",
+      "tires": "TIRES",
+      "torque_specs": "TORQUE SPECS",
+      "brake_specs": "BRAKE SPECS",
+      "no_motor_response_message": "No response from MOTOR. Unable to display data.",
+      "no_information_available": "No information available.",
+      "table_headers": {
+         "type": "Type",
+         "plate": "Plate",
+         "fleet_number": "Fleet#"
+      },
+      "add_fleet_number": "Add fleet#",
+      "add_a_plate": "Add a plate...",
+      "estimate": "Estimate"
+   },
+   "categories": {
+      "default_text": "Add category text",
+      "add_category": "Add category",
+      "service_category": "Service Category",
+      "remove": {
+         "header": "Remove Category",
+         "remove": "Remove Category",
+         "description": "This will remove the category from the category list. Any canned jobs will be unassigned from this category. No existing ROs, past services, current recommendations, and past recommendations will be affected (category will still be associated)."
+      },
+      "reassign": {
+         "header": "Remove category and reassign canned jobs",
+         "reassign": "Remove category and reassign canned jobs",
+         "description": "This will remove the category from the category list. Any canned jobs can be reassigned to an existing category. No existing ROs, past services, current recommendations, and past recommendations will be affected (category will still be associated)."
+      },
+      "selection": {
+         "label": "Category",
+         "none": "No Category"
+      }
+   },
+   "statuses": {
+      "add_status": "Add status",
+      "empty_status": "Add status text",
+      "column_names": {
+         "name": "Name"
+      }
+   },
+   "labels": {
+      "add_label": "Add label",
+      "empty_label": "Add label text",
+      "delete_confirmation": "Are you sure you want to delete this label?",
+      "delete": "Delete Label",
+      "column_headers": {
+         "name": "Name",
+         "color": "Color"
+      }
+   },
+   "sources": {
+      "add": "Add source",
+      "delete": "Delete source",
+      "delete_confirmation": "Are you sure you want to delete this customer source?",
+      "empty_source": "Add source text",
+      "column_names": {
+         "name": "Name"
+      }
+   },
+   "customers": {
+      "search": {
+         "most_recently_added_customers": "Most recently added customers",
+         "placeholder": "Search name, phone, info, or notes...",
+         "minimum_two_characters": "Minimum 2 characters"
+      },
+      "notification": {
+         "select_more_to_merge": "Select between 2 and 5 customers to merge",
+         "unpermitted_action": "You do not have permission to perform that action.",
+         "issue_processing_request_try_later": "There was an issue processing your request. Please try again later.",
+         "customer_updated": "Customer updated."
+      },
+      "merge_modal": {
+         "merge": "Merge",
+         "pick_customer_info": "Pick Customer Info",
+         "instructions": "The following customers will be merged into one. Pick which information (name, email, and phone) should be used in the resultant account.",
+         "merge_customers": "Merge Customers",
+         "merging_customers": "Merging Customers..."
+      },
+      "table_headers": {
+         "name": "Name",
+         "email": "Email",
+         "phone": "Phone",
+         "joined": "Joined",
+         "all": "All"
+      },
+      "modal": {
+         "add_a_new_customer": "Add a New Customer",
+         "edit_for": "Edit {{first_name}} {{last_name}}",
+         "first_name": "First name",
+         "last_name": "Last name",
+         "email_address": "Email Address",
+         "phone_number": "Phone Number",
+         "phone_number_s": "Phone Number(s)",
+         "label_placeholder": "Label (e.g. Home)",
+         "preferred": "Preferred",
+         "address": "Address",
+         "city": "City",
+         "state_zip": "State/Zip",
+         "notes": "Notes",
+         "marketing_ok": "Marketing OK",
+         "marketing_ok_tooltip": {
+            "checking_box": "Checking box will opt in ",
+            "customer_to_your_shops": " customer to your shop's ",
+            "marketing_campaigns": " marketing campaigns ",
+            "enable_crm": "if/when you enable CRM"
+         },
+         "taxable": "Taxable",
+         "taxable_tooltip": {
+            "check_box": "Check box if new estimates ",
+            "should_include": " should automatically include ",
+            "sales_tax": "sales tax."
+         },
+         "add_customer": "Add Customer",
+         "save_customer": "Save Customer",
+         "saving": "Saving..."
+      },
+      "vehicles": {
+         "vehicles_heading": "Vehicles",
+         "add_vehicle_heading": "Add Vehicle",
+         "add_vehicle": "Add Vehicle",
+         "vin": "VIN",
+         "enter_a_vin": "Enter a VIN...",
+         "enter_new_vin_or_plate": "Enter new VIN or plate",
+         "search_by_ymm_keywords": "Search by year make model keywords",
+         "motor_taking_too_long": "MOTOR is taking too long to respond, please try again later.",
+         "vin_not_recognized": "The VIN entered is not recognized. Please check for typos.",
+         "searching": "Searching...",
+         "search": {
+            "search": "Search",
+            "search_vehicles": "Search vehicles...",
+            "ymm_vin_plate_or_fleet_number": "Year, Make, Model, VIN, Plate, or Fleet #"
+         },
+         "change_detail_modal": {
+            "change_vehicle": "Change Vehicle",
+            "current_vehicle": "Current Vehicle",
+            "new_vehicle": "New Vehicle",
+            "apply_change": "Apply Change"
+         }
+      },
+      "work_orders": {
+         "table_headers": {
+            "label": "Label",
+            "date": "Date",
+            "ro_number": "RO#",
+            "shop": "Shop",
+            "customer": "Customer",
+            "vehicle": "Vehicle",
+            "title": "Title",
+            "notes": "Notes",
+            "advisor": "Advisor",
+            "tech": "Tech"
+         },
+         "total_credit": "Total Credit:",
+         "total_due": "Total Due:",
+         "balance_due_only": "Balance Due Only",
+         "customer_invoices": "Customer Invoices"
+      }
+   },
+   "my_carfax_modal": {
+      "confirm_vehicle_selection": "Confirm Vehicle Selection",
+      "please_select_the_vehicle_matching": "Please select the vehicle matching",
+      "selected_plate": "Plate {{selected_plate}}:",
+      "decoding_vin": "Decoding VIN...",
+      "confirm": "Confirm"
+   },
+   "stripe": {
+      "saving": "Saving Credit Card..."
+   },
+   "new_shop_modal": {
+      "heading": "Create a new shop",
+      "save": "Add Shop",
+      "name": {
+         "description": "Enter the shop name that should appear on customer communications:",
+         "label": "Shop name"
+      },
+      "identifier": {
+         "description": "Enter the shop nickname or number, to tell it apart from your other shops (internal use, not customer-facing):",
+         "label": "Shop identifier"
+      },
+      "email": {
+         "description": "What is the shop's email address, to receive customer replies and notifications?",
+         "label": "Service desk email"
+      }
+   },
+   "share_modal": {
+      "share_with_customer": "Share with Customer",
+      "share_within_shop": "Share within Shop",
+      "share": "Share",
+      "email_invitation": "Email an Invitation",
+      "text_invitation": "Text an Invitation",
+      "copy_share_link": "Copy Share Link",
+      "send_text_to_customer_with_message": "Send a text to the customer containing the message below.",
+      "phone": "Phone",
+      "phone_number_required": "Phone number is required",
+      "message": "Message",
+      "send_text_to_customers": "Send Text to Customer",
+      "send_email_to_containing": "Send an email to the customer at {{contact_email}} containing the text below.",
+      "email_will_contain_invoice": "The email will include an attached Invoice PDF.",
+      "back_to_share_options": "Back to share options",
+      "send_email_to_customer": "Send Email to Customer",
+      "send_email_to": "Send email to",
+      "email": "Email",
+      "you_may_configure_a_service_desk_email_at": "You may configure a service desk email address on",
+      "your_shop_settings_page": "your shop settings page",
+      "sharing_job": "Sharing job...",
+      "sharing_url_copied": "Share URL copied to clipboard",
+      "single_email_error": "You may only send to a single email address at a time",
+      "field_required": "This field is required",
+      "estimate_for_service_with_car": "Estimate for {{vehicle_model}} service",
+      "estimate_for_service": "Estimate for service",
+      "service_update_response_needed": "{{vehicle_model}} service update: your response needed",
+      "invoice_for_service": "Invoice for {{vehicle_model}} Service",
+      "share_workorder_text": "Update from {{shopName}} about your {{vehicle}}; click link to respond.",
+      "share_workorder_text_remote_pay": "The invoice for your {{vehicle}} at {{shopName}} is ready for your review and payment; click link to pay now.",
+      "vehicle": "vehicle"
+   },
+   "modal": {
+      "add": "Add {{name}}",
+      "saving": "Saving {{name}}...",
+      "error": "There was an issue processing your request. Please try again later."
+   },
+   "staffs": {
+      "basic_info": {
+         "first_name": "First Name",
+         "last_name": "Last Name",
+         "email": "Email"
+      },
+      "notification": {
+         "email_updated_from": "Email address successfully updated. Notification emailed to previous address {{contact_email}}"
+      }
+   },
+   "reports": {
+      "payroll_index": {
+         "edit_shift_clocks": "Edit Shift Clocks",
+         "date_time_in": "Date/Time In",
+         "date_time_out": "Date/Time Out",
+         "total_h_m_s": "Total (H:M:S)",
+         "total": "$t(common.total)",
+         "regular": "Regular",
+         "overtime": "Overtime"
+      },
+      "accounts_receivable": "Accounts Receivable",
+      "accounts_receivable_index": {
+         "closed_date": "Closed Date",
+         "picked_up": "Picked Up",
+         "ro_number": "RO#",
+         "name": "Name",
+         "title": "Title",
+         "advisor": "Advisor",
+         "total": "Total",
+         "due": "Due",
+         "percent_paid": "% Paid"
+      },
+      "search": {
+         "all_staff_selected": "All Staff Selected",
+         "n_staff_selected": "{{n}} Staff Selected",
+         "technicians": "Technicians",
+         "advisors": "Advisors",
+         "no_advisor": "No Advisor",
+         "to": "to",
+         "exceeded_range": "You have exceeded the maximum range of access, results are limited to the last {{period}}."
+      },
+      "invoice_list": {
+         "closed_date": "Closed Date",
+         "ro_number": "RO#",
+         "name": "Name",
+         "title": "Title"
+      },
+      "technician_efficiency": {
+         "tech": "Tech",
+         "billed": "Billed (hrs)",
+         "service": "Service (hrs)",
+         "efficiency": "Efficiency",
+         "bh_over_ro": "BH/RO",
+         "labor_dollars": "Labor ($)",
+         "effective_rate": "Effective Rate"
+      },
+      "technician_productivity": {
+         "tech": "Tech",
+         "closed_hours": "Closed (hrs)",
+         "open_hours": "Open (hrs)",
+         "work_hours": "Work (hrs)",
+         "shift_hours": "Shift (hrs)",
+         "expense_hours": "Expense (hrs)",
+         "productivity": "Productivity"
+      },
+      "category": {
+         "category_summary": "Category Summary",
+         "select_categories": "Select the categories you would like to include:",
+         "n_categories_selected": "{{n}} Categories Selected",
+         "one_category_selected": "1 Category Selected",
+         "zero_categories_selected": "0 Categories Selected",
+         "categories": {
+            "Maintenance": "Maintenance",
+            "Diagnosis": "Diagnosis",
+            "Repair": "Repair",
+            "Tires": "Tires",
+            "Catalytic Converter Theft Plates": "Catalytic Converter Theft Plates",
+            "No Category": "No Category"
+         },
+         "report_details": {
+            "labor": "Labor",
+            "labor_cost": "Labor Cost",
+            "parts": "Parts",
+            "parts_cost": "Parts Cost",
+            "sublet": "Sublet",
+            "sublet_cost": "Sublet Cost",
+            "haz_fees": "Haz/Fees",
+            "service_count": "Service Count",
+            "billed_hours": "Billed Hours",
+            "effective_labor_rate": "Effective Labor Rate",
+            "gross_profit": "Gross Profit",
+            "gp_percent": "GP %",
+            "gp_per_hour": "GP/hr",
+            "parts_gp_percent": "Parts GP %",
+            "labor_gp_percent": "Labor GP %",
+            "sublet_gp_percent": "Sublet GP %"
+         }
+      }
+   },
+   "mitchell": {
+      "title": "Mitchell1 Setup",
+      "label": "Mitchell1 Connection",
+      "activate": "Activate",
+      "connected": "Connected",
+      "disconnect": "Disconnect",
+      "error": "There was an error connecting to Mitchell1, please try again. If this issue continues please contact support.",
+      "intent": {
+         "error": "An unexpected error occurred. Please try again.  If the issue persists, please contact support."
+      },
+      "description": "Connect your Mitchell1 account and access Mitchell based estimator service and repair information.",
+      "activation": {
+         "title": "Activate Mitchell1",
+         "details": "Select your Mitchell subscription type and enter credentials below. For help with setup, contact {{support_email}}.",
+         "activate": "Activate Mitchell1",
+         "activating": "Activating...",
+         "required_missing": "* all fields are required",
+         "labels": {
+            "username": "Username",
+            "password": "Password",
+            "type": "Mitchell Subscription Type",
+            "select": "- Select -"
+         },
+         "notification": {
+            "title": "Mitchell1 Setup",
+            "text": "Mitchell1 account was connected successfully."
+         },
+         "errors": {
+            "credentials": "Credentials are invalid. Please update to connect.",
+            "unavailable": "Mitchell1 is unavailable at the moment, please try again later."
+         }
+      },
+      "deactivation": {
+         "confirmation": "You are going to disconnect Mitchell1. Are you sure?",
+         "disconnect": "Disconnect Mitchell1",
+         "notification": {
+            "title": "Mitchell1 Setup",
+            "text": "Mitchell1 has been disconnected."
+         }
+      }
+   },
+   "account_owner": {
+      "title": "Account Owner",
+      "profile_link": "View Profile",
+      "change_owner": "Change Account Owner",
+      "none": "None assigned",
+      "transfer": {
+         "title": "Transfer Account Ownership",
+         "action": "Transfer Ownership",
+         "bad_password": "Password does not match. Please try again.",
+         "error": "The was an issue processing your request. Please try again later.",
+         "success": "The account ownership has been successfully updated.",
+         "labels": {
+            "current_owner": "Current Owner:",
+            "password": "Your Password:",
+            "new_owner": "Transfer To:"
+         },
+         "description": "{{name}}, you are currently the owner for this account on Shop-Ware. If you wish to transfer this ownership to another active staff member you may do so now. (If you do not wish to transfer, click the Cancel button.)",
+         "instructions": "Select the staff member you wish to transfer ownership to, and confirm the password you use to log into Shop-Ware."
+      }
+   },
+   "clear_needed": {
+      "description": "Parts that are \"Needed\" will now automatically fulfill when a repair order is closed and becomes an invoice.",
+      "verify": {
+         "prefix": "Would you also like to clear the ",
+         "status": "Needed",
+         "suffix": " status of parts on any existing invoices?"
+      },
+      "buttons": {
+         "no_action": "Leave Statuses As Is",
+         "clear_all": "Clear all Needed on Invoices",
+         "clearing": "Clearing ..."
+      },
+      "notification": {
+         "success": "All parts quantities \"Needed\" on Invoices reset to Zero.",
+         "error": "The was an issue processing your request. Please try again later."
+      }
+   },
+   "time_clocks": {
+      "n_clocks_in_the_date_range": "{{n}} clocks in the date range",
+      "table_headers": {
+         "date_time_in": "Date/Time In",
+         "date_time_out": "Date/Time Out",
+         "total_hms": "Total (H:M:S)",
+         "ro_number": "RO#"
+      },
+      "update_clocks": "Update clocks",
+      "notification": {
+         "start_date_invalid": "Start date is invalid. Please check selections.",
+         "end_date_invalid": "End date is invalid. Please check selections."
+      },
+      "create_modal": {
+         "create_new_clock": "Create new clock",
+         "date_time_in": "Date/Time In",
+         "date_time_out": "Date/Time Out",
+         "create_clock": "Create Clock",
+         "date_range_invalid": " Date range invalid. Please check selections. ",
+         "field_is_required": "This field is required.",
+         "outside_selected_time_range": "You've created clock time outside of the selected time range."
+      }
+   },
+   "quickbooks": {
+      "connect": "Connect",
+      "last_connected": "Connected, last sync: {{connected_at}} ago",
+      "disconnect": "[Disconnect]",
+      "disconnect_qb": "Disconnect Quickbooks",
+      "disconnect_details": "You are going to disconnect Quickbooks Online. Are you sure?",
+      "notification": {
+         "disconnected": "Disconnected from QuickBooks",
+         "error": "Disconnection from QuickBooks failed"
+      },
+      "sync": {
+         "invoice": "{{count}} invoice",
+         "invoice_plural": "{{count}} invoices",
+         "payment": "{{count}} payment",
+         "payment_plural": "{{count}} payments",
+         "summary": "{{invoices}} and {{payments}} have been queued to sync to Quickbooks",
+         "error": "There was an error when trying to sync invoices to Quickbooks."
+      },
+      "backsync": {
+         "header": "Sync Invoices",
+         "no_sync": "Do Not Sync",
+         "sync_invoices": "Sync Invoices",
+         "summary": {
+            "prefix": "There are",
+            "invoice": "{{count}} invoice",
+            "invoice_plural": "{{count}} invoices",
+            "conjunction": "and",
+            "payment": "{{count}} payment",
+            "payment_plural": "{{count}} payments",
+            "suffix": "that have not been synced to Quickbooks Online. Would you like to sync them now?"
+         }
+      }
+   },
+   "merchant": {
+     "asterisk_is_required": "* = required",
+     "activate": "Activate",
+     "terminal_name": "Terminal Name",
+     "serial_number": "Serial Number",
+     "connected": "Connected",
+     "disconnected": "Disconnected",
+     "loading": "Loading...",
+     "card_connect_error_title": "CardConnect Error",
+     "card_connect_error": "Unable to query list of new terminals.  Please try again later or contact Support@Shop-Ware.com",
+     "new_terminal": "+ New Terminal",
+     "three_sixty_payments": {
+       "remote_pay_setup": "Remote Pay Setup",
+       "remote_pay_setup_line_one": "Remote pay allows customers to make payments through the repair order,",
+       "remote_pay_setup_line_two": "without being physically present at the shop.",
+       "remote_pay_gateway": "Remote Pay Gateway",
+       "disconnect": "Disconnect",
+       "disconnect_remote_pay": "Disconnect Remote Pay",
+       "confirm_disconnect_remote_pay": "Are you sure you want to disconnect remote pay?",
+       "disconnecting": "Disconnecting...",
+       "enter_terminal_number": "Enter a terminal name and serial number. These are required fields.",
+       "pairing_terminal": "Pairing Terminal...",
+       "terminal_error": "Something went wrong, please contact support.",
+       "terminal_error_four_oh_nine": "Terminal serial number is already in use.",
+       "pair_terminal": "Pair Terminal",
+       "add_new_terminal": "Add New 360 Payments Terminal",
+       "enter_terminal_name": "Enter a terminal nickname to identify it from others in the shop, such as \"Front Counter - Left\" or \"Lucy's Desk\".",
+       "payments_connection": "360 Payments Connection",
+       "terminal_setup": "Terminal Setup",
+       "new_terminal": "+ New Terminal",
+       "confirm_unpair": "Are you sure you want to unpair this terminal?",
+       "unpair_terminal": "Unpair Terminal",
+       "activate": {
+         "header": "Activate 360 Payments Merchant",
+         "enter_contact_info": "Enter your contact information to get started.",
+         "all_fields_required": "All fields are required:",
+         "business_name": "Business Name",
+         "address": "Address",
+         "city": "City",
+         "state_zip": "State/Zip",
+         "phone": "Phone",
+         "contact_name": "Contact Name",
+         "contact_email": "Contact Email",
+         "activate_button": "Activate 360 Payments",
+         "all_fields_required_error": "* all fields are required",
+         "activating": "Activating...",
+         "something_went_wrong": "Something went wrong; please try again.",
+         "invalid_key": "API Security Key is invalid."
+       },
+       "activate_remote": {
+         "header": "Activate Remote Pay",
+         "description_line_one": "You will enter your 360 Payments Remote Pay credentials to connect the gateway.",
+         "description_line_two": "For help with setup, contact Support@Shop-Ware.com.",
+         "api_security_key": "API Security Key",
+         "asterisk_is_required": "* required",
+         "tokenization_security_key": "Tokenization Security Key",
+         "is_required": "* required",
+         "validating": "Validating...",
+         "activate_button": "Activate Remote Pay"
+       }
+     },
+     "card_connect": {
+       "add_new_card_connect_terminal": "Add New CardConnect Terminal",
+       "hardware_serial_number": "Hardware Serial Number (HSN)",
+       "hardware_serial_number_hint": "Hardware serial number is typically located on the bottom back of the device.",
+       "select_terminal": "Select terminal",
+       "enter_terminal_name": "Enter a terminal nickname to identify it from others in the shop, such as \"Front Counter - Left\" or Lucy's Desk.",
+       "terminal_id": "Terminal ID (TID)",
+       "terminal_id_hint": "TID is used by CardConnect in advanced reporting.  If you don't know what should go here, leave the field blank.",
+       "connect_to_terminal": "Connect to Terminal",
+       "activate_card_connect_merchant": "Activate CardConnect Merchant",
+       "enter_info": "Enter the CardConnect Merchant ID and CardConnect API Username & Password.",
+       "merchant_id": "Merchant ID",
+       "api_username": "API Username",
+       "api_password": "API Password",
+       "activate_card_connect": "Activate CardConnect",
+       "activating": "Activating...",
+       "update_card_connect": "Update CardConnect",
+       "invalid_credentials": "Credentials are invalid. Please update to connect.",
+       "fields_required": "Merchant ID, username, and password are required",
+       "card_connect_connection": "CardConnect Connection",
+       "device_id": "Device ID",
+       "connection_status": "Connection Status",
+       "checking": "Checking....",
+       "new_terminal": "+ New Terminal",
+       "select_terminal_error": "Select a terminal and enter a terminal name. These are required fields.",
+       "connecting": "Connecting...",
+       "unable_to_connect_error": "Unable to connect to terminal. Please verify the terminal serial number, and that the terminal is connected to the internet and displays \"Bolted.\"",
+       "update": {
+         "header": "Update CardConnect Merchant",
+         "your_card_is": "Your CardConnect Merchant ID is {{id}}",
+         "update_instructions": "To update your CardConnect Merchant ID, enter it below.",
+         "merchant_id": "Merchant ID",
+         "api_username": "API Username",
+         "api_password": "API Password",
+         "asterisk_is_required": "* = required",
+         "update_button": "Update CardConnect"
+       }
+     }
+   },
+   "permissions": {
+      "deactivation_modal": {
+         "delete_confirmation": "Are you sure you want to deactivate this user?",
+         "reactivation_info": "You may reactivate them again in the future, if needed.",
+         "deactivate": "Deactivate"
+      }
+   },
+   "batch_edit_price": {
+      "heading": "Edit Pricing",
+      "selection": "There is {{count}} part currently selected in your batch. Edit pricing for the entire batch:",
+      "selection_plural": "There are {{count}} parts currently selected in your batch. Edit pricing for the entire batch:",
+      "parts": "{{count}} part",
+      "parts_plural": "{{count}} parts",
+      "set_optimizer_on": "Set all to Optimizer ON",
+      "set_optimizer_off": "Set all to Optimizer OFF",
+      "reset": "Reset",
+      "continue": "Continue",
+      "group_gp": "Do these parts belong in a group, with a special GP%?",
+      "group": "Group",
+      "states": {
+         "no_change": "No changes to the current batch.",
+         "list_or_optimized": "Sell parts at List price or Optimized price, whichever is higher.",
+         "list": "Sell parts at List prices.",
+         "list_or_gp": "Sell parts at List price or {{percent}}%, whichever is higher."
+      },
+      "optimizer": {
+         "on": "Optimizer ON",
+         "off": "Optimizer OFF"
+      },
+      "averages": {
+         "cost": "Average Cost",
+         "list": "Average List price",
+         "sell": "Average Sell price",
+         "list_gp": "Average List GP %",
+         "sell_gp": "Average Sell GP %"
+      }
+   },
+   "confirm_batch_price": {
+      "summary": "This action will update {{count}} part in the batch to:",
+      "summary_plural": "This action will update all {{count}} parts in the batch to:",
+      "action": "Click \"update parts\" to submit the change and clear your batch.",
+      "back": "Back to pricing options",
+      "update": "Update Parts",
+      "updating": "Updating parts...",
+      "success": "{{count}} part is updated. Your batch is clear.",
+      "success_plural": "{{count}} parts are updated. Your batch is clear.",
+      "optimizer": {
+         "on": "Optimizer ON",
+         "off": "Optimizer OFF",
+         "off_with_gp": "Optimizer OFF, Group in {{group}} - {{percent}}%"
+      },
+      "pricing": {
+         "list_or_optimized": "Sell parts at List price or Optimized price, whichever is higher.",
+         "list": "Sell parts at List prices.",
+         "list_or_gp": "Sell parts at List price or {{percent}}%, whichever is higher."
+      }
+   },
+   "optimizer": {
+      "markup": {
+         "heading": "Markup Parameters",
+         "description": {
+            "part1": "Choose how much you want to mark up the very least expensive parts (drain plug washers, for example) and the very most expensive (rebuilt engines, for example).",
+            "part2": "The range for the very least expensive parts (the maximum markup) is 2.0 - 10.0.  You may enter any number within that range.  A value of 6.0 would sell a $0.25 part for $1.50.",
+            "part3": "The range for the very most expensive parts (the minimum markup) is 1.0 - 2.0.  You may enter any number within that range.  A value of 1.5 would sell a $3000 part for $4500."
+         },
+         "multiplier": {
+            "max": "Max markup (multiplier)",
+            "min": "Min markup (multiplier)",
+            "min_requirement": "must be between 1.0 and 2.0",
+            "max_requirement": "must be between 2.0 and 10.0"
+         }
+      },
+      "target": {
+         "heading": "Target Gross Profit",
+         "label": "Target Parts GP (%)",
+         "target_requirement": "must be between 20% and 80%",
+         "description": {
+            "part1": "Enter your desired Parts GP percentage. You may customize list prices on any part you wish, but the Optimizer works best when most (if not all) of your prices follow suggestions.",
+            "part2": "Typical target is 40-60% depending on your service mix."
+         }
+      },
+      "gp_exceptions": {
+         "heading": "GP Exceptions",
+         "new_group": "New Group",
+         "description": "Create and edit groups with special GP percentage. You can turn the Optimizer off for individual parts (or batches of parts) and assign them to a group instead. This allows you to manage types of parts (tires, 12v batteries, etc.) that can't command as high a gross profit.",
+         "headings": {
+            "group": "Group",
+            "percent": "GP %"
+         },
+         "add_modal": {
+            "title": "Add a New Group",
+            "submit_label": "Add Group",
+            "adding": "Adding Group...",
+            "group_name": "Group Name",
+            "gp_percent": "GP %",
+            "gp_range": "must be between 0 and 99"
+         },
+         "edit_modal": {
+            "title": "Edit Group",
+            "update": "Update Group",
+            "updating": "Updating Group..."
+         }
+      },
+      "group_prices": {
+         "heading": "Prefer Group Prices",
+         "label": "Ignore list price when a part is assigned to a group",
+         "description": "Check the box if you wish to ignore list price when a part is assigned to a group. Otherwise the part will sell at whichever price is highest: list price or group price."
+      },
+      "optimized_prices": {
+         "heading": "Prefer Optimized Prices",
+         "label": "Ignore list price when a part has Optimizer \"ON\"",
+         "description": "Check the box if you wish to always ignore list price when a part has the Optimizer \"ON\". Otherwise the part will sell at whichever price is highest: list price or Optimized price."
+      },
+      "notifications": {
+         "calculating": {
+            "title": "Calculating Optimized prices...",
+            "body": "This process usually takes less than 5 minutes to complete."
+         },
+         "calculation_success": "Optimized calculations complete! Custom markup curve created for {{shop}} for target {{percent}}% GP",
+         "calculation_failed": "Optimized prices cannot be calculated. Check parameters for validity or contact {{email}}"
+      },
+      "activate": {
+         "heading": "Activate the Optimizer",
+         "start": "Start the Optimizer",
+         "insufficient_data": "Shop sales history is currently too small for the Optimizer to work effectively. Average time to generate sufficient data is 30 days running Shop-Ware.",
+         "description": "Once activated you can apply the Optimizer to some or all of your parts, at your discretion. Parts that do not have the Optimizer applied will still display Optimized prices for reference. Watch as Parts Gross Profit reaches your target!",
+         "modal": {
+            "heading": "Start the Optimizer",
+            "apply_all": "Apply the Optimizer to all parts now",
+            "manual": "Leave parts alone and apply manually",
+            "clear": "Clear all and apply Optimizer from scratch",
+            "restore": "Restore previous Optimizer applied parts",
+            "description": "You can apply the Optimizer to all of your parts at once, or wait and apply the Optimizer later (individually or in batch)."
+         }
+      },
+      "deactivate": {
+         "heading": "Turn off the Optimizer",
+         "action": "Deactivate the Optimizer",
+         "description": "Disable sell price adjustments and suggestions. The Optimizer can be reactivated anytime.",
+         "modal": {
+            "action": "Deactivate Optimizer",
+            "body": "<p>Are you sure you want to turn off the Optimizer?</p><p>NOTE: the application knows which parts have the Optimizer applied now. If you reactivate the Optimizer in the future those parts will have the Optimizer reapplied automatically, so you don't have to start over from scratch.</p>"
+         }
+      },
+      "enabled": {
+         "heading": "Optimizer Enabled",
+         "description": {
+            "part1": "You can apply the Optimizer to individual parts or in batch, on the <a href=\"{{url}}\">Inventory page</a>. Parts with the Optimizer ON will show a tag icon in the GP column. Parts that do not have the Optimizer applied will show their current GP percentage.",
+            "part2": "When you edit a part, the Optimized price is always available for reference, whether the Optimizer is on for the part or not."
+         }
+      },
+      "disabled": {
+         "heading": "Optimize your Parts Gross Profit",
+         "description": "<p>Set your desired metrics and the Optimizer will automatically calculate a custom markup curve based on your shop's sales volume by parts cost and your target GP.</p><p>Like a traditional price matrix, the Optimizer marks up cheaper parts more than expensive parts. But it's smarter, <strong>using your shop's unique, real world data to deliver target profit</strong>. It adapts as your sales history changes, so profit percentage is controlled automatically.</p>"
+      }
+   },
+   "rates": {
+      "add_modal": {
+         "heading": "Add a New {{rate_name}}",
+         "labor_rate": "Labor Rate",
+         "rate_name": "Rate Name",
+         "rate_price": "Rate Price",
+         "add_rate": "Add {{rate_name}}",
+         "required": "* = required"
+      },
+      "delete_modal": {
+         "there_are_more_than_one_canned_job": "There are {{count}} canned jobs that use this labor rate. Those canned jobs will no longer have a specific labor rate. Delete anyway?",
+         "there_is_one_canned_job": "There is 1 canned job that uses this labor rate. This canned job will no longer have a specific labor rate. Delete anyway?"
+      },
+      "select_dropdown": {
+         "standard_label": "Standard"
+      }
+   },
+   "payment_types": {
+      "new_type": "New Payment Type",
+      "select_payment_type": "Select Payment Type",
+      "empty": "Add a name...",
+      "delete_confirm": "Are you sure you want to delete this payment type?",
+      "delete_label": "Delete Payment Type",
+      "labels": {
+         "type": "Type",
+         "name": "Name",
+         "display": "Display in Menu"
+      },
+      "types": {
+         "Credit Card": "Credit Card",
+         "Cash": "Cash",
+         "Check": "Check",
+         "On Account": "On Account",
+         "Other": "Other"
+      }
+   },
+   "notes_tab": {
+      "publish": "Publish",
+      "publishing": "Publishing...",
+      "write_a_new_note": "Write a new note",
+      "to_tenant": " to {{tenant_name}}",
+      "quick_rec": "Quick Rec",
+      "recommend_service": "Recommend Service",
+      "cannot_publish_empty_note": "Cannot publish empty note.",
+      "scan_tool_report": {
+         "scan_tool_results": "* Scan Tool Results *",
+         "end_of_report": "* End of Report *",
+         "bosch_automotive_diagnostics": "BOSCH AUTOMOTIVE DIAGNOSTICS - {{scan_tool_id}}",
+         "uploaded_at": "Uploaded at {{uploaded_at}}",
+         "vehicle_vin": "Vehicle {{vin}}",
+         "verified_unique": "Verified Unique"
+      },
+      "delete_modal": {
+         "confirmation_message": "Are you sure you want to delete this note and all it's contents, including any attachments and recommendations?"
+      },
+      "webcam_modal": {
+         "unable_to_access_camera": "Unable to access camera. We need access to your camera to take a picture",
+         "capturing": "Capturing...",
+         "upload_a_picture": "Upload a picture from your camera",
+         "capture": "Capture"
+      }
+   },
+   "feed": {
+     "end_of_log": "End of Log.  New events post in realtime.",
+     "customer": {
+       "add": {
+         "verb": "AddCustomer",
+         "action": "Added customer {{customer_name}}"
+       },
+       "create": {
+         "verb": "CreateCustomer",
+         "action": "Created customer {{customer_name}}"
+       },
+       "contact_method": {
+         "set": {
+           "verb": "SetBestContact",
+           "action": "Set customer best contact method to: {{contact_method}}"
+         },
+         "unset": {
+           "verb": "UnsetBestContact",
+           "action": "Unset customer best contact method"
+         },
+         "change": {
+           "verb": "ChangeBestContact",
+           "action": "Changed customer best contact method to: {{contact_method}}"
+         },
+         "waiting": "waiting",
+         "phone": "phone",
+         "email": "email",
+         "text": "text",
+         "see notes": "see notes"
+       },
+       "phone": {
+         "update": {
+           "verb": "UpdatePhone",
+           "action": "Changed phone number to {{phone_number}}"
+         }
+       },
+       "email_address": {
+         "update": {
+           "verb": "UpdateEmail",
+           "action": "Changed email address to {{email_address}}"
+         }
+       },
+       "first_name": {
+         "update": {
+           "verb": "UpdateFirstName",
+           "action": "Changed first name to {{first_name}}"
+         }
+       },
+       "last_name": {
+         "update": {
+           "verb": "UpdateLastName",
+           "action": "Changed last name to {{last_name}}"
+         }
+       }
+     },
+     "sublet": {
+       "modal": {
+         "edit": {
+           "verb": "EditSubletModal",
+           "action": "Changed sublet {{sublet_name}} at {{service_title}}:"
+         }
+       },
+       "attribute_names": {
+         "description": "description:",
+         "invoice": "invoice",
+         "invoice_date": "invoice date",
+         "paid_by": "paid by",
+         "vendor": "vendor:",
+         "cost": "cost:",
+         "price": "price:"
+       },
+       "add": {
+         "verb": "AddSublet",
+         "action": "Added Sublet to {{service_title}}: {{name_and_price}}"
+       },
+       "delete": {
+         "verb": "DeleteSublet",
+         "action": {
+           "service_title": "from {{service_title}}",
+           "full_message": "Deleted Sublet {{service_title}}: {{name_and_price}}"
+         }
+       },
+       "name": {
+         "change": {
+           "verb": "ChangeSubletName",
+           "action": "Changed Sublet title",
+           "action_with_names": "Changed sublet {{old_name}} at {{service_title}} service: description: {{new_name}}"
+         }
+       },
+       "price": {
+         "change": {
+           "verb": "ChangeSubletPrice",
+           "action": {
+             "new_price": "price: ${{new_price}}",
+             "message": "Changed Sublet price",
+             "message_with_price": "Changed sublet {{name}} at {{service_title}} service: {{new_price}}"
+           }
+         }
+       }
+     },
+     "vehicle": {
+       "remove": {
+         "verb": "RemoveVehicle",
+         "action": "Removed vehicle"
+       },
+       "change": {
+         "verb": "ChangeVehicle",
+         "action": "Changed vehicle to {{year}} {{make}} {{model}} {{plate}}"
+       },
+       "odometer": {
+         "set": {
+           "verb": "SetOdometer",
+           "action": "Set Odometer {{odometer_label}} to: {{odometer}}"
+         },
+         "change": {
+           "verb": "ChangeOdometer",
+           "action": "Changed Odometer {{odometer_label}} to: {{odometer}}"
+         },
+         "out_label": "Out",
+         "in_label": "In"
+       },
+       "add": {
+         "verb": "AddVehicle",
+         "action": "Added {{vehicle_details}}"
+       },
+       "set_registration_expiration_date": {
+         "verb": "SetRegistrationExpDate",
+         "action": "Set registration expiration date to: "
+       },
+       "set_production_date": {
+         "verb": "SetProductionDate",
+         "action": "Set production date to: "
+       },
+       "plate": {
+         "set": {
+           "verb": "SetPlate",
+           "action": "Set Plate to: {{value}}"
+         },
+         "change": {
+           "verb": "ChangePlate",
+           "action": "Changed Plate to: {{value}}"
+         }
+       },
+       "vin": {
+         "set": {
+           "verb": "SetVin",
+           "action": "Set vehicle VIN to: {{value}}"
+         },
+         "change": {
+           "verb": "ChangeVin",
+           "action": "Changed vehicle VIN from: {{previous}} to: {{current}}"
+         }
+       },
+       "fleet_number": {
+         "set": {
+           "verb": "SetFleetNumber",
+           "action": "Set Fleet Number to: {{value}}"
+         },
+         "change": {
+           "verb": "ChangeFleetNumber",
+           "action": "Changed Fleet Number to: {{value}}"
+         }
+       }
+     },
+     "work_order": {
+       "start": {
+         "verb": "StartWorkOrder",
+         "action": {
+           "link_text": "work order:",
+           "start_message": "Started {{-link}}"
+         }
+       },
+       "close": {
+         "verb": "CloseWorkOrder",
+         "action": "Closed work order"
+       },
+       "reclose": {
+         "verb": "RecloseWorkOrder",
+         "action": "Reclosed work order, closing date and time selected as {{closed_at}}"
+       },
+       "set_taxable": {
+         "verb": "Taxable",
+         "action_taxable": "Set RO as taxable",
+         "action_tax_exempt": "Set RO as tax exempt"
+       },
+       "mark_picked_up": {
+         "verb": "MarkedPickedUp",
+         "action": "Marked as picked up."
+       },
+       "mark_not_picked_up": {
+         "verb": "MarkedNotPickedUp",
+         "action": "Marked as not picked up."
+       },
+       "set_marketing_source": {
+         "verb": "SetMarketingSource",
+         "action": "Set marketing source to: {{source}}"
+       },
+       "Due In time": {
+         "delete": {
+           "verb": "DeleteDueTime",
+           "action": "Removed Due In time."
+         },
+         "set": {
+           "verb": "SetDueTime",
+           "action": "Set Due In time to {{new_time}}."
+         },
+         "update": {
+           "verb": "UpdateDueTime",
+           "action": "Updated Due In time to {{new_time}}."
+         }
+       },
+       "Due Out time": {
+         "delete": {
+           "verb": "DeleteDueTime",
+           "action": "Removed Due Out time."
+         },
+         "set": {
+           "verb": "SetDueTime",
+           "action": "Set Due Out time to {{new_time}}."
+         },
+         "update": {
+           "verb": "UpdateDueTime",
+           "action": "Updated Due Out time to {{new_time}}."
+         }
+       }
+     },
+     "estimate": {
+       "clear_pre_approval": {
+         "verb": "ClearPreApproval",
+         "action": "Made changes that cleared the RO pre-approval"
+       },
+       "pre_approve": {
+         "verb": "PreApproveEstimate",
+         "action": {
+           "link_text": "estimate",
+           "message": "Pre-approved the {{-link}}"
+         }
+       }
+     },
+     "invoice": {
+       "reopen": {
+         "verb": "InvoiceReopened",
+         "action": "Reopened invoice"
+       }
+     },
+     "customer_page": {
+       "view": {
+         "verb": "CustomerPageView",
+         "action": "Viewed page"
+       }
+     },
+     "staff_page": {
+       "view": {
+         "verb": "StaffPageView",
+         "action": "Viewed page"
+       }
+     },
+     "labor": {
+       "add": {
+         "verb": "AddLabor",
+         "action": "Added Labor Item to {{service_title}}: {{labor_name_and_hours}}."
+       },
+       "delete": {
+         "verb": "DeleteLabor",
+         "action": "Deleted Labor Item: {{labor_name_and_hours}}"
+       },
+       "title": {
+         "change": {
+           "verb": "ChangeLaborTitle",
+           "action": "Changed Labor Item title",
+           "action_with_title": "Changed Labor Item title: {{title}}"
+         }
+       },
+       "hours": {
+         "change": {
+           "verb": "ChangeLaborHours",
+           "action": "Changed Labor Item time",
+           "action_with_hours": "Changed Labor Item: {{title}} time to {{hours}}"
+         }
+       },
+       "name": {
+         "change": {
+           "verb": "ChangedLaborName",
+           "action": "Changed labor name: {{name}}"
+         }
+       },
+       "technician": {
+         "change": {
+           "verb": "ChangeLaborTech",
+           "action": {
+             "full_message": "Changed Labor Item: {{technician_changed}}",
+             "technician_changed_message": "{{labor_name}}technician to: {{name}}"
+           }
+         },
+         "clear": {
+            "verb": "ClearLaborTech",
+            "action": "Cleared Labor Technician: {{labor_name}}"
+         }
+       }
+     },
+     "label": {
+       "change": {
+         "verb": "ChangeLabel",
+         "action": "Changed label to: {{label}}"
+       }
+     },
+     "technician": {
+       "set": {
+         "verb": "SetTechnician",
+         "action": "Set technician to: {{name}}"
+       },
+       "change": {
+         "verb": "ChangedTechnician",
+         "action": "Changed technician to: {{name}}"
+       }
+     },
+     "part": {
+       "add": {
+         "verb": "AddPart",
+         "action": "Added part to {{service_title}}: {{part_name}}."
+       },
+       "delete": {
+         "verb": "DeletePart",
+         "action": "Deleted Part from {{service_title}}: {{part_information}}."
+       },
+       "quantity": {
+         "change": {
+           "verb": "ChangePartQuantity",
+           "action": "Updated part qty at {{service_title}}",
+           "action_with_quantities": "Updated part qty at {{service_title}} from {{old_quantity}} to {{new_quantity}}."
+         }
+       },
+       "price": {
+         "change": {
+           "verb": "ChangePartPrice",
+           "action": "Updated part price at {{service_title}}",
+           "action_with_prices": "Updated part list at {{service_title}} from ${{old_price}} to ${{new_price}}."
+         }
+       },
+       "modal": {
+         "edit": {
+           "verb": "EditPartModal",
+           "action": "Updated part {{part_name}} at {{service_title}} from {{old_value}} to {{new_value}}."
+         }
+       }
+     },
+     "advisor": {
+       "set": {
+         "verb": "SetAdvisor",
+         "action": "Set advisor to: {{name}}"
+       },
+       "change": {
+         "verb": "ChangedAdvisor",
+         "action": "Changed advisor to: {{name}}"
+       }
+     },
+     "service": {
+       "add": {
+         "verb": "AddService",
+         "action": "Added service to work order: "
+       },
+       "delete": {
+         "verb": "DeleteService",
+         "action": "Deleted service from work order: {{service_title}}"
+       },
+       "title": {
+         "create": {
+           "verb": "CreateServiceTitle",
+           "action": "Created service title: {{new_service}}",
+           "action_without_title": "Created service title: "
+         },
+         "change": {
+           "verb": "ChangeServiceTitle",
+           "action": "Edited service title: {{new_title}}"
+         }
+       },
+       "convert_to_recommendation": {
+         "verb": "ConvertService",
+         "action": "Converted '{{recommendation_description}}' from a service to a recommendation."
+       },
+       "unmark_complete": {
+         "verb": "UnmarkComplete",
+         "action": "Unmarked complete: {{service_title}}"
+       },
+       "mark_complete": {
+         "verb": "MarkComplete",
+         "action": "Marked complete: {{service_title}}"
+       }
+     },
+     "shop_supplies": {
+       "edit": {
+         "verb": "EditShopSupplies",
+         "action": {
+           "staff_edited_supplies_from": "{{staff_name}} edited shop supplies from",
+           "automatic_calculation_to_edited_fee": "{{staff_edited_supplies_from}} automatic calculation to {{edited_fee}}",
+           "previous_fee_to_automatic_calculation": "{{staff_edited_supplies_from}} {{previous_fee}} to automatic calculation",
+           "previous_fee_to_edited_fee": "{{staff_edited_supplies_from}} {{previous_fee}} to {{edited_fee}}"
+         }
+       }
+     },
+     "hazmat": {
+       "quantity_detail": "quantity {{quantity}}",
+       "add": {
+         "verb": "AddHazmat",
+         "action": "Added Hazmat/Fee: {{hazmat_information}}"
+       },
+       "delete": {
+         "verb": "DeleteHazmat",
+         "action": "Deleted Hazmat/Fee: {{hazmat_information}}"
+       },
+       "name": {
+         "change": {
+           "verb": "ChangeHazmatName",
+           "action": "Changed Hazmat/Fee title",
+           "action_with_name": "Changed Hazmat/Fee: title to {{name}}"
+         }
+       },
+       "quantity": {
+         "change": {
+           "verb": "ChangeHazmatQuantity",
+           "action": {
+             "name_and_quantity_detail": "{{name}} quantity to {{quantity}}",
+             "quantity_detail": "quantity to {{quantity}}",
+             "message": "Changed Hazmat/Fee quantity",
+             "message_with_details": "Changed Hazmat/Fee: {{hazmat_information}}"
+           }
+         }
+       },
+       "fee": {
+         "change": {
+           "verb": "ChangeHazmatFee",
+           "action": {
+             "name_and_fee_detail": "{{name}} price to ${{fee}}",
+             "fee_detail": "price to ${{fee}}",
+             "message": "Changed Hazmat/Fee price",
+             "message_with_details": "Changed Hazmat/Fee: {{hazmat_information}}"
+           }
+         }
+       }
+     },
+     "inspection": {
+       "state": {
+         "change": {
+           "verb": "ChangeInspectionStatus",
+           "action": {
+             "color_detail": {
+               "red": ", set to red",
+               "green": ", set to green",
+               "yellow": ", set to yellow"
+             },
+             "service_title_detail": "{{title}} service",
+             "message_checked": "Checked inspection {{inspection_name}} at {{service_title_and_color}}.",
+             "message_unchecked": "Unchecked inspection {{inspection_name}} at {{service_title_and_color}}."
+           }
+         }
+       },
+       "add": {
+         "verb": "AddInspection",
+         "action": "Added Inspection Item to"
+       },
+       "delete": {
+         "verb": "DeleteInspection",
+         "action": "Deleted Inspection from {{service_title}}: {{inspection_name}}."
+       },
+       "name": {
+         "change": {
+           "verb": "ChangeInspectionName",
+           "action": "Changed Inspection Item {{old_name}} at {{service_title}} to {{new_name}}."
+         }
+       }
+     },
+     "discount": {
+       "labor": {
+         "set": {
+           "verb": "SetDiscountlabor",
+           "action": "Set labor discount to {{amount}}"
+         },
+         "remove": {
+           "action": "Remove labor discount"
+         }
+       },
+       "part": {
+         "set": {
+           "verb": "SetDiscountpart",
+           "action": "Set part discount to {{amount}}"
+         },
+         "remove": {
+           "action": "Remove part discount"
+         }
+       }
+     },
+     "labor_rate": {
+       "set": {
+         "action": "Set labor rate of {{type}} to: ${{new_value}}"
+       }
+     }
+   },
+   "recommendations": {
+      "add_service_name": "Add service name...",
+      "price": "Price...",
+      "plus_tax": "+tax",
+      "yes_i_approve": "Yes I Approve",
+      "no_thanks": "No Thanks",
+      "pending_approval": "Pending approval",
+      "declined_by_person": "Declined by {{first_name}}",
+      "approved_by_person": "Approved by {{first_name}}",
+      "please_add_service_manually": "Recommendation does not have an associated service. Please add the service manually.",
+      "added_to_estimate": "Added to estimate",
+      "approved_in_person": "Approved in person",
+      "approved_by_email": "Approved by email",
+      "approved_by_phone": "Approved by phone",
+      "customer_approval_modal": {
+         "proceed_with_following_service": "Yes, I would like {{shop_name}} to proceed with the following service:",
+         "proceed_with_this_service": "Yes, I would like {{shop_name}} to proceed with this service",
+         "for_the_price_before_tax": "for the price (before tax)",
+         "notice_of_approval": "Notice of approval sent to the shop."
+      },
+      "customer_decline_modal": {
+         "do_not_want_following_service": "No, I do not want the following service at this time:",
+         "do_not_want_this_service": "No, I do not want this service",
+         "for_the_price_before_tax": "for the price (before tax)",
+         "notice_of_decline": "Notice of decline sent to the shop."
+      }
+   },
+   "parts_inventory": {
+      "all": "All",
+      "no_vendor": "No Vendor",
+      "copied_to_clipboard": "{{text}} copied to clipboard.",
+      "below_stock": {
+         "min_max": "{{min}} min ({{max}} max) below stock",
+         "min": "{{min}} below stock"
+      },
+      "pills": {
+         "stock_count": "{{count}} for Stock",
+         "work_order": "{{count}} for {{customer}} {{vehicle}} <a href=\"/work_orders/{{wo_id}}\" target=\"_blank\">#{{wo_number}}</a>",
+         "min_stock": "Minimal amount is {{min_stock}}",
+         "needed": "{{count}} needed",
+         "ordered": "{{count}} ordered",
+         "on_hand": "{{count}} on hand",
+         "in_progress": "{{count}} in progress",
+         "returned": "{{count}} returned",
+         "short_3": "{{count}} Short 3",
+         "bosch": {
+            "points_earned": "Bosch eXtra points earned with purchase",
+            "points": "{{points}} points"
+         }
+      },
+      "export": {
+         "all": "Entire Inventory Database"
+      },
+      "delete": {
+         "action": "Delete Part",
+         "message": "Are you sure you want to delete this part?",
+         "not_allowed": "Cannot delete part associated with a canned job, a purchase order, a purchase record, a current estimate or work order."
+      },
+      "net_value": {
+         "title": "Inventory Net Value",
+         "stocked": "Stocked Parts",
+         "special": "Special Orders",
+         "active_work_orders": "Active Work Orders",
+         "close": "Close"
+      },
+      "buttons": {
+         "new_part": "New Part",
+         "net_value": "Net Value"
+      },
+      "columns": {
+         "parts": "Parts",
+         "part_number": "P/N",
+         "status": "Status",
+         "vendor": "Vendor",
+         "gross_profit": "GP",
+         "sell": "Sell",
+         "cost": "Cost"
+      },
+      "actions": {
+         "actions": "Actions",
+         "new_order": "New Order",
+         "phone": "Phone Order",
+         "ecomm": "eComm",
+         "return": "Return",
+         "edit_location": "Edit Location",
+         "edit_pricing": "Edit Pricing",
+         "swap_parts": "Swap on Canned Jobs"
+      },
+      "search": {
+         "placeholder": "Search brand, description, or part number...",
+         "minimum": "Minimum 2 characters",
+         "location": "Location",
+         "vendor": "Vendor",
+         "enter_location": "Enter locations",
+         "no_location": "No Location",
+         "filters": {
+            "title": "Filters",
+            "statuses": {
+               "title": "Status",
+               "needed_now": "Needed Now",
+               "below_stock": "Below Stock",
+               "on_order": "On Order",
+               "on_hand": "On Hand",
+               "in_progress": "In Progress",
+               "returned": "Returned",
+               "short_3": "Short 3"
+            },
+            "stock": {
+               "title": "Stock",
+               "all": "All Parts",
+               "stocked": "Stocked Parts (min stock > 0)",
+               "special": "Special Orders (min stock = 0)"
+            }
+         },
+         "no_results": {
+            "query": "No results for \"{{query}}\".",
+            "multiple_filters": "No results for \"{{query}}\" {{filters}} with {{vendor_filters}}.",
+            "filter": "No results for \"{{query}}\" {{filters}}.",
+            "vendor_filter": "No results for \"{{query}}\" with {{vendor_filters}}."
+         },
+         "summary": {
+            "batch": "<strong>{{count}} in Batch</strong>",
+            "clear": "<span><span class=\"js-clear-selected clear-selected\">(clear)</span></span>",
+            "query_filters_batch": "{{count}} result for \"{{query}}\" {{filters}} with {{vendorFilters}} | {{batch}} {{clear}}",
+            "query_filters_batch_plural": "{{count}} results for \"{{query}}\" {{filters}} with {{vendorFilters}} | {{batch}} {{clear}}",
+            "query_filters": "{{count}} result for \"{{query}}\" {{filters}} with {{vendorFilters}}",
+            "query_filters_plural": "{{count}} results for \"{{query}}\" {{filters}} with {{vendorFilters}}",
+            "query_filter_batch": "{{count}} result for \"{{query}}\" {{filters}} | {{batch}} {{clear}}",
+            "query_filter_batch_plural": "{{count}} results for \"{{query}}\" {{filters}} | {{batch}} {{clear}}",
+            "query_filter": "{{count}} result for \"{{query}}\" {{filters}}",
+            "query_filter_plural": "{{count}} results for \"{{query}}\" {{filters}}",
+            "query_vendor_filter_batch": "{{count}} result for \"{{query}}\" with {{vendor_filters}} | {{batch}} {{clear}}",
+            "query_vendor_filter_batch_plural": "{{count}} results for \"{{query}}\" with {{vendor_filters}} | {{batch}} {{clear}}",
+            "query_vendor_filter": "{{count}} result for \"{{query}}\" with {{vendor_filters}}",
+            "query_vendor_filter_plural": "{{count}} results for \"{{query}}\" with {{vendor_filters}}",
+            "query_batch": "{{count}} result for \"{{query}}\" | {{batch}} {{clear}}",
+            "query_batch_plural": "{{count}} results for \"{{query}}\" | {{batch}} {{clear}}",
+            "query": "{{count}} result for \"{{query}}\"",
+            "query_plural": "{{count}} results for \"{{query}}\"",
+            "filters_batch": "{{count}} part {{filters}} with {{vendorFilters}} | {{batch}} {{clear}}",
+            "filters_batch_plural": "{{count}} parts {{filters}} with {{vendorFilters}} | {{batch}} {{clear}}",
+            "filters": "{{count}} part {{filters}} with {{vendorFilters}}",
+            "filters_plural": "{{count}} parts {{filters}} with {{vendorFilters}}",
+            "filter_batch": "{{count}} part {{filters}} | {{batch}} {{clear}}",
+            "filter_batch_plural": "{{count}} parts {{filters}} | {{batch}} {{clear}}",
+            "filter": "{{count}} part {{filters}}",
+            "filter_plural": "{{count}} parts {{filters}}",
+            "vendor_filter_batch": "{{count}} part with {{vendor_filters}} | {{batch}} {{clear}}",
+            "vendor_filter_batch_plural": "{{count}} parts with {{vendor_filters}} | {{batch}} {{clear}}",
+            "vendor_filter": "{{count}} part with {{vendor_filters}}",
+            "vendor_filter_plural": "{{count}} parts with {{vendor_filters}}",
+            "batch_clear": "{{batch}} {{clear}}"
+         }
+      },
+      "speed_dial_error": "SpeedDial has failed to launch. Please download it from <a target='_blank' href='http://www.worldpac.com/sd.html#sd_downloads'>here</a>, or contact your Worldpac representative.",
+      "parts_info_received": "Parts info received.",
+      "labels": {
+         "min_stock": "Minimum Stock",
+         "max_stock": "Maximum Stock"
+      },
+      "po_created": {
+         "do_po_vendor": "Order confirmation received. Purchase Order #{{po_number}} successfully created for {{vendor}}.",
+         "do_po": "Order confirmation received. Purchase Order #{{po_number}} successfully created.",
+         "do_vendor": "Order confirmation received. Purchase Order successfully created for {{vendor}}.",
+         "do": "Order confirmation received. Purchase Order successfully created.",
+         "po_vendor": "Purchase Order #{{po_number}} created for {{vendor}}. Your session has ended; please close the integrator tab.",
+         "po": "Purchase Order #{{po_number}} created. Your session has ended; please close the integrator tab.",
+         "vendor": "Purchase Order created for {{vendor}}. Your session has ended; please close the integrator tab.",
+         "none": "Purchase Order created. Your session has ended; please close the integrator tab."
+      },
+      "reload": {
+         "parts": "<div class=\"text-bigger-120\"><a href=\"#\" onclick=\"location.reload(true); return false;\">Click here</a> to reload parts.</div>"
+      },
+      "types": {
+         "return": "return",
+         "purchase_order": "purchase order"
+      },
+      "create": {
+         "heading": "Enter new part information",
+         "intermediate_modal_heading": "Create a new part",
+         "save_notes": "Hit enter to save and add another.",
+         "one_loc_limit": "One location only",
+         "cost_and_price_help": "Enter cost and list price to determine sell price.",
+         "required_field": "This field is required.",
+         "new_vendor": "Create new vendor",
+         "saving": "Saving part...",
+         "save_part": "Save part",
+         "tags": {
+            "new_tag": "Create new tag \"{{query}}\"",
+            "existing_tag": "Tag \"{{query}}\" has already been added",
+            "suggested": {
+               "prefix": "<small class=\"muted\">Suggested tags: </small>"}
+         },
+         "vendor": {
+            "create": "Create"
+         },
+         "locations": {
+            "preferred": "Preferred",
+            "other": "Other"
+         },
+         "select": {
+            "heading": "Create a new part",
+            "description": "Look up parts through an integrated vendor or enter your own info from scratch.",
+            "selections": "<a href=\"#\" class=\"create-from-scratch\">Create a new part from scratch...</a> <span class=\"modal-body-action-spacer\">or</span> <button class=\"btn btn-success open-ecomm\">eComm</button>"
+         },
+         "labels": {
+            "brand": "Brand",
+            "description": "Description",
+            "part_number": "Part number",
+            "primary_vendor": "Primary Vendor",
+            "last_vendor": "Last Vendor",
+            "create_vendor": "Create New Vendor",
+            "quantity_on_hand": "Quantity On Hand",
+            "inventory_location": "Inventory Location",
+            "tags": "Tags",
+            "cost": "Cost",
+            "list": "List",
+            "optimized_price": "Optimized price",
+            "optimizer": "Optimizer",
+            "group": "Group",
+            "sell_price": "Sell price"
+         },
+         "placeholders": {
+            "location": "Enter location",
+            "select_vendor": "Select Vendor"
+         },
+         "optimizer": {
+            "on": {
+               "optimized_price_ignores_list": "Optimizer on and ignores list price; sell at Optimized price.",
+               "optimized_highest": "Optimizer on, Optimized price highest; sell at Optimized price.",
+               "list_highest": "Optimizer on, List price highest; sell at List price."
+            },
+            "off": {
+               "no_group": "Optimizer turned off, no group assigned; sell at List price.",
+               "gp_price": "Optimizer turned off, Group GP {{percent}}%; Group GP% higher than List GP%; sell at Group GP of {{percent}}%.",
+               "ignore_list": "Optimizer turned off, Group GP {{percent}}%; List price ignored; sell at Group price.",
+               "list_price": "Optimizer turned off, Group GP {{percent}}%; List GP% higher than Group GP%; sell at List price."
+            }
+         }
+      },
+      "edit": {
+         "update": "Update part",
+         "update_and_next": "Press Enter for update and next",
+         "tabs": {
+            "info": "Info and Pricing",
+            "quantity": "Quantities",
+            "history": "Purchase History",
+            "fees": "Associated Fees"
+         },
+         "additional_info": {
+            "labels": {
+               "location": "Location",
+               "tags": "Tags",
+               "notes": "Notes",
+               "hazmat": "Hazmat Rating"
+            },
+            "hazmat": {
+               "caution": "Caution",
+               "warning": "Warning",
+               "danger": "Danger"
+            }
+         },
+         "quantities": {
+            "adjust": "Adjust Inventory",
+            "adjustments": {
+               "heading": "Status and adjustments",
+               "description": "<p>Part allocation status is handled automatically, between repair<br/>order, part orders, and stocking quantities.</p> <p>Use the Adjust Inventory box (below) to update quantities and<br/>their allocation status.</p><p>Click the \"X\" to revert your changes.</p>"
+            },
+            "allocations": {
+               "heading": "Allocation status",
+               "on_hand": "On Hand",
+               "in_progress": "In Progress",
+               "needed": "Needed",
+               "below_stock": "Below Stock",
+               "ordered": "Ordered",
+               "short_3": "Short 3",
+               "returned": "Returned",
+               "detail": {
+                  "in_invoices": "(<span class=\"invoice-num-needed\">{{count}}</span> in invoices)",
+                  "below_max": "(<span class=\"num-below-max-stock\">{{count}}</span> max)",
+                  "needed_stock": "({{needed}} for needed, {{stock}} for stock)"
+               }
+            }
+         },
+         "purchase_history": {
+            "columns": {
+               "date": "Date",
+               "vendor": "Vendor",
+               "invoice_number": "Invoice #",
+               "cost": "Cost",
+               "list": "List"
+            }
+         },
+         "fees": {
+            "heading": "Automatic Part Fee Calculation",
+            "description": "<p>Configure a fee to be added automatically whenever this part is<br/>added to a service. (The charge will appear on the same service,<br/>under Hazmats and Fees.)</p><p>Enter a fee name; this is how the fee will appear on the service.<br/>You may edit any fee description later (on any RO).</p><p>Percentage calculations will be off the total part sales price,<br/>regardless of the quantity of the part.</p>",
+            "labels": {
+               "add_fee": "Add a fee",
+               "fee_description": "Fee Description",
+               "calculation": "Calculation",
+               "type": "{{type}} Amount",
+               "taxable": "Taxable",
+               "dollar_description": "Dollar Amount",
+               "percentage_description": "Percentage Amount"
+            },
+            "type_options": {
+               "dollar": "Dollar ($)",
+               "percent": "Percentage (%)"
+            },
+            "help": {
+               "description": "Ex. \"North Carolina Scrap Tire Disposal Tax (1%)\"",
+               "dollar": "Must be a number",
+               "percentage": "Must be a number (entry of 1 = 1%)",
+               "taxable": "Check box if the part fee should be taxable."
+            }
+         }
+      },
+      "edit_location": {
+         "heading": "Edit Part Location",
+         "location": "Location",
+         "save_location": "Save Location",
+         "one_location": "One location only",
+         "description": "There is {{count}} part currently selected in your batch. Assign a single location to all the parts in order to group them in inventory.",
+         "description_plural": "There are {{count}} parts currently selected in your batch. Assign a single location to all the parts in order to group them in inventory."
+      },
+      "returns": {
+         "heading": "Create Return Order",
+         "returned": "Returned",
+         "out_of_stock": "One or more of the selected inventories does not have a positive on hand quantity."
+      },
+      "notifications": {
+         "no_vendor": "Batch includes inventories without a vendor. Only select parts from a single vendor to place a {{type}}.",
+         "multi_vendor": "Batch includes multiple vendors. Only select parts from a single vendor to place a {{type}}."
+      },
+      "purchase_order": {
+         "heading": "Create Purchase Order",
+         "description": "Place an order with this vendor now; use the contact information below. Once the order is placed, click the \"Ordered\" button to create a purchase order and update the status of all the listed parts.",
+         "back": "Back to summary",
+         "ordered": "Ordered",
+         "labels": {
+            "vendor": "Vendor",
+            "phone": "Phone",
+            "account_number": "Account No.",
+            "items": "Items:",
+            "po_number": "P.O. Number",
+            "part_name": "Part Name",
+            "part_number": "Part #",
+            "needed": "Needed",
+            "ordered": "Ordered",
+            "cost": "Cost",
+            "amount": "Amount",
+            "eta": "ETA",
+            "login": "Login:",
+            "password": "Pass:",
+            "notes": "Notes:",
+            "customer": "Customer:",
+            "vehicle": "Vehicle:"
+         }
+      },
+      "match": {
+         "heading": "Match parts with same part number",
+         "description": "The following parts have the same part numbers but different brands. Create a new part with the new brand or pick an existing part that's already in your inventory:",
+         "continue": "Continue",
+         "create_new": "Create a New Part:",
+         "use_existing": "Pick an Existing Part:"
+      },
+      "cj_swap": {
+         "heading": "Swap Parts on Canned Jobs",
+         "swap": "Swap Parts",
+         "swapping": "Swapping part...",
+         "description": "The part you selected is currently present on {{count}} canned job. Choose which part you want to swap with the existing part you selected:",
+         "description_plural": "The part you selected is currently present on {{count}} canned jobs. Choose which part you want to swap with the existing part you selected:",
+         "labels": {
+            "current_part": "Current Part:",
+            "new_part": "New Part:"
+         },
+         "notifications": {
+            "no_canned_jobs": "This part has 0 canned jobs associated. Please select another inventory.",
+            "multiple_parts": "More than one part is selected. Parts on Canned Jobs can only be swapped one at a time.",
+            "core_part": "Core parts cannot be swapped at Canned Jobs. Please select another inventory.",
+            "success": "Success {{count}} Canned Job has been updated with replacement part {{part}}",
+            "success_plural": "Success {{count}} Canned Jobs have been updated with replacement part {{part}}",
+            "error": "Unable to swap parts."
+         },
+         "search": {
+            "placeholder": "Search brand, description or part number...",
+            "min_chars": "Minimum 2 characters"
+         }
+      }
+   },
+   "work_order_mailer": {
+     "share_estimate_email": {
+       "follow_link_text": "Follow the link below to view the estimate online. From there you can authorize repairs, ask questions or post comments.",
+       "closing": "Thank you for your time!",
+       "prepared_estimate": "We prepared an estimate to service your {{ vehicle }}."
+     },
+     "share_invoice_email": {
+       "thank_you_for_opportunity": "Thank you for the opportunity to service your {{ vehicle }}.",
+       "download_copy_below": "Download a copy of your invoice, which includes any service documentation. You can also view the repair order online; follow the link below.",
+       "contact_us_at": "If you have any questions, please contact us anytime at {{ email }}.",
+       "closing": "Very best,"
+     },
+     "share_workorder_email": {
+       "checked_out_your_vehicle": "We checked out your {{ vehicle }} and posted the details; click the link below to respond.",
+       "from_there_review": "From there you can review any recommendations, ask questions or post comments.",
+       "closing": "Thank you for your time!"
+     },
+     "share_invoice_remote_pay_email": {
+       "thank_you_for_opportunity": "Thank you for the opportunity to service your {{ vehicle }}.",
+       "invoice_ready_to_review": "Your invoice is ready for your review and payment. Please follow the button below for checkout.",
+       "to_download_use_link": "To download your invoice use this link",
+       "contact_us_at": "If you have any questions, please contact us anytime at {{ email }}.",
+       "closing": "Very best,"
+     },
+     "internal_share_email": {
+       "ready_for_review": "The following repair order is ready for your review. If you have not yet logged in, you will need to use the email address and password associated with the account."
+     }
+   },
+   "part_vendors": {
+      "new_vendor_action": "New Vendor",
+      "search": {
+         "placeholder": "Search name, phone, info, or notes...",
+         "min_requirement": "Minimum 2 characters",
+         "results": "{{count}} result for \"{{query}}\"",
+         "results_plural": "{{count}} results for \"{{query}}\"",
+         "vendor_results": "{{count}} vendor",
+         "vendor_results_plural": "{{count}} vendors",
+         "columns": {
+            "name": "Name",
+            "phone": "Phone",
+            "site": "Website",
+            "active_pos": "Active POs"
+         }
+      },
+      "list": {
+         "other_heading": "Other Vendors",
+         "preferred_heading": "Preferred Vendors",
+         "columns": {
+            "name": "Name",
+            "phone": "Phone",
+            "account": "Account No.",
+            "pos": "Active POs"
+         },
+         "labels": {
+            "login": "Login:",
+            "password": "Pass:",
+            "notes": "Notes:"
+         }
+      },
+      "new_vendor": {
+         "heading": "Enter new vendor information",
+         "save_and_add": "Hit enter to save and add another.",
+         "saving": "Saving vendor...",
+         "labels": {
+            "name": "Name",
+            "phone": "Phone",
+            "site": "Website",
+            "integrator": "Integrator",
+            "login": "Login",
+            "password": "Password",
+            "account_number": "Account No.",
+            "vendor_info": "Vendor Info",
+            "notes": "Notes",
+            "preferred": "Preferred"
+         }
+      },
+      "edit": {
+         "heading": "Edit vendor information",
+         "save": "Save vendor"
+      },
+      "remove": {
+         "heading": "Remove Vendor",
+         "action": "Remove Vendor",
+         "unable_to_remove": "Unable to delete the vendor. Please try again",
+         "description": "This will remove the vendor from the vendor list. Any inventory parts will be unassigned from this vendor. No existing purchase orders or purchase records will be affected (vendor will still be associated)."
+      },
+      "remove_and_reassign": {
+         "heading": "Remove vendor and reassign parts",
+         "action": "Remove vendor and reassign parts",
+         "description": "This will remove the vendor from the vendor list. Any inventory parts can be reassigned to an existing vendor. No existing purchase orders or purchase records will be affected (vendor will still be associated)."
+      },
+      "integration": {
+         "confirm": "Confirm Integration",
+         "confirming": "Confirming Integration",
+         "error": "Unable to confirm. Please try again.",
+         "partstech": {
+            "select": "Select Store"
+         }
+      }
+   },
+   "vendor_select": {
+      "label": "Primary Vendor",
+      "no_vendor": "No Vendor"
+   }
+}
