@@ -1,0 +1,12 @@
+en: 
+  controllers: 
+    canned_jobs: 
+      deleted: "Canned job successfully deleted"
+    shops: 
+      updated: "Updated shop settings"
+  purchase_orders: 
+    index: 
+      title: Orders
+  purchase_records: 
+    index: 
+      title: Purchases
