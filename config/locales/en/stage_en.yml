@@ -1,0 +1,240 @@
+en: 
+  exports: 
+    accounts_receivable_csv_export: 
+      advisor: Advisor
+      closed_at_date: "Closed At date"
+      customer_first_name: "Customer first name"
+      customer_last_name: "Customer last name"
+      due: Due
+      file_name: "accounts_receivable_%{date}.%{ext}"
+      picked_up_date: "Picked Up date"
+      ro_number: "RO Number"
+      total: Total
+      url: URL
+    customer_invoice_csv_export: 
+      advisor: Advisor
+      closed_at: "Closed At date"
+      customer_first_name: "Customer first name"
+      customer_last_name: "Customer last name"
+      due: Due
+      file_name: "invoices_%{date}.%{ext}"
+      picked_up: "Picked Up date"
+      ro_number: "RO Number"
+      shop_id: "Shop ID"
+      status: Status
+      total: Total
+      url: URL
+      vehicle_fleet: "Vehicle Fleet #"
+      vehicle_license_plate: "Vehicle License Plate"
+      vehicle_make: "Vehicle Make"
+      vehicle_model: "Vehicle Model"
+      vehicle_year: "Vehicle Year"
+    hazmat_detail_csv_export: 
+      advisor: Advisor
+      closed_at: "Closed At"
+      description: Description
+      file_name: "hazmat_details_%{date}.%{ext}"
+      price: Price
+      quantity: Quantity
+      ro_number: "RO Number"
+      total: Total
+      url: URL
+      vehicle_make: "Vehicle Make"
+      vehicle_model: "Vehicle Model"
+      vehicle_year: "Vehicle Year"
+    inventory_csv_export: 
+      brand: Brand
+      cost: Cost
+      description: Description
+      file_name: "entire_inventory_database_%{shop_id}_%{date}.%{ext}"
+      gp_group: "GP Group"
+      gp_optimizer_on: "GP Optimizer ON"
+      hazmat_rating: "Hazmat Rating"
+      inventory_id: "Inventory ID"
+      inventory_type: "Inventory Type"
+      list_price: "List Price"
+      location: Location
+      max_stock: "Max Stock"
+      min_stock: "Min Stock"
+      misc_info: "Misc Info"
+      number: Number
+      part_terminology_id: "Part Terminology ID"
+      parts_tags: "Parts Tags"
+      primary_vendor: "Primary Vendor"
+      quantity_on_hand: "Quantity On Hand"
+    parts_detail_csv_export: 
+      advisor: Advisor
+      closed_at_date: "Closed At date"
+      file_name: "parts_details_%{date}.%{ext}"
+      part_brand: "Part Brand"
+      part_cost_price: "Part Cost price"
+      part_description: "Part Description"
+      part_number: "Part Number"
+      part_quantity: "Part Quantity"
+      part_quoted_price: "Part Quoted price"
+      ro_number: "RO Number"
+      url: URL
+      vehicle_make: "Vehicle Make"
+      vehicle_model: "Vehicle Model"
+      vehicle_year: "Vehicle Year"
+    payment_csv_export: 
+      current_ro_state: "Current RO State"
+      customer_first_and_name: "Customer First and Last Name"
+      file_name: "customer_payments_%{date}.%{ext}"
+      is_prepayment: "Is Prepayment"
+      notes: Notes
+      payment_amount: "Payment Amount"
+      payment_date_and_time: "Payment date and time"
+      payment_name: "Payment Name"
+      payment_type: "Payment Type"
+      ro_number: "RO Number"
+      shop_id: "Shop ID"
+      terminal_id: "Terminal ID"
+      terminal_nickname: "Terminal Nickname"
+      url: URL
+    purchase_record_csv_export: 
+      brand: Brand
+      cost: Cost
+      description: Description
+      ecom_integrator: "eComm Integrator"
+      ecom_order_id: "eComm Order ID"
+      ecom_part_id: "eComm Part ID"
+      file_name: "purchase_record_results_%{date}.%{ext}"
+      invoice: Invoice
+      list: List
+      paid_by: "Paid By"
+      part_number: "Part Number"
+      quantity: Quantity
+      received_date: "Received Date"
+      total: Total
+      vendor: Vendor
+    sales_tax_csv_export: 
+      date: Date
+      discount: Discount
+      file_name: "sales_tax_report_%{date}.%{ext}"
+      hazmat_and_fees: "HazMat & Fees"
+      invoice: Invoice
+      labor: Labor
+      number: Number
+      parts: Parts
+      shop_supplies: "Shop Supplies"
+      sublet: Sublet
+      subtotal: Subtotal
+      tax: Tax
+      taxed: Taxed
+      total: Total
+      untaxed: Untaxed
+      url: URL
+    service_detail_csv_export: 
+      advisor: Advisor
+      billed_hours: "Billed Hours"
+      category: Category
+      closed_at: "Closed At"
+      file_name: "service_details_%{date}.%{ext}"
+      hazmat_total: "Hazmat Total"
+      labor_total: "Labor Total"
+      parts_cost: "Parts Cost"
+      parts_total: "Parts Total"
+      ro_id: "RO ID"
+      ro_number: "RO Number"
+      service_id: "Service ID"
+      service_title: "Service Title"
+      service_total: "Service Total"
+      sublets_total: "Sublets Total"
+      total_service_time: "Total Service Time"
+      url: URL
+      vehicle_make: "Vehicle Make"
+      vehicle_model: "Vehicle Model"
+      vehicle_year: "Vehicle Year"
+    sublet_detail_csv_export: 
+      advisor: Advisor
+      closed_at: "Closed At"
+      cost: Cost
+      description: Description
+      file_name: "sublet_details_%{date}.%{ext}"
+      invoice_date: "Invoice Date"
+      invoice_number: "Invoice Number"
+      paid_by: "Paid By"
+      price: Price
+      ro_number: "RO Number"
+      sublet_id: "Sublet ID"
+      url: URL
+      vehicle_make: "Vehicle Make"
+      vehicle_model: "Vehicle Model"
+      vehicle_year: "Vehicle Year"
+      vendor: Vendor
+    technician_efficiency_all_csv_export: 
+      advisor: Advisor
+      billed_hours: "Billed Hours"
+      closed_at: "Closed At"
+      customer: Customer
+      effective_labor_rate: "Effective Labor Rate"
+      efficiency: Efficiency
+      file_name: "all_technicians_%{date}.%{ext}"
+      label: Label
+      ro: "RO #"
+      service_hours: "Service Hours"
+      technician: Technician
+      url: URL
+      vehicle_make: "Vehicle Make"
+      vehicle_model: "Vehicle Model"
+      vehicle_year: "Vehicle Year"
+    technician_efficiency_individual_csv_export: 
+      advisor: Advisor
+      billed_hours: "Billed Hours"
+      closed_at: "Closed At"
+      customer: Customer
+      effective_labor_rate: "Effective Labor Rate"
+      efficiency: Efficiency
+      file_name: "all_technicians_%{date}.%{ext}"
+      label: Label
+      ro: "RO #"
+      service_hours: "Service Hours"
+      technician: Technician
+      url: URL
+      vehicle_make: "Vehicle Make"
+      vehicle_model: "Vehicle Model"
+      vehicle_year: "Vehicle Year"
+    work_order_csv_export: 
+      advisor: Advisor
+      closed_at: "Closed At"
+      customer: Customer
+      customer_email: "Customer Email"
+      customer_id: "Customer ID"
+      customer_phone: "Customer Phone"
+      file_name: "closed_sales_%{date}.%{ext}"
+      first_name: "First Name"
+      hazmat_total: "Hazmat Total"
+      label: Label
+      labor_discount: "Labor Discount"
+      labor_total: "Labor Total"
+      last_name: "Last Name"
+      notes: Notes
+      number: Number
+      odometer_in: "Odometer In"
+      opt_in: Opt-in
+      other_phones: "Other phones"
+      part_discount: "Part Discount"
+      parts_cost: "Parts Cost"
+      parts_total: "Parts Total"
+      payment_notes: "Payment Notes"
+      ro_id: "RO ID"
+      shop_supplies: "Shop Supplies"
+      source: Source
+      started_at: "Started At"
+      status: Status
+      sublet_cost: "Sublet Cost"
+      sublets_total: "Sublets Total"
+      subtotal: Subtotal
+      sync_to_accounting: "Sync To Accounting"
+      tax_total: "Tax Total"
+      taxable: Taxable
+      total: Total
+      unsold_recommendations: "Unsold Recommendations"
+      url: URL
+      vehicle_id: "Vehicle ID"
+      vehicle_make: "Vehicle Make"
+      vehicle_model: "Vehicle Model"
+      vehicle_plate: "Vehicle Plate"
+      vehicle_vin: "Vehicle VIN"
+      vehicle_year: "Vehicle Year"
