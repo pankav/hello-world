@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>seats_availables</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%d seat available</string>
+			<key>other</key>
+			<string>%d seats available</string>
+		</dict>
+	</dict>
+	<key>me_plus_friends</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Me +%d friend</string>
+			<key>other</key>
+			<string>Me +%d friends</string>
+		</dict>
+	</dict>
+	<key>seats_reserved</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%d seat reserved</string>
+			<key>other</key>
+			<string>%d seats reserved</string>
+		</dict>
+	</dict>
+	<key>com_masabi_justride_sdk_hours</key>
+	<dict>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>an hour</string>
+			<key>other</key>
+			<string>%d hours</string>
+		
+		</dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+	</dict>
+	<key>com_masabi_justride_sdk_minutes</key>
+	<dict>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>a minute</string>
+			<key>other</key>
+			<string>%d minutes</string>
+		
+		</dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+	</dict>
+	<key>com_masabi_justride_sdk_numbers_of_days</key>
+	<dict>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%d day</string>
+			<key>other</key>
+			<string>%d days</string>
+		
+		</dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+	</dict>
+	<key>com_masabi_justride_sdk_numbers_of_hours</key>
+	<dict>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%d hour</string>
+			<key>other</key>
+			<string>%d hours</string>
+		
+		</dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+	</dict>
+	<key>com_masabi_justride_sdk_days</key>
+	<dict>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>a day</string>
+			<key>other</key>
+			<string>%d days</string>
+		
+		</dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+	</dict>
+	<key>com_masabi_justride_sdk_numbers_of_minutes</key>
+	<dict>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%d minute</string>
+			<key>other</key>
+			<string>%d minutes</string>
+		
+		</dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+	</dict>
+	<key>com_masabi_justride_sdk_minutes_left</key>
+	<dict>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%d minute left</string>
+			<key>other</key>
+			<string>%d minutes left</string>
+		
+		</dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+	</dict>
+</dict>
+</plist>
