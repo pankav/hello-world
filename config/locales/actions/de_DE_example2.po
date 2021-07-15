@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Last-Translator: Panagiotis Kavrakis <pankav@transifex.com>, 2020\n"
-"Language-Team: German (https://www.transifex.com/transifex-102/teams/109512/de/)\n"
-"Language: de\n"
+"Language-Team: German (Germany) (https://www.transifex.com/transifex-102/teams/109512/de_DE/)\n"
+"Language: de_DE\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "Next1"
