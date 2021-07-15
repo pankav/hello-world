@@ -1,0 +1,19 @@
+# 
+# Translators:
+# Panagiotis Kavrakis <pankav@transifex.com>, 2020
+# 
+msgid ""
+msgstr ""
+"Last-Translator: Panagiotis Kavrakis <pankav@transifex.com>, 2020\n"
+"Language-Team: German (https://www.transifex.com/transifex-102/teams/109512/de/)\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Next1"
+msgstr "Next1_GERMAN"
+
+msgid "Prev1"
+msgstr "Prev1_GERMAN"
+
+msgid "back1"
+msgstr "back1_GERMAN"
