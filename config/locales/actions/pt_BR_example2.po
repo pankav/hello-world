@@ -1,0 +1,19 @@
+# 
+# Translators:
+# Panagiotis Kavrakis <pankav@transifex.com>, 2021
+# 
+msgid ""
+msgstr ""
+"Last-Translator: Panagiotis Kavrakis <pankav@transifex.com>, 2021\n"
+"Language-Team: Portuguese (Brazil) (https://www.transifex.com/transifex-102/teams/109512/pt_BR/)\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "Next1"
+msgstr "Next1"
+
+msgid "Prev1"
+msgstr ""
+
+msgid "back1"
+msgstr ""
