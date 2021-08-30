@@ -10,13 +10,13 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "Next1"
-msgstr "Επόμενο 1"
+msgstr "Επόμενο 1 ΔΟΚΙΜΗ TRANSIFEX"
 
 msgid "Prev1"
-msgstr "Προηγ 1"
+msgstr "Προηγ 1 δοκιμη με enabled to setting"
 
 msgid "back1"
-msgstr "πίσω 1"
+msgstr "πίσω 1 δοκιμη με enabled to setting"
 
 msgid "Test the Bug"
-msgstr "Δοκιμάστε το σφάλμα"
+msgstr "Δοκιμάστε το σφάλμα δοκιμη με disabled to setting"
