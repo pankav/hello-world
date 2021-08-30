@@ -54,3 +54,4 @@ fr:
           end_date_cannot_be_earlier_than_start_date: cannot be earlier than the start date
     update_email_opt_in_type_for_member:
       failure: Could not update email opt-in type for member
+      failure1: Impossible de mettre à jour le type d&#39;inscription par e-mail pour le membre
