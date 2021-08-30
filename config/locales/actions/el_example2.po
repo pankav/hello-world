@@ -1,22 +1,22 @@
 # 
 # Translators:
-# Panagiotis Kavrakis GMAIL, 2021
+# Panagiotis Kavrakis GMAIL <kavrakis.panagiotis@gmail.com>, 2021
 # 
 msgid ""
 msgstr ""
-"Last-Translator: Panagiotis Kavrakis GMAIL, 2021\n"
+"Last-Translator: Panagiotis Kavrakis GMAIL <kavrakis.panagiotis@gmail.com>, 2021\n"
 "Language-Team: Greek (https://www.transifex.com/transifex-102/teams/109512/el/)\n"
 "Language: el\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "Next1"
-msgstr "Επόμενο 1"
+msgstr "Επόμενο 1 ΔΟΚΙΜΗ TRANSIFEX"
 
 msgid "Prev1"
-msgstr "Προηγ 1"
+msgstr "Προηγ 1 δοκιμη με enabled to setting"
 
 msgid "back1"
-msgstr "πίσω 1"
+msgstr "πίσω 1 δοκιμη με enabled to setting"
 
 msgid "Test the Bug"
-msgstr "Δοκιμάστε το σφάλμα"
+msgstr "Δοκιμάστε το σφάλμα  δοκιμη με enabled to setting"
