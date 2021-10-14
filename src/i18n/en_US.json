@@ -1,6 +1,9 @@
 {
+  "Panos": {
+    "string": "Panos"
+  },
   "Back_to_list": {
-    "string": "Back to list"
+    "string": "Back to list1"
   },
   "Add_item": {
     "string": "Add item"
