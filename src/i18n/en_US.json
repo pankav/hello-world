@@ -1,0 +1,876 @@
+{
+  "hello2": "Hellooo2",
+  "create_first_course": "Create your first course",
+  "create_course": "Create a course",
+  "get_started_with_labster":
+    "Get started with Labster by creating a new course that you can add simulations and students to.",
+  "can_create_course": "You need to create a course before you can assign simulations.",
+  "welcome_labster": "Welcome to Labster!",
+  "not_enrolled_in_course": "You have not been enrolled in any courses yet.",
+  "will_get_access": "Once your instructor enrolls you in a course, you will be able to access the assigned simulations here.",
+  "explore_resources": "Please explore some resources to learn more about Labster.",
+  "learn_more": "Learn more",
+  "search_by_simulation": "Search by simulation name...",
+  "search_by_name_or_email": "Search by name or e-mail...",
+  "search_by_name": "Search by name...",
+  "save": "Save",
+  "cancel": "Cancel",
+  "proceed": "Proceed",
+  "remove": "Remove",
+  "apply": "Apply",
+  "edit": "Edit",
+  "got_it": "Got it",
+  "course_label": "course",
+  "close": "Close",
+  "of": "of",
+  "back": "Back",
+  "next": "Next",
+  "need_help": "Need help?",
+  "duplicate": "Duplicate",
+  "name": "Name",
+  "resources": "Instructor Resources",
+  "support": "Support",
+  "download": "Download",
+  "go_back": "Go back",
+  "resume": "Resume ({resumeInfo}%)",
+  "continue": "Yes, continue",
+  "back_to_top": "Back to top",
+  "confirm": "Confirm",
+
+  "auth": {
+    "login": {
+      "login": "Login",
+      "login_labster": "Login to Labster",
+      "password_forgot": "Forgot Password",
+      "invalid_email": "This email address is invalid.",
+      "invalid_credentials": "The e-mail or password you entered is incorrect",
+      "invalid_password": "The password you entered is incorrect",
+      "cookie_blocked_error": "Cookies are required but blocked by browser",
+      "too_many_requests":
+        "Account temporarily blocked due to too many failed log in attempts. Try again in 5 minutes.",
+      "required": "Required",
+      "forbidden": "Forbidden",
+      "login_or_email": "Login or email",
+      "password": "Password",
+      "login_timed_out": "Login timed out.",
+      "login_cancelled": "Login cancelled.",
+      "region": "Region",
+      "please_select_your_region": "Please select your region to access your courses",
+      "continue": "Continue",
+      "contact_support": "Contact Support",
+      "log_out": "Log out"
+    },
+
+    "re_login": {
+      "title": "Your session has expired.<br /> Please login.",
+      "sub_title":
+        "To continue with your session as <b>{email},</b> please re-enter your password below.",
+      "btn_submit": "Login",
+      "btn_cancel": "Exit"
+    },
+
+    "impersonate": {
+      "wait_sec": "Wait a sec"
+    },
+
+    "password": {
+      "receive_password_link":
+        "If this account is valid, you will receive password reset instructions in your inbox.",
+      "not_receive": "Didn't receive it?",
+      "or": "or",
+      "and": "and",
+      "go_back": "Go Back",
+      "go_login": "Go to Login",
+      "reset_password": "Reset your password",
+      "send_reset_link": "Send reset link",
+      "remembered_password": "Suddenly remembered your password?",
+      "setup_password": "Set up your password",
+      "password_not_contain_accent_letters": "The password can not contain accent letters.",
+      "submit": "Submit",
+      "link_invalid": "The link you have opened is no longer valid.",
+      "contact_support": "Contact support",
+      "password_set": "Your password has been set. Welcome to Labster!",
+      "agree_labster": "I Agree to Labster's",
+      "terms_of_service": "Terms of Service",
+      "privacy_policy": "Privacy Policy",
+      "enter_password": "Password",
+      "reenter_password": "Confirm password",
+      "already_exists": "You cannot use your current password"
+    }
+  },
+
+  "course": {
+    "simulationsTitle": "Simulations",
+    "update_student_all_courses": "Update the student email in all my courses",
+    "what_is_course_name": "What is the name of your course?",
+    "enter_course_name": "Enter a new Course Name",
+    "course_name": "Course name",
+    "course_name_edit_success": "You successfully edited the course name.",
+    "course_create_success": "A course was successfully created.",
+    "can_edit_name": "You can edit the name at any time",
+    "example_course_name": "e.g. Biochemistry - Fall Semester",
+    "create_course": "Create Course",
+    "add_new_course": "Add new course",
+    "no_long_access": "Students no longer have access to this course. All course data is read-only. If you want to make any changes, restore the course.",
+    "archived": "Archived",
+    "archived_succesfull": "was successfully archived",
+    "restored_succesfull": "was successfully restored",
+    "restore_course": "Restore course",
+    "restore": "Restore",
+    "duplicate": "Duplicate",
+    "archive": "Archive",
+    "archive_course": "Archive {courseName}",
+    "confirm_archive": "Yes, archive course",
+    "all_data_will_be_restored": "Simulations, students list, students progress and all related data will be restored.",
+    "wanna_restore_course": "Are you sure you want to restore the course",
+    "add_to_course": "Add to Course",
+    "duplicate_course": "Duplicate course",
+    "enter_unique_name": "The new course will contain the same assignments as the original course. Please enter a unique name for the new 'course':",
+    "name_exists": "This name already exists.",
+    "course_appear_here": "Courses will appear here",
+    "wanna_archive": "Are you sure you want to archive",
+    "data_will_be_saved": "All data will be saved, but students will lose access and you will no longer be able to make any changes.",
+    "results": "results",
+    "only_students_who_have_opened_assignment_will_appear_below": "<b>Note:</b> Only students who have opened the assignment will appear in Labster",
+    "expired_license":
+      "There is no active license associated with your account. Please activate a license to create/edit courses and invite students.",
+    "expired_license_students":
+      "There is no active license associated with your account. Please get in touch with your teacher or your school’s IT department.",
+    "get_a_license": "Get a license",
+    "license_student_start_date_in_future": "The start date for your license is <b>{startDate}</b>. Until then, study hard or just enjoy your time off :)",
+    "cannot_add_course": "You can't add a course without an active license.",
+    "cannot_add_simulations": "You can't add simulations without an active license.",
+    "cannot_add_students": "You can't invite students without an active license.",
+    "license_in_future":
+      "This course starts on <b>{startDate}</b>. You can add simulations to your courses, but you can’t invite any students before this date.",
+    "license_in_future_students_for_teacher":
+      "This course starts on <b>{startDate}</b>. You can invite students up to one week before this date.",
+    "license_starts_date_one_week_before":
+      "This course starts on <b>{startDate}</b>. Any simulations you publish before then will be visible but not playable for students.",
+    "license_starts_date_one_week_before_students_for_teacher":
+      "This course starts on <b>{startDate}</b>. You can invite students but they can’t play any published simulations until the course starts.",
+    "license_starts_date_one_week_before_students":
+      "This course starts on <b>{startDate}</b>. You can preview assignments now, but they won’t be available to play before the course starts.",
+    "cannot_play_simulation_expired_license":
+      "You can’t play simulations without an active license.",
+    "cannot_play_simulation_future_license":
+      "You can’t play simulations when your license starting day is in the future.",
+    "cannot_play_simulation_license_starts_one_week_before":
+      "You can play this simulation as soon as the course starts on <b>{startDate}</b>.",
+    "enjoy_full_access":
+      "Enjoy full access to Labster’s library of content. Play all simulations by viewing our catalog.",
+    "metrics": {
+      "simulations": "Simulations",
+      "students": "Students",
+      "co_instructors": "Co-instructors",
+      "license": "Licence validity"
+    },
+
+    "assignments": {
+      "assignments": "Assignments",
+      "no_assignments_found": {
+        "not_started":
+          "No assignments yet. Your assignments will appear here, once your teacher publishes them for you.",
+        "in_progress":
+          "No assignments yet. Your started assignments will appear here, once you start them",
+        "completed":
+          "No assignments yet. Your completed assignments will appear here, once you complete them"
+      }
+    },
+
+    "grades": {
+      "name": "Name",
+      "grades": "Grades",
+      "grades_per_Students": "Grades Per Student",
+      "grades_per_Simulations": "Grades Per Simulation",
+      "no_student": "No Students in course",
+      "no_simulation": "No Simulations in course",
+      "nothing_selected": "Nothing selected",
+      "no_matches": "No matches found for ",
+      "try_another_search": ". Please try again another search. ",
+      "Completion_percentage_label": "Progress",
+      "completed_at_with_space": "Completed",
+      "score": "Score (%)",
+      "simulation_summary": "Simulation summary",
+      "simulation_attempts": "Simulation attempts",
+      "student_summary": "summary",
+      "chosen_mode_headline":
+        "Grades are organised via best attempt. Browse through all attempts by clicking on a simulation or student below.",
+      "average_score": "Average Score: {value}",
+
+      "reports": {
+        "grade": "Grade data",
+        "engagement": "Engagement data"
+      }
+    },
+
+    "simulations": {
+      "simulation": "Simulation",
+      "simulations": "simulations",
+      "chemistry_visualizations": "3D Chemistry visualizations",
+      "collaborator": "Collaborator",
+      "simulation_details_dialog": "Simulation details dialog",
+      "simulation_screenshot": "Simulation screenshot",
+      "animated_videos": "Animated videos",
+      "course_package": "Course package",
+      "course_package_thumbnail": "Course package thumbnail",
+      "reset_filters": "Reset filters ({filtersCount})",
+      "simulation_added_successful":
+        "You have successfully added {simulations_counter} simulation(s) to {course_name}",
+      "remove": "Remove",
+      "add_simulations": "Add simulations",
+      "choose_from_catalog":
+        "Choose from our vast catalog of simulations to add to your course.",
+      "go_to_catalog": "Go to catalog",
+      "welcome_to": "Welcome to",
+      "no_assignments_found": "No assignments found",
+      "not_get_assignment_from_teacher": "Your teacher hasn't given you any assignment yet.",
+      "checkout_resource_page":
+        "In the meantime, you check out our Resources page to have more information about Labster.",
+      "go_to_labster_resources": "Go to Labster Resources",
+      "in_progress": "In Progress",
+      "to_start": "To Start",
+      "completed": "Completed",
+      "current_score": "Current score (%)",
+      "best_score": "Best score (%)",
+      "get_access_to_play": "Get access to play",
+      "purchase_simulation_access": "To start using the simulations you need to purchase access",
+      "your_trial": "Your trial",
+      "your_trial_expires_on": "Your trial expires on:",
+      "will_need_purchase_simulation_access":
+        "After this date you will need to purchase access.",
+      "your_tried_expired": "Your trial has expired",
+      "need_purchase_simulation_access":
+        "To continue using the simulations you need to purchase access",
+      "purchase_access": "Purchase access",
+      "visible_to_students": "Visible to students",
+      "simulations_in": "Simulations in",
+      "add_more_simulations": "Add simulations",
+      "no_simulations": "There are no simulations.",
+      "course_not_contain_simulations": "This course does not contain any simulations",
+      "restore_course_to_add_simulations":
+        "If you wish to add simulations to this course, please restore it.",
+      "time_to_add_simulations": "Time to add simulations",
+      "add_simulations_to_course":
+        "Please explore and add simulations to your course so students can view them.",
+      "moving_error": "Error during moving.",
+      "duration": "Duration",
+      "duration_text": "{count}min | {count}mins",
+      "simulation_picture": "simulation picture",
+      "close": "Close",
+      "back": "Back",
+      "search_and_add_simulations": "Search and add simulation(s)",
+      "add_or_remove_simulations": "You can add or remove simulations at any time.",
+      "hide_already_in_course": "Hide already in course",
+      "simulation_already_in_course": "Simulation already in course",
+      "no_simulations_in_catalog": "No simulations in the catalog.",
+      "add_selected_to_course": "Add selected to course",
+      "wanna_add_simulation": "Would you like to add Simulation to your course?",
+      "start_new": "Start New",
+      "play_simulation": "Play Simulation",
+      "get_answered_quiz_questions": "Quiz questions (answered)",
+      "get_unanswered_quiz_questions": "Quiz questions (unanswered)",
+      "level": "Education level",
+      "language": "Language",
+      "languages": "Languages",
+      "topic": "Topic",
+      "select_topic": "Select topic",
+      "select_option": "Select option",
+      "filter_by": "Filter by...",
+      "filter_by_category_and_level": "Filter by Category & Level",
+      "simulation_details": "Read more",
+      "animated_videos_number": "{animatedVideos} total results",
+      "accessibility_filter_label": "Accessibility mode",
+      "accessibility_filter_tooltip":
+        "‘Accessibility mode’ enables users to play simulations through the use of a screen reader, keyboard navigation and the ability to resize text.",
+      "open_lab_manual": "Open Lab Manual",
+      "open_lab_report": "Open Lab Report",
+      "read_theory": "Read theory",
+
+      "lms": {
+        "incorrect_context":
+          "To play this simulation, please start it using the direct link from your course."
+      },
+      
+      "scheduling": {
+        "publish_dialog": {
+          "title_publish": "Publish this simulation",
+          "title_unpublish": "Unpublish this simulation",
+          "publish": "Publish",
+          "publish_now": "Publish now",
+          "unpublish": "Unpublish",
+          "confirm_publish":
+            "Publishing this simulation will make it visible to your students and allow them to play it. Do you wish to publish this simulation?",
+          "override_start_not_impact_due":
+            "This <b>will override</b> the scheduled Start date but <b>will not impact</b> the scheduled Due date.",
+          "override_start": "This <b>will override</b> the scheduled Start date.",
+          "not_override_due": "This <b>will not impact</b> the scheduled Due date.",
+          "unpublish_scheduled":
+            "For scheduled simulations unpublishing will override the due date set previously. Students will not be able to play this simulation any longer but their score and progress will be saved.",
+          "unpublish_not_scheduled":
+            "Students will not be able to play this simulation any longer but their score and progress will be saved.",
+          "are_you_sure_publish": "Are you sure you want to publish this simulation now?",
+          "do_you_wish_publish": "Do you wish to publish this simulation now?",
+          "do_you_wish_unpublish": "Do you wish to unpublish this simulation now?",
+          "publish_all": "Publish all unpublished simulations",
+          "unpublish_all": "Unpublish all published simulations",
+
+          "notification": {
+            "published":
+              "You have published a simulation | You have published {count} simulations",
+            "published_with_shifted_time":
+              "Warning, your computer's clock looks ahead and might lead to a delay in publishing.",
+            "unpublished":
+              "You have unpublished a simulation | You have published {count} simulations",
+            "not_published":
+              "One simulation was not published because of internal error. | {count} simulations were not published because of internal error.",
+            "not_unpublished":
+              "One simulation was not unpublished because of internal error. | {count} simulations were not unpublished because of internal error.",
+            "internal_error": "Internal error."
+          }
+        },
+
+        "reset": {
+          "reset": "Reset",
+
+          "notification": {
+            "internal_error": "Internal error."
+          }
+        },
+
+        "indicator": {
+          "no_due_date": "No Due Date",
+          "start": "Start",
+          "started": "Started",
+          "due": "Due"
+        },
+
+        "scheduling_button": {
+          "schedule": "Schedule"
+        },
+
+        "scheduling_popup": {
+          "confirm": "Apply",
+          "clear": "Clear",
+          "time_zone_settings": "Your timezone is set to: {timezone}",
+          "start_date": "Start",
+          "due_date": "Due",
+          "apply_to_all": "Apply to unscheduled simulations",
+
+          "settings": {
+            "today": "Today",
+            "tomorrow": "Tomorrow",
+            "next_week": "Next week",
+            "week_later": "{count} week later | {count} weeks later",
+            "month_later": "1 month later"
+          },
+
+          "error": {
+            "wrong_date_range":
+              "The <b>Due Date</b> must be greater than the <b>Start Date</b> and in the future.",
+            "due_date_less_than_minimum": "The <b>Due Date</b> must be in a hour or later."
+          },
+
+          "notification": {
+            "scheduled": "You have scheduled {count} simulations",
+            "not_scheduled":
+              "One simulation was not scheduled because of internal error. | {count} simulations were not scheduled because of internal error.",
+            "internal_error": "Internal error."
+          }
+        }
+      },
+      "catalog": {
+        "view_simulations_by": "View simulations by",
+        "view_simulations_by_grid": "View by grid",
+        "view_simulations_by_list": "View by list",
+        "view_simulation": "View simulation",
+        "accessibility_mode": "Accessibility mode",
+        "add_simulations": "Add simulations to {courseName}",
+        "simulation_btn": {
+          "add": "Add",
+          "selected": "Selected",
+          "in_course": "Already in course"
+        },
+        "submit_btn": {
+          "default": "Add selected to course",
+          "enabled": "Add {counter} simulation(s) to course"
+        },
+        "simulations": {
+          "visibility_btn": {
+            "show": "Show already in course",
+            "hide": "Hide already in course"
+          }
+        }
+      }
+    },
+
+    "students": {
+      "students": "Students",
+      "students_in": "Students in",
+      "student_information": "Student information",
+      "invite_students": "Invite students",
+      "no_course_without_students":
+        "It’s not a course without students. Add your students to your course and let the learning begin.",
+      "student_will_receive_email": "Students will receive an email invitation from you.",
+      "licence_start_one_week_before":
+        "Remember that they can view, but not play any simulations you publish until the course starts on <b>{startDate}</b>.",
+      "add_more_students": "Add students",
+      "published_sim_available":
+        "All {counter} published simulations will be available to students.",
+      "there_are_no_enrolled_students": "There are no student enrolled in this course",
+      "if_you_wish_to_enroll_then_restore_it":
+        "If you wish to enroll students in this course, please restore it.",
+      "giving_course_access_to_students": "Invite your students to the course will:",
+      "by_adding_students_you_will": "By adding students to your course they will:",
+      "receive_an_email": "Receive an e-mail invitation with a login",
+      "able_to_view_simulations": "Be able to view any simulations you publish",
+      "able_to_play_published_simulations":
+        "Be unable to play any published simulations before the course start date",
+      "can_invite_students_one_week_before":
+        "You can invite students one week before the course starts.",
+      "student_already_in_course": "The student is already in this course.",
+      "active": "Active",
+      "invited": "Invited",
+      "invite_resend": "Re-send invitation e-mail",
+      "invite_resent": "A new invitation e-mail has been sent to {email}",
+      "not_accept_invitation": "The student has not accepted the invitation yet.",
+      "invitation_not_delivered": "An invitation could not be delivered to this user.",
+      "once_you_have_been_enrolled":
+        "Once you have been enrolled in a course, all of your assignments will be available here. In the meantime, explore some of our resources to learn more about Labster.",
+      "purchased": "Purchased",
+      "unpurchased": "Unpurchased",
+      "inTrial": "In Trial",
+      "error": "Error",
+      "name": "Name",
+      "email": "Email",
+      "status": "Status",
+      "last_login": "Last Login",
+
+      "stepper": {
+        "import_from_csv_one": {
+          "title": "Please upload your student list file",
+          "subtitle": "Add the file in the required format",
+          "description_html": "Please upload a <b>.csv file</b> with your student's <b>email</b> address (required), first name (optional) and last name (optional). <br /> Download a sample file <a href='labster-csv-import-example.csv' download target='_blank'>here</a>.",
+          "maximum_allowed":
+            "You can import a maximum of {count} student records. A course can only have a maximum of {count} students.",
+          "back": "Go Back",
+          "next": "Next",
+          "error": {
+            "file_missing": "File is missing",
+            "to_many_students_in_file":
+              "This file could not be uploaded. You can import a maximum of {count} student records at a time.",
+            "to_many_students_in_course":
+              "This file could not be uploaded. A course can only have a maximum of {count} students. Please remove existing students or import a smaller number of students.",
+            "parsing_error": "Parsing error: {message}"
+          }
+        },
+        "info_box": {
+          "in_course_duplicates": {
+            "single":
+              "The listed student already exists in the course and will not be imported:",
+            "multiple":
+              "The listed students already exist in the course and will not be imported:"
+          },
+          "in_file_duplicates": {
+            "single":
+              "The listed student from the CSV file is a duplicate and will not be imported:",
+            "multiple":
+              "The listed students from the CSV file are duplicates and will not be imported:"
+          },
+          "missing_emails": {
+            "single":
+              "The listed student from the CSV file doesn't have an email and will not be imported:",
+            "multiple":
+              "The listed students from the CSV file don't have emails and will not be imported:"
+          },
+          "invalid_emails": {
+            "single": "The listed student from the CSV file has an invalid email:",
+            "multiple": "The listed students from the CSV file have invalid emails:"
+          }
+        }
+      }
+    },
+
+    "coInstructors": {
+      "coInstructors": "Co-instructors",
+      "add_instructor": "Add instructor",
+      "invite_coInstructors": "Invite co-instructors",
+      "invite_coInstructors_text": "Co-instructors will receive an email invitation from you.",
+      "invite_to_course": "Invite co-instructors to your {courseName}",
+      "invite_to_course_sub_title":
+        "You can add one co-instructor to this course. | You can add up to {count} co-instructors to this course.",
+      "invite_limit":
+        "This is the maximum amount of co-instructors you can invite at the moment.",
+      "invited_successfully":
+        "You invited one co-instructor to {courseName} | You invited {count} co-instructors to {courseName}",
+      "limitReached":
+        "You have reached the limit of {count} co-instructors for this course. You must remove someone first to add others.",
+      "remove_confirmation_message":
+        "{email} will lose access to this course as a co-instructor. Are you sure you want to continue?",
+      "remove_confirmation_label": "Yes, remove co-instructor",
+      "removed_successfully": "You removed {email} from {courseName}",
+      "resend_invite": "Resend invite",
+      "resend_confirmation_title": "Resend an invitation?",
+      "resend_confirmation_message": "{email} will receive a new email invitation from you.",
+      "resend_confirmation_label": "Resend invitation",
+      "resend_successfully": "You invited {email} to {courseName}",
+      "not_accept_invitation": "The co-instructor has not accepted the invitation yet.",
+      "permissions": {
+        "title": "You can add co-instructors to your course. Co-instructors can:",
+        "simulations": "Add and remove simulations",
+        "students": "Add and remove students",
+        "attempt_limits": "Add and edit attempt limit",
+        "schedules": "Add and edit simulation schedules",
+        "grades": "Review students’ grades and performance",
+        "limitation":
+          "You can add one co-instructor per course. | You can add up to {count} co-instructors per course."
+      }
+    },
+
+    "scores": {
+      "attempts": "Attempts",
+      "progress": "Progress",
+      "best_score": "Best score"
+    },
+
+    "attempts": {
+      "unlimited": "Unlimited",
+      "set_attempts": "Set attempts | {count} attempt | {count} attempts",
+      "total_attempts":
+        "You have set a total of one attempt that will be scored and graded. | You have set a total of {count} attempts that will be scored and graded.",
+      "attempt_limit": "Attempt limit",
+      "apply_to_all_simulations_for_student": "Apply to all simulations for this student",
+      "apply_to_all_simulations": "Apply to all simulations",
+      "unlimited_number_of_attempts":
+        "Students are always able to take an unlimited number of attempts but their grade",
+      "unlimited_number_of_attempts_not_impacted":
+        "will not be impacted once they reach the limit you set",
+      "applied_changes":
+        "The changes you are about to make for the attempt limit of this simulation will only be applied to",
+      "specific_student": "this specific student",
+      "add_to_whole_class":
+        "If you wish to edit the simulation attempt limit for the whole class, you can do so in the Simulations menu of this course.",
+      "continue": "Do you wish to continue with ",
+      "with_this_student": "this student only",
+      "dont_show_again": "Don’t show this again",
+      "clear_limit": "Clear limit",
+      "instructor_update_limit": " Your instructor updated the attempt limit for:",
+      "simulation": "in your",
+      "attempt_limit_updated": "Attempt limit updated",
+      "applied_attempt_limit":
+        "Your have unlimited graded attempts on this simulation | You have a total of one graded attempts on this simulation | You have a total of {count} graded attempts on this simulation. You may take extra attempts but those will not be graded.",
+      "answers": "Answers",
+      "summary": "Summary",
+      "answers_summary": "Answers Summary",
+      "attempt": "Attempt",
+      "time": "Time",
+      "score": "Score",
+      "graded": "Graded",
+      "ungraded": "Not graded",
+      "best": "b e s t",
+      "no_attempts_description": "No simulation attempt has been taken yet.",
+      "no_attempts_ops": "Ooops",
+      "quiz_summary": "View Quiz Summary",
+      "quiz_summary_title": "Simulation Quiz Summary",
+      "quiz_questions_headline": "QUIZ QUESTIONS",
+      "quiz_available_options": "Available Options",
+      "quiz_correct_first_try": "correct on 1st try",
+      "quiz_correct_answered": "correct on",
+      "quiz_try": "try",
+      "quiz_unanswered": "Not answered yet",
+      "quiz_answered_description":
+        "Students are presented with the same quiz questions until they select the correct answer. Each incorrect answer decreases their score by 2 points.",
+      "last_graded_attempt": "Last graded attempt",
+      "last_graded_attempt_text":
+        "This is your last graded attempt for this assignment, so make it count!",
+      "start_new": "Start new",
+      "start_new_text":
+        "By starting this simulation new, your performance during this session will not be graded. Do you want to continue?",
+      "session_wont_be_graded": "This session won't be graded",
+      "session_wont_be_graded_text":
+        "You have taken all of your graded attempts. You can still play this simulation, but it won’t be graded or affect your score.",
+      "score_info_box": {
+        "prefix": "Visit our ",
+        "link_text": "help center",
+        "suffix": " to learn how scores are calculated."
+      },
+      "table_head": {
+        "info": "attempt",
+        "progress": "progress",
+        "time": "time spent",
+        "score": "score",
+        "graded": "graded"
+      }
+    }
+  },
+
+  "lms": {
+    "request_malformed_or_invalid": "Request is malformed or invalid.",
+    "content_picker": {
+      "results": "Results",
+      "back": "Back",
+      "labster_dashboard": {
+        "title": "Labster Dashboard",
+        "description": "Access to detailed grades & settings",
+        "subtitle": "Enable access to detailed grades & user preferences",
+        "instructor": {
+          "instructor_will_see": "Instructor will see:",
+          "students_grades": "Student’s grades",
+          "completion_rate": "Completion rate (0-100%)",
+          "completed_date_time": "Completed date & time",
+          "score": "Score (0-100%)",
+          "time_spent": "Time spent",
+          "total_attempts": "Attempt number/Total number of attempts",
+          "detailed_answers": "Detailed answers:",
+          "full_quiz_question_list":
+            "Full quiz question list in full text and in order of completion",
+          "answered_correctly": "Answered correctly the first time",
+          "answered_incorrectly":
+            "Answered incorrectly the first time + number of tries to get it right"
+        },
+        "student": {
+          "student_will_see": "Students will see:",
+          "own_grades": "Own grades",
+          "user_preferences": "User preferences",
+          "language": "Language",
+          "accessibility_mode": "Accessibility mode"
+        }
+      },
+      "your_license_has_expired":
+        "Your institution license has expired and you will be unable to add new assignments.",
+      "expand_license": "Expand your license"
+    }
+  },
+
+  "sim_play": {
+    "stay_this_tab": "Please stay on this tab while loading.",
+    "loading_pause_in_another_tap": "Loading will pause if you jump to another tab.",
+    "temporary_pause":
+      "It might seem like loading has paused at 25%, but it is actually still going. This stage can take up to a minute.",
+    "re_open_browser_try_simulation": "If after that time you still can't see any progress in loading, please close your browser and all other running programs. Then re-open your browser and try the simulation again.",
+    "recommend_using_firefox": "We recommend using Firefox.",
+    "simplay_title": "Labster | Award Winning Virtual Lab Simulations",
+    "full_screen_helper_missed": "Can't disable fullscreen: FullscreenHelper is missed",
+    "unity_api_missed": "Can't update focus: UnityApi is missed",
+    "internal_error": "Internal error",
+    "cannot_play":
+      "This simulation has not yet been published by your instructor. Once the simulation has been published you will be given access."
+  },
+
+  "account_settings": {
+    "account_settings": "Account Settings",
+    "first_name": "First name",
+    "last_name": "Last name",
+    "birthday": "Birthday",
+    "time_zone": "Time zone",
+    "required_birthday": "birthDate is expected to be fulfilled",
+    "user_details_updated": "User details updated successfully.",
+    "password_updated": "You successfully updated the password.",
+    "preferences": "Preferences",
+    "preferences_setting_description":
+      "The below settings will affect the default language & accessibility when playing simulations",
+    "activity_language": "Activity Language",
+    "accessibility_mode": "Accessibility Mode",
+    "select_option": "Select an option",
+    "accessibility_mode_description_title": "Accessibility mode in a simulations enables:",
+    "enables_keyboard_navigation": "keyboard navigation",
+    "enable_screen_reader": "screen reader",
+    "enables_ability": "ability to resize text",
+    "security": "Security",
+    "recommend_setting_security":
+      "Change your account password often to prevent unauthorized access to your account.",
+    "password": "Password",
+    "change_password": "Change password",
+    "password_set_up": "Password set up",
+    "current_password": "Current password",
+    "re_enter_password": "Re-enter your password",
+    "new_password": "New password",
+    "confirm_password": "Confirm new password"
+  },
+
+  "error_404": {
+    "opps_nothing_here": "Oops. Nothing here..."
+  },
+
+  "access_denied": {
+    "access_denied": "Access Denied",
+    "you_dont_have_permission": "You don't have permission to access this page.",
+    "go_home": "Go Home",
+    "logout": "Logout"
+  },
+
+  "authentication_expired": {
+    "authentication_expired": "Authentication Expired",
+    "please_reload_the_page": "Please reload the page to renew your session.",
+    "please_open_labster_through_lms": "Please open Labster through LMS to renew your session.",
+    "your_authentication_expired": "Your authentication expired."
+  },
+
+  "onboarding_flow": {
+    "nice_to_meet_you": "Nice to meet you!",
+    "more_steps_proceed": "Two more steps to proceed...",
+    "enter_details": "Please enter the following missing details.",
+    "your_first_name": "Your First Name",
+    "your_last_name": "Your Last Name",
+    "your_birth_date": "Your Birth Date",
+    "contact_support": "Contact support",
+    "internal_error": "Internal error.",
+    "almost_there": "Almost there...!",
+    "select_preferences": "Select your in-game preferences",
+    "can_change_settings": "You can change these settings anytime",
+    "payment_successful": "Payment successful",
+    "payment_was_successful_can": "Your payment was successful! You can now",
+    "payment_intent_failed": "Card payment cannot be made",
+    "will_receive_confirmation": "using Labster simulations. You will receive a confirmation",
+    "purchase_in_email_inbox": "of your purchase in your email inbox shortly.",
+    "gain_access_to_simulations": "Gain access to your simulations",
+    "voucher_code_not_recognized":
+      "Voucher code not recognized. Voucher code should be {voucherLength} characters.",
+    "placeholder_voucher_code": "{voucherLength} digit voucher code",
+    "label_voucher_code": "Voucher code",
+    "enjoy_continue_pay": "To enjoy continued access to your Labster simulations for",
+    "singular": "please pay a singular",
+    "access_fee": "access fee",
+    "by_inputting_payment_details": "by inputting your payment details below.",
+    "we_accept": "We accept:",
+    "reach_out_our": "Please reach out to our",
+    "support_team": "Support Team",
+    "try_again": "Try again",
+    "go_back_course": "Go back to course",
+    "voucher_applied_successfully": "Voucher successfully applied",
+    "voucher_been_applied_successfully": "Your voucher code has been applied successfully!",
+    "continue_using_simulations": "You can now continue using Labster simulations.",
+    "start_using_simulations": "You can now start using Labster simulations.",
+    "enjoy_unlimited_access": "To enjoy an unlimited access to your Labster simulations for",
+    "apply_voucher_below": "please apply your voucher below.",
+    "purchase_voucher_from_bookstore": "You can purchase a voucher from your bookstore to gain",
+    "digit_code_10": "access to your course. This will be a 10 digit code.",
+    "apply_code": "Apply code",
+    "voucher_expired": "Voucher code has expired",
+    "entered_voucher_expired": "Voucher code has expired",
+    "voucher_applied": "Voucher code already applied",
+    "entered_voucher_applied": "The voucher code entered has already been applied.",
+    "voucher_not_accepted": "Voucher code not accepted",
+    "entered_voucher_not_accepted": "The voucher code entered has not been accepted.",
+    "pay_by_card": "Pay by card",
+    "input_card_details":
+      "Input your card details to pay for continued access to Labster simulations.",
+    "pay_by_voucher": "Pay by voucher",
+    "visit_bookstore":
+      "Visit your bookstore to purchase a voucher to get access to Labster simulations.",
+    "already_onboarded": "You've already been onboarded!",
+    "agreement": {
+      "row1":
+        "By proceeding, you consent to Labster's processing of your information provided above in accordance with its",
+      "privacy_link": "Privacy Policy",
+      "row2": ", subject to its website",
+      "tos_link": "Terms of Service and Use"
+    }
+  },
+
+  "license_picker": {
+    "you_have_selected_institution_without_license":
+      "You have selected an institution which does not have an associated license. You will be unable to create courses without a license.",
+    "you_have_selected_department_without_license":
+      "You have selected a department which does not have an associated license. You will be unable to create courses without a license.",
+    "you_have_selected_course_without_license":
+      "You have selected a course which does not have an associated license. You will be unable to create courses without a license.",
+    "expand_your_license": "Expand your license",
+    "title": {
+      "choose_institution": "Choose your institution",
+      "choose_department": "Choose your department",
+      "choose_course": "Choose your course",
+      "choose_license": "Choose a license"
+    },
+    "please_specify_which_institution":
+      "Your account is tied to <b>more than one</b> institution. Please specify which institution you would like to add a course too.",
+    "please_specify_which_department":
+      "Your account is tied to <b>more than one</b> department. Please specify which department you would like to add a course too.",
+    "please_specify_which_course":
+      "Your account is tied to <b>more than one</b> course. Please specify which course you would like to add a course too.",
+    "please_specify_which_license":
+      "Your account is tied to <b>more than one</b> license. Please specify which license you would like to associate your course too. <br><br>Please note you will not be able to edit this later.",
+    "picker": {
+      "select_institution": "Select institution",
+      "select_department": "Select department",
+      "select_course": "Select course",
+      "choose_your_license": "Choose your license"
+    }
+  },
+
+  "expand_license": {
+    "expand_license_to_create_course":
+      "To create a course you will need to expand your existing license.",
+    "speak_to_sales":
+      "Speak to a sales agent today so they can help you get started immediately.",
+    "contact_us": "Contact us"
+  },
+
+  "catalog": {
+    "search_input_placeholder": "Find simulation, course package...",
+    "sidebarLabel": "Catalog",
+    "search_for_simulation_or_category": "Search for a simulation or category",
+    "view_by": "View by",
+    "tabs": {
+      "simulations": "Simulations",
+      "course_packages": "Course packages",
+      "animated_videos": "Animated Videos",
+      "core_simulations": "Core simulations",
+      "related_simulations": "Related simulations"
+    },
+    "links": {
+      "animated_videos": "Animated videos",
+      "translated_simulations": "Translated simulations",
+      "three_d_chemistry_visualizations": "3D Chemistry visualizations",
+      "science_image_library": "Science image library"
+    },
+    "tabs_content": {
+      "empty_state": {
+        "no_results_for_filter": "Sorry, we could not find any matches for",
+        "try_again": "Please try searching for another term",
+        "no_data_message": "There is no data available."
+      },
+      "course_packages": {
+        "no_data_message": "No course packages in catalog"
+      },
+      "animated_videos": {
+        "no_data_message": "No animated videos in catalog",
+        "copied": "You have copied the video URL to your clipboard"
+      }
+    },
+    "login_information":
+      "Please note the catalog is a teacher resource only. Please do not share login credentials with your students."
+  },
+
+  "simulation": {
+    "screenshots_of": "Screenshots of {simulationName}",
+    "technigues_in_lab": "Techniques In Lab",
+    "related_standards": "Examples of Related Standards",
+    "about": "About",
+    "simulation_features": "Simulation features",
+    "length": "Length",
+    "accessibility_mode": "Accessibility mode",
+    "related_simulations": "Related simulations"
+  },
+
+  "catalog_widget": {
+    "enjoy_full_access":
+      "Enjoy full access to Labster’s library of content. Browse and play all simulations by viewing the catalog below.",
+    "view_catalog": "View catalog"
+  },
+  "something_went_wrong": "Oops... Something went wrong",
+  "known_region_required": "Region is required for this action",
+  "errors": {
+    "logged_out_security_reasons": "You were logged out for security reasons",
+    "check_internet_connection": "Please check your internet connection",
+    "api_route_restrict": "API Route Unauthorized",
+    "api_route_method_restrict": "API Route Method Not Allowed",
+    "api_too_many_requests":
+      "Too Many Requests. Please wait before trying again or contact customer support.",
+    "server_error": "Server Error",
+    "nev_version_available": {
+      "text": "New content is available",
+      "link": "Refresh"
+    }
+  }
+}
