@@ -1,877 +1,2011 @@
 {
-  "panos2": "panos2",
-  "hello23": "Hellooo23",
-  "create_first_course": "Create your first course",
-  "create_course": "Create a course",
-  "get_started_with_labster":
-    "Get started with Labster by creating a new course that you can add simulations and students to.",
-  "can_create_course": "You need to create a course before you can assign simulations.",
-  "welcome_labster": "Welcome to Labster!",
-  "not_enrolled_in_course": "You have not been enrolled in any courses yet.",
-  "will_get_access": "Once your instructor enrolls you in a course, you will be able to access the assigned simulations here.",
-  "explore_resources": "Please explore some resources to learn more about Labster.",
-  "learn_more": "Learn more",
-  "search_by_simulation": "Search by simulation name...",
-  "search_by_name_or_email": "Search by name or e-mail...",
-  "search_by_name": "Search by name...",
-  "save": "Save",
-  "cancel": "Cancel",
-  "proceed": "Proceed",
-  "remove": "Remove",
-  "apply": "Apply",
-  "edit": "Edit",
-  "got_it": "Got it",
-  "course_label": "course",
-  "close": "Close",
-  "of": "of",
-  "back": "Back",
-  "next": "Next",
-  "need_help": "Need help?",
-  "duplicate": "Duplicate",
-  "name": "Name",
-  "resources": "Instructor Resources",
-  "support": "Support",
-  "download": "Download",
-  "go_back": "Go back",
-  "resume": "Resume ({resumeInfo}%)",
-  "continue": "Yes, continue",
-  "back_to_top": "Back to top",
-  "confirm": "Confirm",
-
-  "auth": {
-    "login": {
-      "login": "Login",
-      "login_labster": "Login to Labster",
-      "password_forgot": "Forgot Password",
-      "invalid_email": "This email address is invalid.",
-      "invalid_credentials": "The e-mail or password you entered is incorrect",
-      "invalid_password": "The password you entered is incorrect",
-      "cookie_blocked_error": "Cookies are required but blocked by browser",
-      "too_many_requests":
-        "Account temporarily blocked due to too many failed log in attempts. Try again in 5 minutes.",
-      "required": "Required",
-      "forbidden": "Forbidden",
-      "login_or_email": "Login or email",
-      "password": "Password",
-      "login_timed_out": "Login timed out.",
-      "login_cancelled": "Login cancelled.",
-      "region": "Region",
-      "please_select_your_region": "Please select your region to access your courses",
-      "continue": "Continue",
-      "contact_support": "Contact Support",
-      "log_out": "Log out"
-    },
-
-    "re_login": {
-      "title": "Your session has expired.<br /> Please login.",
-      "sub_title":
-        "To continue with your session as <b>{email},</b> please re-enter your password below.",
-      "btn_submit": "Login",
-      "btn_cancel": "Exit"
-    },
-
-    "impersonate": {
-      "wait_sec": "Wait a sec"
-    },
-
-    "password": {
-      "receive_password_link":
-        "If this account is valid, you will receive password reset instructions in your inbox.",
-      "not_receive": "Didn't receive it?",
-      "or": "or",
-      "and": "and",
-      "go_back": "Go Back",
-      "go_login": "Go to Login",
-      "reset_password": "Reset your password",
-      "send_reset_link": "Send reset link",
-      "remembered_password": "Suddenly remembered your password?",
-      "setup_password": "Set up your password",
-      "password_not_contain_accent_letters": "The password can not contain accent letters.",
-      "submit": "Submit",
-      "link_invalid": "The link you have opened is no longer valid.",
-      "contact_support": "Contact support",
-      "password_set": "Your password has been set. Welcome to Labster!",
-      "agree_labster": "I Agree to Labster's",
-      "terms_of_service": "Terms of Service",
-      "privacy_policy": "Privacy Policy",
-      "enter_password": "Password",
-      "reenter_password": "Confirm password",
-      "already_exists": "You cannot use your current password"
-    }
+  "Back_to_list": {
+    "string": "Back to list"
+  },
+  "Add_item": {
+    "string": "Add item"
+  },
+  "ImportExport_Data": {
+    "string": "Import-Export Data"
+  },
+  "Bulk_Actions": {
+    "string": "Bulk Actions"
+  },
+  "Mobile": {
+    "string": "Mobile"
+  },
+  "Reset_Filters": {
+    "string": "Reset Filters"
+  },
+  "No_Filter": {
+    "string": "No Filter"
+  },
+  "Floor_Plan": {
+    "string": "Floor Plan"
+  },
+  "Tests": {
+    "string": "Tests"
+  },
+  "Pass": {
+    "string": "Pass"
+  },
+  "Fail": {
+    "string": "Fail"
+  },
+  "Invalid": {
+    "string": "Invalid"
+  },
+  "Last_Test": {
+    "string": "Last Test"
+  },
+  "Change_Analysis_Types": {
+    "string": "Change Analysis Types"
+  },
+  "Change_Status": {
+    "string": "Change Status"
+  },
+  "Move_FloorplanLocationZone": {
+    "string": "Move (Floorplan\/Location\/Zone)"
+  },
+  "Change_Programs": {
+    "string": "Change Programs"
+  },
+  "Test_Point_Details": {
+    "string": "Test Point Details"
+  },
+  "Test_Results": {
+    "string": "Test Results"
+  },
+  "Corrective_Actions": {
+    "string": "Corrective Actions"
+  },
+  "Log": {
+    "string": "Log"
+  },
+  "Investigative": {
+    "string": "Investigative"
+  },
+  "No_data_available_in_table": {
+    "string": "No data available in table"
+  },
+  "Test_results_for_test_point": {
+    "string": "Test results for test point:"
+  },
+  "Add_Result": {
+    "string": "Add Result"
+  },
+  "Result": {
+    "string": "Result"
+  },
+  "Sample_Analysis": {
+    "string": "Sample Analysis"
+  },
+  "Swabs": {
+    "string": "#Swabs"
+  },
+  "PassNeg": {
+    "string": "#Pass\/Neg"
+  },
+  "FailPos": {
+    "string": "#Fail\/Pos"
+  },
+  "Search_test_Method": {
+    "string": "Search Test Method"
+  },
+  "Search_Reason": {
+    "string": "Search Reason"
+  },
+  "Search_Sample_Analysis": {
+    "string": "Search Sample Analysis"
+  },
+  "Collection_Date": {
+    "string": "Collection Date"
+  },
+  "Result_Date": {
+    "string": "Result Date"
+  },
+  "Count": {
+    "string": "Count"
+  },
+  "Reason_to_delete_test_result": {
+    "string": "Reason for deleting test result"
+  },
+  "Search_ID": {
+    "string": "Search ID"
+  },
+  "Protocol": {
+    "string": "Protocol"
+  },
+  "Search_Protocol": {
+    "string": "Search Protocol"
+  },
+  "Date": {
+    "string": "Date"
+  },
+  "Search_Date": {
+    "string": "Search Date"
+  },
+  "Owner": {
+    "string": "Owner"
+  },
+  "Search_Owner": {
+    "string": "Search Owner"
+  },
+  "Search_Analysis_Type": {
+    "string": "Search Analysis Type"
   },
 
-  "course": {
-    "simulationsTitle": "Simulations",
-    "update_student_all_courses": "Update the student email in all my courses",
-    "what_is_course_name": "What is the name of your course?",
-    "enter_course_name": "Enter a new Course Name",
-    "course_name": "Course name",
-    "course_name_edit_success": "You successfully edited the course name.",
-    "course_create_success": "A course was successfully created.",
-    "can_edit_name": "You can edit the name at any time",
-    "example_course_name": "e.g. Biochemistry - Fall Semester",
-    "create_course": "Create Course",
-    "add_new_course": "Add new course",
-    "no_long_access": "Students no longer have access to this course. All course data is read-only. If you want to make any changes, restore the course.",
-    "archived": "Archived",
-    "archived_succesfull": "was successfully archived",
-    "restored_succesfull": "was successfully restored",
-    "restore_course": "Restore course",
-    "restore": "Restore",
-    "duplicate": "Duplicate",
-    "archive": "Archive",
-    "archive_course": "Archive {courseName}",
-    "confirm_archive": "Yes, archive course",
-    "all_data_will_be_restored": "Simulations, students list, students progress and all related data will be restored.",
-    "wanna_restore_course": "Are you sure you want to restore the course",
-    "add_to_course": "Add to Course",
-    "duplicate_course": "Duplicate course",
-    "enter_unique_name": "The new course will contain the same assignments as the original course. Please enter a unique name for the new 'course':",
-    "name_exists": "This name already exists.",
-    "course_appear_here": "Courses will appear here",
-    "wanna_archive": "Are you sure you want to archive",
-    "data_will_be_saved": "All data will be saved, but students will lose access and you will no longer be able to make any changes.",
-    "results": "results",
-    "only_students_who_have_opened_assignment_will_appear_below": "<b>Note:</b> Only students who have opened the assignment will appear in Labster",
-    "expired_license":
-      "There is no active license associated with your account. Please activate a license to create/edit courses and invite students.",
-    "expired_license_students":
-      "There is no active license associated with your account. Please get in touch with your teacher or your school’s IT department.",
-    "get_a_license": "Get a license",
-    "license_student_start_date_in_future": "The start date for your license is <b>{startDate}</b>. Until then, study hard or just enjoy your time off :)",
-    "cannot_add_course": "You can't add a course without an active license.",
-    "cannot_add_simulations": "You can't add simulations without an active license.",
-    "cannot_add_students": "You can't invite students without an active license.",
-    "license_in_future":
-      "This course starts on <b>{startDate}</b>. You can add simulations to your courses, but you can’t invite any students before this date.",
-    "license_in_future_students_for_teacher":
-      "This course starts on <b>{startDate}</b>. You can invite students up to one week before this date.",
-    "license_starts_date_one_week_before":
-      "This course starts on <b>{startDate}</b>. Any simulations you publish before then will be visible but not playable for students.",
-    "license_starts_date_one_week_before_students_for_teacher":
-      "This course starts on <b>{startDate}</b>. You can invite students but they can’t play any published simulations until the course starts.",
-    "license_starts_date_one_week_before_students":
-      "This course starts on <b>{startDate}</b>. You can preview assignments now, but they won’t be available to play before the course starts.",
-    "cannot_play_simulation_expired_license":
-      "You can’t play simulations without an active license.",
-    "cannot_play_simulation_future_license":
-      "You can’t play simulations when your license starting day is in the future.",
-    "cannot_play_simulation_license_starts_one_week_before":
-      "You can play this simulation as soon as the course starts on <b>{startDate}</b>.",
-    "enjoy_full_access":
-      "Enjoy full access to Labster’s library of content. Play all simulations by viewing our catalog.",
-    "metrics": {
-      "simulations": "Simulations",
-      "students": "Students",
-      "co_instructors": "Co-instructors",
-      "license": "Licence validity"
-    },
-
-    "assignments": {
-      "assignments": "Assignments",
-      "no_assignments_found": {
-        "not_started":
-          "No assignments yet. Your assignments will appear here, once your teacher publishes them for you.",
-        "in_progress":
-          "No assignments yet. Your started assignments will appear here, once you start them",
-        "completed":
-          "No assignments yet. Your completed assignments will appear here, once you complete them"
-      }
-    },
-
-    "grades": {
-      "name": "Name",
-      "grades": "Grades",
-      "grades_per_Students": "Grades Per Student",
-      "grades_per_Simulations": "Grades Per Simulation",
-      "no_student": "No Students in course",
-      "no_simulation": "No Simulations in course",
-      "nothing_selected": "Nothing selected",
-      "no_matches": "No matches found for ",
-      "try_another_search": ". Please try again another search. ",
-      "Completion_percentage_label": "Progress",
-      "completed_at_with_space": "Completed",
-      "score": "Score (%)",
-      "simulation_summary": "Simulation summary",
-      "simulation_attempts": "Simulation attempts",
-      "student_summary": "summary",
-      "chosen_mode_headline":
-        "Grades are organised via best attempt. Browse through all attempts by clicking on a simulation or student below.",
-      "average_score": "Average Score: {value}",
-
-      "reports": {
-        "grade": "Grade data",
-        "engagement": "Engagement data"
-      }
-    },
-
-    "simulations": {
-      "simulation": "Simulation",
-      "simulations": "simulations",
-      "chemistry_visualizations": "3D Chemistry visualizations",
-      "collaborator": "Collaborator",
-      "simulation_details_dialog": "Simulation details dialog",
-      "simulation_screenshot": "Simulation screenshot",
-      "animated_videos": "Animated videos",
-      "course_package": "Course package",
-      "course_package_thumbnail": "Course package thumbnail",
-      "reset_filters": "Reset filters ({filtersCount})",
-      "simulation_added_successful":
-        "You have successfully added {simulations_counter} simulation(s) to {course_name}",
-      "remove": "Remove",
-      "add_simulations": "Add simulations",
-      "choose_from_catalog":
-        "Choose from our vast catalog of simulations to add to your course.",
-      "go_to_catalog": "Go to catalog",
-      "welcome_to": "Welcome to",
-      "no_assignments_found": "No assignments found",
-      "not_get_assignment_from_teacher": "Your teacher hasn't given you any assignment yet.",
-      "checkout_resource_page":
-        "In the meantime, you check out our Resources page to have more information about Labster.",
-      "go_to_labster_resources": "Go to Labster Resources",
-      "in_progress": "In Progress",
-      "to_start": "To Start",
-      "completed": "Completed",
-      "current_score": "Current score (%)",
-      "best_score": "Best score (%)",
-      "get_access_to_play": "Get access to play",
-      "purchase_simulation_access": "To start using the simulations you need to purchase access",
-      "your_trial": "Your trial",
-      "your_trial_expires_on": "Your trial expires on:",
-      "will_need_purchase_simulation_access":
-        "After this date you will need to purchase access.",
-      "your_tried_expired": "Your trial has expired",
-      "need_purchase_simulation_access":
-        "To continue using the simulations you need to purchase access",
-      "purchase_access": "Purchase access",
-      "visible_to_students": "Visible to students",
-      "simulations_in": "Simulations in",
-      "add_more_simulations": "Add simulations",
-      "no_simulations": "There are no simulations.",
-      "course_not_contain_simulations": "This course does not contain any simulations",
-      "restore_course_to_add_simulations":
-        "If you wish to add simulations to this course, please restore it.",
-      "time_to_add_simulations": "Time to add simulations",
-      "add_simulations_to_course":
-        "Please explore and add simulations to your course so students can view them.",
-      "moving_error": "Error during moving.",
-      "duration": "Duration",
-      "duration_text": "{count}min | {count}mins",
-      "simulation_picture": "simulation picture",
-      "close": "Close",
-      "back": "Back",
-      "search_and_add_simulations": "Search and add simulation(s)",
-      "add_or_remove_simulations": "You can add or remove simulations at any time.",
-      "hide_already_in_course": "Hide already in course",
-      "simulation_already_in_course": "Simulation already in course",
-      "no_simulations_in_catalog": "No simulations in the catalog.",
-      "add_selected_to_course": "Add selected to course",
-      "wanna_add_simulation": "Would you like to add Simulation to your course?",
-      "start_new": "Start New",
-      "play_simulation": "Play Simulation",
-      "get_answered_quiz_questions": "Quiz questions (answered)",
-      "get_unanswered_quiz_questions": "Quiz questions (unanswered)",
-      "level": "Education level",
-      "language": "Language",
-      "languages": "Languages",
-      "topic": "Topic",
-      "select_topic": "Select topic",
-      "select_option": "Select option",
-      "filter_by": "Filter by...",
-      "filter_by_category_and_level": "Filter by Category & Level",
-      "simulation_details": "Read more",
-      "animated_videos_number": "{animatedVideos} total results",
-      "accessibility_filter_label": "Accessibility mode",
-      "accessibility_filter_tooltip":
-        "‘Accessibility mode’ enables users to play simulations through the use of a screen reader, keyboard navigation and the ability to resize text.",
-      "open_lab_manual": "Open Lab Manual",
-      "open_lab_report": "Open Lab Report",
-      "read_theory": "Read theory",
-
-      "lms": {
-        "incorrect_context":
-          "To play this simulation, please start it using the direct link from your course."
-      },
-      
-      "scheduling": {
-        "publish_dialog": {
-          "title_publish": "Publish this simulation",
-          "title_unpublish": "Unpublish this simulation",
-          "publish": "Publish",
-          "publish_now": "Publish now",
-          "unpublish": "Unpublish",
-          "confirm_publish":
-            "Publishing this simulation will make it visible to your students and allow them to play it. Do you wish to publish this simulation?",
-          "override_start_not_impact_due":
-            "This <b>will override</b> the scheduled Start date but <b>will not impact</b> the scheduled Due date.",
-          "override_start": "This <b>will override</b> the scheduled Start date.",
-          "not_override_due": "This <b>will not impact</b> the scheduled Due date.",
-          "unpublish_scheduled":
-            "For scheduled simulations unpublishing will override the due date set previously. Students will not be able to play this simulation any longer but their score and progress will be saved.",
-          "unpublish_not_scheduled":
-            "Students will not be able to play this simulation any longer but their score and progress will be saved.",
-          "are_you_sure_publish": "Are you sure you want to publish this simulation now?",
-          "do_you_wish_publish": "Do you wish to publish this simulation now?",
-          "do_you_wish_unpublish": "Do you wish to unpublish this simulation now?",
-          "publish_all": "Publish all unpublished simulations",
-          "unpublish_all": "Unpublish all published simulations",
-
-          "notification": {
-            "published":
-              "You have published a simulation | You have published {count} simulations",
-            "published_with_shifted_time":
-              "Warning, your computer's clock looks ahead and might lead to a delay in publishing.",
-            "unpublished":
-              "You have unpublished a simulation | You have published {count} simulations",
-            "not_published":
-              "One simulation was not published because of internal error. | {count} simulations were not published because of internal error.",
-            "not_unpublished":
-              "One simulation was not unpublished because of internal error. | {count} simulations were not unpublished because of internal error.",
-            "internal_error": "Internal error."
-          }
-        },
-
-        "reset": {
-          "reset": "Reset",
-
-          "notification": {
-            "internal_error": "Internal error."
-          }
-        },
-
-        "indicator": {
-          "no_due_date": "No Due Date",
-          "start": "Start",
-          "started": "Started",
-          "due": "Due"
-        },
-
-        "scheduling_button": {
-          "schedule": "Schedule"
-        },
-
-        "scheduling_popup": {
-          "confirm": "Apply",
-          "clear": "Clear",
-          "time_zone_settings": "Your timezone is set to: {timezone}",
-          "start_date": "Start",
-          "due_date": "Due",
-          "apply_to_all": "Apply to unscheduled simulations",
-
-          "settings": {
-            "today": "Today",
-            "tomorrow": "Tomorrow",
-            "next_week": "Next week",
-            "week_later": "{count} week later | {count} weeks later",
-            "month_later": "1 month later"
-          },
-
-          "error": {
-            "wrong_date_range":
-              "The <b>Due Date</b> must be greater than the <b>Start Date</b> and in the future.",
-            "due_date_less_than_minimum": "The <b>Due Date</b> must be in a hour or later."
-          },
-
-          "notification": {
-            "scheduled": "You have scheduled {count} simulations",
-            "not_scheduled":
-              "One simulation was not scheduled because of internal error. | {count} simulations were not scheduled because of internal error.",
-            "internal_error": "Internal error."
-          }
-        }
-      },
-      "catalog": {
-        "view_simulations_by": "View simulations by",
-        "view_simulations_by_grid": "View by grid",
-        "view_simulations_by_list": "View by list",
-        "view_simulation": "View simulation",
-        "accessibility_mode": "Accessibility mode",
-        "add_simulations": "Add simulations to {courseName}",
-        "simulation_btn": {
-          "add": "Add",
-          "selected": "Selected",
-          "in_course": "Already in course"
-        },
-        "submit_btn": {
-          "default": "Add selected to course",
-          "enabled": "Add {counter} simulation(s) to course"
-        },
-        "simulations": {
-          "visibility_btn": {
-            "show": "Show already in course",
-            "hide": "Hide already in course"
-          }
-        }
-      }
-    },
-
-    "students": {
-      "students": "Students",
-      "students_in": "Students in",
-      "student_information": "Student information",
-      "invite_students": "Invite students",
-      "no_course_without_students":
-        "It’s not a course without students. Add your students to your course and let the learning begin.",
-      "student_will_receive_email": "Students will receive an email invitation from you.",
-      "licence_start_one_week_before":
-        "Remember that they can view, but not play any simulations you publish until the course starts on <b>{startDate}</b>.",
-      "add_more_students": "Add students",
-      "published_sim_available":
-        "All {counter} published simulations will be available to students.",
-      "there_are_no_enrolled_students": "There are no student enrolled in this course",
-      "if_you_wish_to_enroll_then_restore_it":
-        "If you wish to enroll students in this course, please restore it.",
-      "giving_course_access_to_students": "Invite your students to the course will:",
-      "by_adding_students_you_will": "By adding students to your course they will:",
-      "receive_an_email": "Receive an e-mail invitation with a login",
-      "able_to_view_simulations": "Be able to view any simulations you publish",
-      "able_to_play_published_simulations":
-        "Be unable to play any published simulations before the course start date",
-      "can_invite_students_one_week_before":
-        "You can invite students one week before the course starts.",
-      "student_already_in_course": "The student is already in this course.",
-      "active": "Active",
-      "invited": "Invited",
-      "invite_resend": "Re-send invitation e-mail",
-      "invite_resent": "A new invitation e-mail has been sent to {email}",
-      "not_accept_invitation": "The student has not accepted the invitation yet.",
-      "invitation_not_delivered": "An invitation could not be delivered to this user.",
-      "once_you_have_been_enrolled":
-        "Once you have been enrolled in a course, all of your assignments will be available here. In the meantime, explore some of our resources to learn more about Labster.",
-      "purchased": "Purchased",
-      "unpurchased": "Unpurchased",
-      "inTrial": "In Trial",
-      "error": "Error",
-      "name": "Name",
-      "email": "Email",
-      "status": "Status",
-      "last_login": "Last Login",
-
-      "stepper": {
-        "import_from_csv_one": {
-          "title": "Please upload your student list file",
-          "subtitle": "Add the file in the required format",
-          "description_html": "Please upload a <b>.csv file</b> with your student's <b>email</b> address (required), first name (optional) and last name (optional). <br /> Download a sample file <a href='labster-csv-import-example.csv' download target='_blank'>here</a>.",
-          "maximum_allowed":
-            "You can import a maximum of {count} student records. A course can only have a maximum of {count} students.",
-          "back": "Go Back",
-          "next": "Next",
-          "error": {
-            "file_missing": "File is missing",
-            "to_many_students_in_file":
-              "This file could not be uploaded. You can import a maximum of {count} student records at a time.",
-            "to_many_students_in_course":
-              "This file could not be uploaded. A course can only have a maximum of {count} students. Please remove existing students or import a smaller number of students.",
-            "parsing_error": "Parsing error: {message}"
-          }
-        },
-        "info_box": {
-          "in_course_duplicates": {
-            "single":
-              "The listed student already exists in the course and will not be imported:",
-            "multiple":
-              "The listed students already exist in the course and will not be imported:"
-          },
-          "in_file_duplicates": {
-            "single":
-              "The listed student from the CSV file is a duplicate and will not be imported:",
-            "multiple":
-              "The listed students from the CSV file are duplicates and will not be imported:"
-          },
-          "missing_emails": {
-            "single":
-              "The listed student from the CSV file doesn't have an email and will not be imported:",
-            "multiple":
-              "The listed students from the CSV file don't have emails and will not be imported:"
-          },
-          "invalid_emails": {
-            "single": "The listed student from the CSV file has an invalid email:",
-            "multiple": "The listed students from the CSV file have invalid emails:"
-          }
-        }
-      }
-    },
-
-    "coInstructors": {
-      "coInstructors": "Co-instructors",
-      "add_instructor": "Add instructor",
-      "invite_coInstructors": "Invite co-instructors",
-      "invite_coInstructors_text": "Co-instructors will receive an email invitation from you.",
-      "invite_to_course": "Invite co-instructors to your {courseName}",
-      "invite_to_course_sub_title":
-        "You can add one co-instructor to this course. | You can add up to {count} co-instructors to this course.",
-      "invite_limit":
-        "This is the maximum amount of co-instructors you can invite at the moment.",
-      "invited_successfully":
-        "You invited one co-instructor to {courseName} | You invited {count} co-instructors to {courseName}",
-      "limitReached":
-        "You have reached the limit of {count} co-instructors for this course. You must remove someone first to add others.",
-      "remove_confirmation_message":
-        "{email} will lose access to this course as a co-instructor. Are you sure you want to continue?",
-      "remove_confirmation_label": "Yes, remove co-instructor",
-      "removed_successfully": "You removed {email} from {courseName}",
-      "resend_invite": "Resend invite",
-      "resend_confirmation_title": "Resend an invitation?",
-      "resend_confirmation_message": "{email} will receive a new email invitation from you.",
-      "resend_confirmation_label": "Resend invitation",
-      "resend_successfully": "You invited {email} to {courseName}",
-      "not_accept_invitation": "The co-instructor has not accepted the invitation yet.",
-      "permissions": {
-        "title": "You can add co-instructors to your course. Co-instructors can:",
-        "simulations": "Add and remove simulations",
-        "students": "Add and remove students",
-        "attempt_limits": "Add and edit attempt limit",
-        "schedules": "Add and edit simulation schedules",
-        "grades": "Review students’ grades and performance",
-        "limitation":
-          "You can add one co-instructor per course. | You can add up to {count} co-instructors per course."
-      }
-    },
-
-    "scores": {
-      "attempts": "Attempts",
-      "progress": "Progress",
-      "best_score": "Best score"
-    },
-
-    "attempts": {
-      "unlimited": "Unlimited",
-      "set_attempts": "Set attempts | {count} attempt | {count} attempts",
-      "total_attempts":
-        "You have set a total of one attempt that will be scored and graded. | You have set a total of {count} attempts that will be scored and graded.",
-      "attempt_limit": "Attempt limit",
-      "apply_to_all_simulations_for_student": "Apply to all simulations for this student",
-      "apply_to_all_simulations": "Apply to all simulations",
-      "unlimited_number_of_attempts":
-        "Students are always able to take an unlimited number of attempts but their grade",
-      "unlimited_number_of_attempts_not_impacted":
-        "will not be impacted once they reach the limit you set",
-      "applied_changes":
-        "The changes you are about to make for the attempt limit of this simulation will only be applied to",
-      "specific_student": "this specific student",
-      "add_to_whole_class":
-        "If you wish to edit the simulation attempt limit for the whole class, you can do so in the Simulations menu of this course.",
-      "continue": "Do you wish to continue with ",
-      "with_this_student": "this student only",
-      "dont_show_again": "Don’t show this again",
-      "clear_limit": "Clear limit",
-      "instructor_update_limit": " Your instructor updated the attempt limit for:",
-      "simulation": "in your",
-      "attempt_limit_updated": "Attempt limit updated",
-      "applied_attempt_limit":
-        "Your have unlimited graded attempts on this simulation | You have a total of one graded attempts on this simulation | You have a total of {count} graded attempts on this simulation. You may take extra attempts but those will not be graded.",
-      "answers": "Answers",
-      "summary": "Summary",
-      "answers_summary": "Answers Summary",
-      "attempt": "Attempt",
-      "time": "Time",
-      "score": "Score",
-      "graded": "Graded",
-      "ungraded": "Not graded",
-      "best": "b e s t",
-      "no_attempts_description": "No simulation attempt has been taken yet.",
-      "no_attempts_ops": "Ooops",
-      "quiz_summary": "View Quiz Summary",
-      "quiz_summary_title": "Simulation Quiz Summary",
-      "quiz_questions_headline": "QUIZ QUESTIONS",
-      "quiz_available_options": "Available Options",
-      "quiz_correct_first_try": "correct on 1st try",
-      "quiz_correct_answered": "correct on",
-      "quiz_try": "try",
-      "quiz_unanswered": "Not answered yet",
-      "quiz_answered_description":
-        "Students are presented with the same quiz questions until they select the correct answer. Each incorrect answer decreases their score by 2 points.",
-      "last_graded_attempt": "Last graded attempt",
-      "last_graded_attempt_text":
-        "This is your last graded attempt for this assignment, so make it count!",
-      "start_new": "Start new",
-      "start_new_text":
-        "By starting this simulation new, your performance during this session will not be graded. Do you want to continue?",
-      "session_wont_be_graded": "This session won't be graded",
-      "session_wont_be_graded_text":
-        "You have taken all of your graded attempts. You can still play this simulation, but it won’t be graded or affect your score.",
-      "score_info_box": {
-        "prefix": "Visit our ",
-        "link_text": "help center",
-        "suffix": " to learn how scores are calculated."
-      },
-      "table_head": {
-        "info": "attempt",
-        "progress": "progress",
-        "time": "time spent",
-        "score": "score",
-        "graded": "graded"
-      }
-    }
+  "Search_Status": {
+    "string": "Search Status"
   },
-
-  "lms": {
-    "request_malformed_or_invalid": "Request is malformed or invalid.",
-    "content_picker": {
-      "results": "Results",
-      "back": "Back",
-      "labster_dashboard": {
-        "title": "Labster Dashboard",
-        "description": "Access to detailed grades & settings",
-        "subtitle": "Enable access to detailed grades & user preferences",
-        "instructor": {
-          "instructor_will_see": "Instructor will see:",
-          "students_grades": "Student’s grades",
-          "completion_rate": "Completion rate (0-100%)",
-          "completed_date_time": "Completed date & time",
-          "score": "Score (0-100%)",
-          "time_spent": "Time spent",
-          "total_attempts": "Attempt number/Total number of attempts",
-          "detailed_answers": "Detailed answers:",
-          "full_quiz_question_list":
-            "Full quiz question list in full text and in order of completion",
-          "answered_correctly": "Answered correctly the first time",
-          "answered_incorrectly":
-            "Answered incorrectly the first time + number of tries to get it right"
-        },
-        "student": {
-          "student_will_see": "Students will see:",
-          "own_grades": "Own grades",
-          "user_preferences": "User preferences",
-          "language": "Language",
-          "accessibility_mode": "Accessibility mode"
-        }
-      },
-      "your_license_has_expired":
-        "Your institution license has expired and you will be unable to add new assignments.",
-      "expand_license": "Expand your license"
-    }
+  "Search_Test_Method": {
+    "string": "Search Test Method"
   },
-
-  "sim_play": {
-    "stay_this_tab": "Please stay on this tab while loading.",
-    "loading_pause_in_another_tap": "Loading will pause if you jump to another tab.",
-    "temporary_pause":
-      "It might seem like loading has paused at 25%, but it is actually still going. This stage can take up to a minute.",
-    "re_open_browser_try_simulation": "If after that time you still can't see any progress in loading, please close your browser and all other running programs. Then re-open your browser and try the simulation again.",
-    "recommend_using_firefox": "We recommend using Firefox.",
-    "simplay_title": "Labster | Award Winning Virtual Lab Simulations",
-    "full_screen_helper_missed": "Can't disable fullscreen: FullscreenHelper is missed",
-    "unity_api_missed": "Can't update focus: UnityApi is missed",
-    "internal_error": "Internal error",
-    "cannot_play":
-      "This simulation has not yet been published by your instructor. Once the simulation has been published you will be given access."
+  "Logs": {
+    "string": "Logs"
   },
-
-  "account_settings": {
-    "account_settings": "Account Settings",
-    "first_name": "First name",
-    "last_name": "Last name",
-    "birthday": "Birthday",
-    "time_zone": "Time zone",
-    "required_birthday": "birthDate is expected to be fulfilled",
-    "user_details_updated": "User details updated successfully.",
-    "password_updated": "You successfully updated the password.",
-    "preferences": "Preferences",
-    "preferences_setting_description":
-      "The below settings will affect the default language & accessibility when playing simulations",
-    "activity_language": "Activity Language",
-    "accessibility_mode": "Accessibility Mode",
-    "select_option": "Select an option",
-    "accessibility_mode_description_title": "Accessibility mode in a simulations enables:",
-    "enables_keyboard_navigation": "keyboard navigation",
-    "enable_screen_reader": "screen reader",
-    "enables_ability": "ability to resize text",
-    "security": "Security",
-    "recommend_setting_security":
-      "Change your account password often to prevent unauthorized access to your account.",
-    "password": "Password",
-    "change_password": "Change password",
-    "password_set_up": "Password set up",
-    "current_password": "Current password",
-    "re_enter_password": "Re-enter your password",
-    "new_password": "New password",
-    "confirm_password": "Confirm new password"
+  "Search_User": {
+    "string": "Search User"
   },
-
-  "error_404": {
-    "opps_nothing_here": "Oops. Nothing here..."
+  "Log_Action": {
+    "string": "Log Action"
   },
-
-  "access_denied": {
-    "access_denied": "Access Denied",
-    "you_dont_have_permission": "You don't have permission to access this page.",
-    "go_home": "Go Home",
-    "logout": "Logout"
+  "Search_Log_Action": {
+    "string": "Search Log Action"
   },
-
-  "authentication_expired": {
-    "authentication_expired": "Authentication Expired",
-    "please_reload_the_page": "Please reload the page to renew your session.",
-    "please_open_labster_through_lms": "Please open Labster through LMS to renew your session.",
-    "your_authentication_expired": "Your authentication expired."
+  "Summary": {
+    "string": "Summary"
   },
-
-  "onboarding_flow": {
-    "nice_to_meet_you": "Nice to meet you!",
-    "more_steps_proceed": "Two more steps to proceed...",
-    "enter_details": "Please enter the following missing details.",
-    "your_first_name": "Your First Name",
-    "your_last_name": "Your Last Name",
-    "your_birth_date": "Your Birth Date",
-    "contact_support": "Contact support",
-    "internal_error": "Internal error.",
-    "almost_there": "Almost there...!",
-    "select_preferences": "Select your in-game preferences",
-    "can_change_settings": "You can change these settings anytime",
-    "payment_successful": "Payment successful",
-    "payment_was_successful_can": "Your payment was successful! You can now",
-    "payment_intent_failed": "Card payment cannot be made",
-    "will_receive_confirmation": "using Labster simulations. You will receive a confirmation",
-    "purchase_in_email_inbox": "of your purchase in your email inbox shortly.",
-    "gain_access_to_simulations": "Gain access to your simulations",
-    "voucher_code_not_recognized":
-      "Voucher code not recognized. Voucher code should be {voucherLength} characters.",
-    "placeholder_voucher_code": "{voucherLength} digit voucher code",
-    "label_voucher_code": "Voucher code",
-    "enjoy_continue_pay": "To enjoy continued access to your Labster simulations for",
-    "singular": "please pay a singular",
-    "access_fee": "access fee",
-    "by_inputting_payment_details": "by inputting your payment details below.",
-    "we_accept": "We accept:",
-    "reach_out_our": "Please reach out to our",
-    "support_team": "Support Team",
-    "try_again": "Try again",
-    "go_back_course": "Go back to course",
-    "voucher_applied_successfully": "Voucher successfully applied",
-    "voucher_been_applied_successfully": "Your voucher code has been applied successfully!",
-    "continue_using_simulations": "You can now continue using Labster simulations.",
-    "start_using_simulations": "You can now start using Labster simulations.",
-    "enjoy_unlimited_access": "To enjoy an unlimited access to your Labster simulations for",
-    "apply_voucher_below": "please apply your voucher below.",
-    "purchase_voucher_from_bookstore": "You can purchase a voucher from your bookstore to gain",
-    "digit_code_10": "access to your course. This will be a 10 digit code.",
-    "apply_code": "Apply code",
-    "voucher_expired": "Voucher code has expired",
-    "entered_voucher_expired": "Voucher code has expired",
-    "voucher_applied": "Voucher code already applied",
-    "entered_voucher_applied": "The voucher code entered has already been applied.",
-    "voucher_not_accepted": "Voucher code not accepted",
-    "entered_voucher_not_accepted": "The voucher code entered has not been accepted.",
-    "pay_by_card": "Pay by card",
-    "input_card_details":
-      "Input your card details to pay for continued access to Labster simulations.",
-    "pay_by_voucher": "Pay by voucher",
-    "visit_bookstore":
-      "Visit your bookstore to purchase a voucher to get access to Labster simulations.",
-    "already_onboarded": "You've already been onboarded!",
-    "agreement": {
-      "row1":
-        "By proceeding, you consent to Labster's processing of your information provided above in accordance with its",
-      "privacy_link": "Privacy Policy",
-      "row2": ", subject to its website",
-      "tos_link": "Terms of Service and Use"
-    }
+  "ImportExport_Test_Points_maximum_VRBL_new_per_file": {
+    "string": "Import\/Export Test Points (maximum 1000 new per file)"
   },
-
-  "license_picker": {
-    "you_have_selected_institution_without_license":
-      "You have selected an institution which does not have an associated license. You will be unable to create courses without a license.",
-    "you_have_selected_department_without_license":
-      "You have selected a department which does not have an associated license. You will be unable to create courses without a license.",
-    "you_have_selected_course_without_license":
-      "You have selected a course which does not have an associated license. You will be unable to create courses without a license.",
-    "expand_your_license": "Expand your license",
-    "title": {
-      "choose_institution": "Choose your institution",
-      "choose_department": "Choose your department",
-      "choose_course": "Choose your course",
-      "choose_license": "Choose a license"
-    },
-    "please_specify_which_institution":
-      "Your account is tied to <b>more than one</b> institution. Please specify which institution you would like to add a course too.",
-    "please_specify_which_department":
-      "Your account is tied to <b>more than one</b> department. Please specify which department you would like to add a course too.",
-    "please_specify_which_course":
-      "Your account is tied to <b>more than one</b> course. Please specify which course you would like to add a course too.",
-    "please_specify_which_license":
-      "Your account is tied to <b>more than one</b> license. Please specify which license you would like to associate your course too. <br><br>Please note you will not be able to edit this later.",
-    "picker": {
-      "select_institution": "Select institution",
-      "select_department": "Select department",
-      "select_course": "Select course",
-      "choose_your_license": "Choose your license"
-    }
+  "Upload": {
+    "string": "Upload"
   },
-
-  "expand_license": {
-    "expand_license_to_create_course":
-      "To create a course you will need to expand your existing license.",
-    "speak_to_sales":
-      "Speak to a sales agent today so they can help you get started immediately.",
-    "contact_us": "Contact us"
+  "Download_Template": {
+    "string": "Download Template"
   },
-
-  "catalog": {
-    "search_input_placeholder": "Find simulation, course package...",
-    "sidebarLabel": "Catalog",
-    "search_for_simulation_or_category": "Search for a simulation or category",
-    "view_by": "View by",
-    "tabs": {
-      "simulations": "Simulations",
-      "course_packages": "Course packages",
-      "animated_videos": "Animated Videos",
-      "core_simulations": "Core simulations",
-      "related_simulations": "Related simulations"
-    },
-    "links": {
-      "animated_videos": "Animated videos",
-      "translated_simulations": "Translated simulations",
-      "three_d_chemistry_visualizations": "3D Chemistry visualizations",
-      "science_image_library": "Science image library"
-    },
-    "tabs_content": {
-      "empty_state": {
-        "no_results_for_filter": "Sorry, we could not find any matches for",
-        "try_again": "Please try searching for another term",
-        "no_data_message": "There is no data available."
-      },
-      "course_packages": {
-        "no_data_message": "No course packages in catalog"
-      },
-      "animated_videos": {
-        "no_data_message": "No animated videos in catalog",
-        "copied": "You have copied the video URL to your clipboard"
-      }
-    },
-    "login_information":
-      "Please note the catalog is a teacher resource only. Please do not share login credentials with your students."
+  "Create_new_programs_during_import": {
+    "string": "Create new programs during import"
   },
-
-  "simulation": {
-    "screenshots_of": "Screenshots of {simulationName}",
-    "technigues_in_lab": "Techniques In Lab",
-    "related_standards": "Examples of Related Standards",
-    "about": "About",
-    "simulation_features": "Simulation features",
-    "length": "Length",
-    "accessibility_mode": "Accessibility mode",
-    "related_simulations": "Related simulations"
+  "Create_new_locations_during_import": {
+    "string": "Create new locations during import"
   },
-
-  "catalog_widget": {
-    "enjoy_full_access":
-      "Enjoy full access to Labster’s library of content. Browse and play all simulations by viewing the catalog below.",
-    "view_catalog": "View catalog"
+  "Import_Test_Results_maximum_VRBL_new_perfile": {
+    "string": "Import Test Results (maximum 5000  new per file)"
   },
-  "something_went_wrong": "Oops... Something went wrong",
-  "known_region_required": "Region is required for this action",
-  "errors": {
-    "logged_out_security_reasons": "You were logged out for security reasons",
-    "check_internet_connection": "Please check your internet connection",
-    "api_route_restrict": "API Route Unauthorized",
-    "api_route_method_restrict": "API Route Method Not Allowed",
-    "api_too_many_requests":
-      "Too Many Requests. Please wait before trying again or contact customer support.",
-    "server_error": "Server Error",
-    "nev_version_available": {
-      "text": "New content is available",
-      "link": "Refresh"
-    }
+  "No_sample_analyses": {
+    "string": "No sample analyses"
+  },
+  "No_test_results": {
+    "string": "No test results"
+  },
+  "No_corrective_actions": {
+    "string": "No corrective actions"
+  },
+  "Status_for": {
+    "string": "Status for:"
+  },
+  "VRBL_Sample_Analyses": {
+    "string": "{vrbl3} Sample Analyses"
+  },
+  "VRBL_Late_sample_analysis": {
+    "string": "{vrbl4} Late sample analysis"
+  },
+  "VRBL_Nonconforming_Results": {
+    "string": "{vrbl5} Non-conforming Results"
+  },
+  "VRBL_presumed_positive_test_results": {
+    "string": "{vrbl6} presumed positive test results"
+  },
+  "VRBL_Corrective_Actions": {
+    "string": "{vrbl7} Corrective Actions"
+  },
+  "VRBL_open_corrective_actions": {
+    "string": "{vrbl8} open corrective actions"
+  },
+  "VRBL_corrective_actions_need_review": {
+    "string": "{vrbl9} corrective actions need review"
+  },
+  "Late": {
+    "string": "Late"
+  },
+  "Presumed_Positive": {
+    "string": "Presumed Positive"
+  },
+  "Positive": {
+    "string": "Positive"
+  },
+  "Marginal": {
+    "string": "Marginal"
+  },
+  "open": {
+    "string": "open"
+  },
+  "Sample_Analysis_ID": {
+    "string": "Sample Analysis ID:"
+  },
+  "Test_Point_ID": {
+    "string": "Test Point ID:"
+  },
+  "Corrective_Action_ID": {
+    "string": "Corrective Action ID:"
+  },
+  "For_Review": {
+    "string": "For Review"
+  },
+  "List_of_Open_Corrective_Actions": {
+    "string": "List of Open Corrective Actions"
+  },
+  "Pending_Activity": {
+    "string": "Pending Activity"
+  },
+  "View_Details": {
+    "string": "View Details"
+  },
+  "Confirm_Activity": {
+    "string": "Confirm Activity"
+  },
+  "Change_Assignee": {
+    "string": "Change Assignee"
+  },
+  "Close_Corrective_Action": {
+    "string": "Close Corrective Action"
+  },
+  "Created": {
+    "string": "Created:"
+  },
+  "Current_Activity": {
+    "string": "Current Activity:"
+  },
+  "Change_Owner": {
+    "string": "Change Owner"
+  },
+  "Choose_File": {
+    "string": "Choose File"
+  },
+  "No_file_chosen": {
+    "string": "No file chosen"
+  },
+  "Confirm_this_activity_is_completed": {
+    "string": "Confirm this activity has been completed"
+  },
+  "Re_Confirm": {
+    "string": "Re-Confirm"
+  },
+  "Change": {
+    "string": "Change"
+  },
+  "List_of_Corrective_Actions_For_Review": {
+    "string": "List of Corrective Actions For Review"
+  },
+  "Verify": {
+    "string": "Verify"
+  },
+  "Verify_Corrective_Action": {
+    "string": "Verify Corrective Action"
+  },
+  "Additional_Notes": {
+    "string": "Additional Notes"
+  },
+  "Reviewed_and_Completed": {
+    "string": "Reviewed and Completed"
+  },
+  "List_of_Closed_Corrective_Actions": {
+    "string": "List of Closed Corrective Actions"
+  },
+  "Verifired_by": {
+    "string": "Verified by"
+  },
+  "RCA_Done": {
+    "string": "RCA Done"
+  },
+  "Update_Corrective_Action": {
+    "string": "Update Corrective Action"
+  },
+  "Corrective_Action_For": {
+    "string": "Corrective Action For"
+  },
+  "Corrective_Action_Details": {
+    "string": "Corrective Action Details"
+  },
+  "Date_Opened": {
+    "string": "Date Opened"
+  },
+  "Activity_List": {
+    "string": "Activity List"
+  },
+  "Activity": {
+    "string": "Activity"
+  },
+  "Activity_Notes": {
+    "string": "Activity Notes"
+  },
+  "Date_Completed": {
+    "string": "Date Completed"
+  },
+  "ReTest__Results": {
+    "string": "Re-Test & Results"
+  },
+  "Completed_By": {
+    "string": "Completed By"
+  },
+  "Deleted": {
+    "string": "Deleted"
+  },
+  "List_of_Open_Sample_Analyses": {
+    "string": "List of Open Sample Analyses"
+  },
+  "Create_Sample_Analysis": {
+    "string": "Create Sample Analysis"
+  },
+  "All_VRBL": {
+    "string": "All ({vrbl10})"
+  },
+  "Today_VRBL": {
+    "string": "Today ({vrbl11})"
+  },
+  "Labeled_VRBL": {
+    "string": "Labeled ({vrbl12})"
+  },
+  "Collected_VRBL": {
+    "string": "Collected ({vrbl13})"
+  },
+  "Scheduled_VRBL": {
+    "string": "Scheduled ({vrbl14})"
+  },
+  "Late_VRBL": {
+    "string": "Late ({vrbl15})"
+  },
+  "Floor_Plans": {
+    "string": "Floor Plans"
+  },
+  "Search_Floor_Plans": {
+    "string": "Search Floor Plans"
+  },
+  "Search_Test_Methods": {
+    "string": "Search Test Methods"
+  },
+  "Collected": {
+    "string": "Collected"
+  },
+  "Search_Collected": {
+    "string": "Search Collected"
+  },
+  "Samples": {
+    "string": "Samples"
+  },
+  "Edit_Template": {
+    "string": "Edit Template"
+  },
+  "New_Sample_Analysis": {
+    "string": "New Sample Analysis"
+  },
+  "Check_for_repeating_Sample_Analysis": {
+    "string": "Check for repeating Sample Analyses"
+  },
+  "Repeat": {
+    "string": "Repeat:"
+  },
+  "Interval": {
+    "string": "Interval:"
+  },
+  "Until": {
+    "string": "Until:"
+  },
+  "Add_Test_Points": {
+    "string": "Add Test Points"
+  },
+  "From_Scenarios": {
+    "string": "From Scenario(s)"
+  },
+  "Has_Composite_Samples": {
+    "string": "Has Composite Samples"
+  },
+  "Has_one_or_more_Presume_PositiveFailed_Results": {
+    "string": "Has one or more Presumed Positive\/Failed Result(s)"
+  },
+  "List_of_Completed_Sample_Analyses": {
+    "string": "List of Completed Sample Analyses"
+  },
+  "Search_Test_Points": {
+    "string": "Search Test Points"
+  },
+  "List_of_Archived_Sample_Analyses": {
+    "string": "List of Archived Sample Analyses"
+  },
+  "View_Sample_Analysis_id_VRBL": {
+    "string": "View Sample Analysis (id: {vrbl16})"
+  },
+  "Floor_Plan_View": {
+    "string": "Floor Plan View"
+  },
+  "Print_SA": {
+    "string": "Print SA"
+  },
+  "ID_": {
+    "string": "ID #"
+  },
+  "Test_Methodss": {
+    "string": "Test Methods(s)"
+  },
+  "Testing_For": {
+    "string": "Testing For"
+  },
+  "Repetition": {
+    "string": "Repetition"
+  },
+  "Save_changes": {
+    "string": "Save changes"
+  },
+  "Test_Points_VRBL": {
+    "string": "Test Points, {vrbl17}"
+  },
+  "Floor_Plan_Name": {
+    "string": "Floor Plan Name"
+  },
+  "Last_Tested": {
+    "string": "Last Tested"
+  },
+  "Last_Positive": {
+    "string": "Last Positive"
+  },
+  "Collected_at": {
+    "string": "Collected at"
+  },
+  "Label_Samples": {
+    "string": "Label Samples"
+  },
+  "Collect_Samples": {
+    "string": "Collect Samples"
+  },
+  "Audit_trail": {
+    "string": "Audit trail"
+  },
+  "Sample_": {
+    "string": "Sample #"
+  },
+  "Assign_Labels": {
+    "string": "Assign Labels"
+  },
+  "Unlabel_Samples": {
+    "string": "Unlabel Samples"
+  },
+  "Add_Test_Results": {
+    "string": "Add Test Results"
+  },
+  "Notation": {
+    "string": "Notation"
+  },
+  "Test_Count": {
+    "string": "Test Count"
+  },
+  "Sample_Number": {
+    "string": "Sample Number"
+  },
+  "Add_results": {
+    "string": "Add results"
+  },
+  "Update_Results": {
+    "string": "Update Results"
+  },
+  "Clear_All_Sections": {
+    "string": "Clear All Sections"
+  },
+  "Save_Sample_Analysis": {
+    "string": "Save Sample Analysis"
+  },
+  "Remove": {
+    "string": "Remove"
+  },
+  "No_Reason": {
+    "string": "No Reason"
+  },
+  "Available_Test_Points_VRBL": {
+    "string": "Available Test Points ({vrbl18})"
+  },
+  "Randomize": {
+    "string": "Randomize"
+  },
+  "Composite": {
+    "string": "Composite"
+  },
+  "No_filter": {
+    "string": "No filter"
+  },
+  "Exclude_already_scheduled_points": {
+    "string": "Exclude already scheduled points"
+  },
+  "Available_Analysis_Types": {
+    "string": "Available Analysis Types"
+  },
+  "Composite_Sample_VRBL": {
+    "string": "Composite Sample {vrbl19}"
+  },
+  "Ungroup": {
+    "string": "Ungroup"
+  },
+  "Click__below_to_add_up_to_three_tes_points_per_composite_sample": {
+    "string": "Click + below to add up to three tes points per composite sample"
+  },
+  "Select": {
+    "string": "Select"
+  },
+  "Give_preference_to_untested_and_least_recently_tested_points": {
+    "string": "Give preference to untested and least recently tested points"
+  },
+  "Run_Scenario": {
+    "string": "Run Scenario"
+  },
+  "Scenarios": {
+    "string": "Scenarios"
+  },
+  "Saved_Scenarios": {
+    "string": "Saved Scenarios"
+  },
+  "VRBL_Random_Test_Points_from": {
+    "string": "{vrbl20} Random Test Points from"
+  },
+  "Down": {
+    "string": "Down"
+  },
+  "Current_Scenario": {
+    "string": "Current Scenario"
+  },
+  "Start_adding_Test_Points_to_build_this_scenario": {
+    "string": "Start adding Test Points to build this scenario"
+  },
+  "Dashboard": {
+    "string": "Dashboard"
+  },
+  "Insights": {
+    "string": "Insights"
+  },
+  "Settings": {
+    "string": "Settings"
+  },
+  "TBD": {
+    "string": "TBD"
+  },
+  "Application_Settings": {
+    "string": "Application Settings"
+  },
+  "Company__Site": {
+    "string": "Company & Site"
+  },
+  "Company": {
+    "string": "Company"
+  },
+  "Customize_COA": {
+    "string": "Customize COA"
+  },
+  "Customize_Labels": {
+    "string": "Customize Labels"
+  },
+  "Sites": {
+    "string": "Sites"
+  },
+  "Users": {
+    "string": "Users"
+  },
+  "Management_of_Ownership": {
+    "string": "Management of Ownership"
+  },
+  "Notifications": {
+    "string": "Notifications"
+  },
+  "Environmental": {
+    "string": "Environmental"
+  },
+  "Analysis_Types": {
+    "string": "Analysis Types"
+  },
+  "Test_Methods": {
+    "string": "Test Methods"
+  },
+  "Confirmation_Labs": {
+    "string": "Confirmation Labs"
+  },
+  "CA_Protocols": {
+    "string": "CA Protocols"
+  },
+  "Program__Warning_Rules": {
+    "string": "Program & Warning Rules"
+  },
+  "Test_Reason": {
+    "string": "Test Reason"
+  },
+  "Sanitation": {
+    "string": "Sanitation"
+  },
+  "Area_Key": {
+    "string": "Area Key"
+  },
+  "Category": {
+    "string": "Category"
+  },
+  "Classification_of_Cleaning": {
+    "string": "Classification of Cleaning"
+  },
+  "Cleaning_Tool_Types": {
+    "string": "Cleaning Tool Types"
+  },
+  "Cleaning_Tools_Inventory": {
+    "string": "Cleaning Tools Inventory"
+  },
+  "Approved_Chemicals": {
+    "string": "Approved Chemicals"
+  },
+  "Sanitation_Worksheets": {
+    "string": "Sanitation Worksheets"
+  },
+  "Sanitation_Schedule": {
+    "string": "Sanitation Schedule"
+  },
+  "Knowledge_BaseLibrary": {
+    "string": "Knowledge Base\/Library"
+  },
+  "General_Settings": {
+    "string": "General Settings"
+  },
+  "Green__Yellow_Percentage": {
+    "string": "Green & Yellow Percentage:"
+  },
+  "The_Green_value_is_VRBL_and_The_Yellow_value_is_VRBL": {
+    "string": "The Green value is: {vrbl1} and The Yellow value is: {vrbl2}"
+  },
+  "Zone_Type": {
+    "string": "Zone Type:"
+  },
+  "FCNFC": {
+    "string": "FC\/NFC"
+  },
+  "Zones_14": {
+    "string": "Zones 1-4"
+  },
+  "Test_Points": {
+    "string": "Test Points:"
+  },
+  "Autogenerate_test_point_names": {
+    "string": "Auto-generate test point names"
+  },
+  "Allow_exports": {
+    "string": "Allow exports:"
+  },
+  "Allow_all_users_to_export_test_results": {
+    "string": "Allow all users to export test results."
+  },
+  "EMP": {
+    "string": "EMP:"
+  },
+  "Check_if_your_company_currently_has_a_written_EMP": {
+    "string": "Check if your company currently has a written EMP"
+  },
+  "Industry": {
+    "string": "Industry:"
+  },
+  "Product_Category": {
+    "string": "Product Category:"
+  },
+  "Government_Agency": {
+    "string": "Government Agency:"
+  },
+  "Update": {
+    "string": "Update"
+  },
+  "Back_to_Settings": {
+    "string": "Back to Settings"
+  },
+  "Floorplans": {
+    "string": "Floorplans"
+  },
+  "Add_Floorplan": {
+    "string": "Add Floorplan"
+  },
+  "Locations": {
+    "string": "Locations"
+  },
+  "Add_Location": {
+    "string": "Add Location"
+  },
+  "Show_Inactive_Sites": {
+    "string": "Show Inactive Sites"
+  },
+  "Show_Inactive_Floorplans": {
+    "string": "Show Inactive Floorplans"
+  },
+  "Show_Inactive_Locations": {
+    "string": "Show Inactive Locations"
+  },
+  "Active": {
+    "string": "Active"
+  },
+  "Attention": {
+    "string": "Attention"
+  },
+  "COA_customization_cannot_be_performed_before_enabling_COA_creation_Please_open_the_Site_settings_page_make_sure_Enable_COA_creation_is_set_to_true_checked_before_customizing_COA": {
+    "string": "COA customization cannot be performed before enabling COA creation. Please open the Site settings page, make sure \"Enable COA creation\" is set to true (checked) before customizing COA."
+  },
+  "Close": {
+    "string": "Close"
+  },
+  "Use_the_Address_of": {
+    "string": "Use the Address of:"
+  },
+  "Site": {
+    "string": "Site"
+  },
+  "Header_Text": {
+    "string": "Header Text"
+  },
+  "Company_Logo": {
+    "string": "Company Logo"
+  },
+  "Click_here_to_add_a_logo": {
+    "string": "Click here to add a logo."
+  },
+  "Footer_Text": {
+    "string": "Footer Text"
+  },
+  "Select_the_checkbox_to_include_the_data_on_the_label": {
+    "string": "Select the checkbox to include the data on the label."
+  },
+  "Test_Point_Name": {
+    "string": "Test Point Name"
+  },
+  "Test_Result_Date": {
+    "string": "Test Result Date"
+  },
+  "Test_Analysis": {
+    "string": "Test Analysis"
+  },
+  "Test_Method": {
+    "string": "Test Method"
+  },
+  "Threshold": {
+    "string": "Threshold"
+  },
+  "Test_Received_Date": {
+    "string": "Test Received Date"
+  },
+  "Test_Result_Reason": {
+    "string": "Test Result Reason"
+  },
+  "Certifications": {
+    "string": "Certification(s)"
+  },
+  "Test_Collection_Date": {
+    "string": "Test Collection Date"
+  },
+  "Zone": {
+    "string": "Zone"
+  },
+  "Location": {
+    "string": "Location"
+  },
+  "Test_Point": {
+    "string": "Test Point"
+  },
+  "Test_Point_Description": {
+    "string": "Test Point Description"
+  },
+  "Preview": {
+    "string": "Preview"
+  },
+  "Sample_Analyisis_": {
+    "string": "Sample Analyisis #"
+  },
+  "Sample_Analysis_Settings": {
+    "string": "Sample Analysis Settings"
+  },
+  "Autosort": {
+    "string": "Autosort:"
+  },
+  "Order": {
+    "string": "Order:"
+  },
+  "Number_of_Test_Points": {
+    "string": "Number of Test Points:"
+  },
+  "Exclude_test_points_with_open_corrective_actions": {
+    "string": "Exclude test points with open corrective actions"
+  },
+  "Floorplan": {
+    "string": "Floorplan"
+  },
+  "Ascending": {
+    "string": "Ascending"
+  },
+  "Descending": {
+    "string": "Descending"
+  },
+  "Account_Settings": {
+    "string": "Account Settings"
+  },
+  "Users__Passwords": {
+    "string": "User Access"
+  },
+  "List_of_Users_Management_of_Ownership": {
+    "string": "Management of Ownership"
+  },
+  "Show_Disabled": {
+    "string": "Show Disabled"
+  },
+  "Username": {
+    "string": "Username"
+  },
+  "Role": {
+    "string": "Role"
+  },
+  "Search": {
+    "string": "Search…"
+  },
+  "Sample_Requests": {
+    "string": "Sample Requests"
+  },
+  "records_per_page": {
+    "string": " _MENU_ records per page"
+  },
+  "Previous": {
+    "string": "Previous"
+  },
+  "Next": {
+    "string": "Next"
+  },
+  "List_of_Users_Notifications": {
+    "string": "User Notifications"
+  },
+  "Sample_Requests_Owner": {
+    "string": "Sample Requests Owner"
+  },
+  "Sample_Requests_Status": {
+    "string": "Sample Requests Status"
+  },
+  "Report": {
+    "string": "Report"
+  },
+  "Lab_Notifications": {
+    "string": "Lab Notifications"
+  },
+  "List_of_Users": {
+    "string": "List of Users"
+  },
+  "New_User": {
+    "string": "New User"
+  },
+  "Email": {
+    "string": "Email"
+  },
+  "Firstname": {
+    "string": "Firstname"
+  },
+  "Lastname": {
+    "string": "Lastname"
+  },
+  "Export": {
+    "string": "Export"
+  },
+  "Filters": {
+    "string": "Filters"
+  },
+  "Roles": {
+    "string": "Roles"
+  },
+  "Confirmed": {
+    "string": "Confirmed"
+  },
+  "Search_Sites": {
+    "string": "Search Sites"
+  },
+  "Search_Roles": {
+    "string": "Search Roles"
+  },
+  "Choose": {
+    "string": "Choose…"
+  },
+  "Copy": {
+    "string": "Copy"
+  },
+  "Print": {
+    "string": "Print"
+  },
+  "First_Name": {
+    "string": "First Name:"
+  },
+  "eg_John": {
+    "string": "eg.: John"
+  },
+  "eg_yourdomaincom": {
+    "string": "eg.: your@domain.com"
+  },
+  "Last_Name": {
+    "string": "Last Name:"
+  },
+  "eg_Smith": {
+    "string": "eg.: Smith"
+  },
+  "User_Access": {
+    "string": "User Access"
+  },
+  "Products": {
+    "string": "Products"
+  },
+  "Select_what_product_they_have_access_to": {
+    "string": "Select what product they have access to"
+  },
+  "Select_All": {
+    "string": "Select All"
+  },
+  "Unselect_All": {
+    "string": "Unselect All"
+  },
+  "Environmental_Testing": {
+    "string": "Environmental Testing"
+  },
+  "Product_Testing": {
+    "string": "Product Testing"
+  },
+  "Click_here_if_you_want_to_give_grant_access_for_all_current_or_future_sites": {
+    "string": "Click here if you want to give grant access for all current or future sites"
+  },
+  "Submit": {
+    "string": "Submit"
+  },
+  "Cancel": {
+    "string": "Cancel"
+  },
+  "Allergen": {
+    "string": "Allergen:"
+  },
+  "Environment": {
+    "string": "Environment:"
+  },
+  "Indicator_tests": {
+    "string": "Indicator tests:"
+  },
+  "Other": {
+    "string": "Other:"
+  },
+  "Pathogen_tests": {
+    "string": "Pathogen tests:"
+  },
+  "Salts__Heavy_Metals": {
+    "string": "Salts & Heavy Metals:"
+  },
+  "Traceability": {
+    "string": "Traceability:"
+  },
+  "List_of_Reasons": {
+    "string": "List of Reasons"
+  },
+  "Add_Item": {
+    "string": "Add Item"
+  },
+  "Search_Site": {
+    "string": "Search Site"
+  },
+  "Actions": {
+    "string": "Actions"
+  },
+  "Reason_Name": {
+    "string": "Reason Name"
+  },
+  "New_Reason": {
+    "string": "New Reason"
+  },
+  "eg_Reason_Name": {
+    "string": "eg.: Reason Name"
+  },
+  "Create": {
+    "string": "Create"
+  },
+  "You_cannot_delete_this_reason_Do_you_want_to_deactivate_this_reason": {
+    "string": "You cannot delete this reason. Do you want to deactivate this reason?"
+  },
+  "OK": {
+    "string": "OK"
+  },
+  "Edit_Reason": {
+    "string": "Edit Reason"
+  },
+  "Delete": {
+    "string": "Delete"
+  },
+  "List_of_Test_Methods": {
+    "string": "List of Test Methods"
+  },
+  "Create_New": {
+    "string": "Create New"
+  },
+  "Result_Type": {
+    "string": "Result Type"
+  },
+  "Search_Result_Type": {
+    "string": "Search Result Type"
+  },
+  "Lab_Integration": {
+    "string": "Lab Integration"
+  },
+  "Search_Lab_Integration": {
+    "string": "Search Lab Integration"
+  },
+  "Method_Name": {
+    "string": "Method Name"
+  },
+  "Analysis_Type": {
+    "string": "Analysis Type"
+  },
+  "Lab_Integrations": {
+    "string": "Lab Integrations"
+  },
+  "New_Test_Method": {
+    "string": "New Test Method"
+  },
+  "Back_to_List": {
+    "string": "Back to List"
+  },
+  "Name": {
+    "string": "Name:"
+  },
+  "eg_test_method_name": {
+    "string": "eg.: test method name"
+  },
+  "Certificates": {
+    "string": "Certificates:"
+  },
+  "Associated_Sites__lab_Integrations": {
+    "string": "Associated Sites & lab Integrations"
+  },
+  "Lab_Code": {
+    "string": "Lab Code"
+  },
+  "Associated_Site": {
+    "string": "Associated Site"
+  },
+  "Choose_Lab": {
+    "string": "Choose Lab"
+  },
+  "Other_Rules": {
+    "string": "Other Rules"
+  },
+  "Add_Rule": {
+    "string": "Add Rule"
+  },
+  "FloorPlans": {
+    "string": "FloorPlans"
+  },
+  "Programs": {
+    "string": "Programs"
+  },
+  "Zones": {
+    "string": "Zones"
+  },
+  "Edit_Test_Method": {
+    "string": "Edit Test Method"
+  },
+  "List_of_Confirmation_Labs": {
+    "string": "List of Confirmation Labs"
+  },
+  "List_of_Confirmation_Types": {
+    "string": "List of Confirmation Types"
+  },
+  "Add_Confirmation_Lab": {
+    "string": "Add Confirmation Lab"
+  },
+  "Add_Confirmation_Type": {
+    "string": "Add Confirmation Type"
+  },
+  "Insert": {
+    "string": "Insert"
+  },
+  "Confirmation_required": {
+    "string": "Confirmation required"
+  },
+  "Do_you_want_to_delete_this_Confirmation_Lab": {
+    "string": "Do you want to delete this Confirmation Lab?"
+  },
+  "Do_you_want_to_delete_this_Confirmation_Type": {
+    "string": "Do you want to delete this Confirmation Type?"
+  },
+  "List_of_Programs": {
+    "string": "List of Programs"
+  },
+  "Investigative_only": {
+    "string": "Investigative only"
+  },
+  "Warning_Period": {
+    "string": "Warning Period"
+  },
+  "Search_Warning_Period": {
+    "string": "Search Warning Period"
+  },
+  "Program_Name": {
+    "string": "Program Name"
+  },
+  "New_Program": {
+    "string": "New Program"
+  },
+  "egprogram_name": {
+    "string": "eg.:program name"
+  },
+  "All_Sites": {
+    "string": "All Sites"
+  },
+  "Same_warning_period_for_all_sites": {
+    "string": "Same warning period for all sites"
+  },
+  "Day": {
+    "string": "Day"
+  },
+  "Week": {
+    "string": "Week"
+  },
+  "Month": {
+    "string": "Month"
+  },
+  "Quarter": {
+    "string": "Quarter"
+  },
+  "Year": {
+    "string": "Year"
+  },
+  "eg2": {
+    "string": "eg.:2"
+  },
+  "You_are_about_to_delete_program_VRBL_from_all_Test_Points_To_undo_this_action_you_will_have_to_recreate_the_deleted_program_and_manually_associate_it_to_the_sites_and_all_required_Test_Points": {
+    "string": "You are about to delete program {vrbl3} from all Test Points. To undo this action you will have to recreate the deleted program and manually associate it to the site(s) and all required Test Points."
+  },
+  "Edit_Program": {
+    "string": "Edit Program"
+  },
+  "List_of_CA_Protocols": {
+    "string": "List of CA Protocols"
+  },
+  "ReTest": {
+    "string": "ReTest"
+  },
+  "RCA_Enabled": {
+    "string": "RCA Enabled"
+  },
+  "Adding_New_Protocol": {
+    "string": "Adding New Protocol"
+  },
+  "eg_protocol_name": {
+    "string": "eg.: protocol name"
+  },
+  "Retest": {
+    "string": "Re-test"
+  },
+  "Select_if_you_use_it_for_retest": {
+    "string": "Select if you use it for re-test"
+  },
+  "Confirm_Protocol_Deletion": {
+    "string": "Confirm Protocol Deletion"
+  },
+  "Are_you_sure_you_want_to_delete_VRBL": {
+    "string": "Are you sure you want to delete {vrbl4}?"
+  },
+  "Environmental_Settings": {
+    "string": "Environmental Settings"
+  },
+  "Configuration": {
+    "string": "Configuration"
+  },
+  "Activities": {
+    "string": "Activities"
+  },
+  "Inactive": {
+    "string": "Inactive"
+  },
+  "Created_Date": {
+    "string": "Created Date:"
+  },
+  "Updated_Date": {
+    "string": "Updated Date:"
+  },
+  "Number_of_conforming_results_required": {
+    "string": "Number of conforming results required"
+  },
+  "Number_of_days_between_retests": {
+    "string": "Number of days between re-tests"
+  },
+  "Group_Corrective_Actions": {
+    "string": "Group Corrective Actions"
+  },
+  "Group_Corrective_Actions_Day": {
+    "string": "Group Corrective Actions Day"
+  },
+  "Ignore_test_results_confirmation": {
+    "string": "Ignore test results confirmation"
+  },
+  "Notified_users": {
+    "string": "Notified users"
+  },
+  "Use_any_Test_Method_for_retest": {
+    "string": "Use any Test Method for re-test"
+  },
+  "Generate_retest_upon_sample_analysis_collection": {
+    "string": "Generate re-test upon sample analysis collection"
+  },
+  "Use_for_Retest": {
+    "string": "Use for Re-test"
+  },
+  "All_Programs": {
+    "string": "All Programs"
+  },
+  "All_Analysis_Types": {
+    "string": "All Analysis Types"
+  },
+  "All_Zones": {
+    "string": "All Zones"
+  },
+  "This_CA_Protocol_is_currently_used_in_the_following_open_Corrective_Actions_and_cannot_be_edited_VRBL": {
+    "string": "This CA Protocol is currently used in the following open Corrective Actions and cannot be edited: {vrbl5}"
+  },
+  "Attachment": {
+    "string": "Attachment"
+  },
+  "Root_Cause_Analysis": {
+    "string": "Root Cause Analysis"
+  },
+  "Cleaning_Tools_Type": {
+    "string": "Cleaning Tools Type"
+  },
+  "Add_new": {
+    "string": "Add new"
+  },
+  "New_Area_Key": {
+    "string": "New Area Key"
+  },
+  "Area_Name": {
+    "string": "Area Name:"
+  },
+  "Assign_Color": {
+    "string": "Assign Color:"
+  },
+  "Save": {
+    "string": "Save"
+  },
+  "Edit_Area_Key": {
+    "string": "Edit Area Key"
+  },
+  "Warning": {
+    "string": "Warning"
+  },
+  "This_item_will_be_permanently_deleted_Do_you_want_to_delete_this_area_key": {
+    "string": "This item will be permanently deleted. Do you want to delete this area key?"
+  },
+  "Confirm": {
+    "string": "Confirm"
+  },
+  "Category_Name": {
+    "string": "Category Name"
+  },
+  "Search_Category_Name": {
+    "string": "Search Category Name"
+  },
+  "ADD_NEW": {
+    "string": "ADD NEW"
+  },
+  "Results_": {
+    "string": "Results (#)"
+  },
+  "New_Category": {
+    "string": "New Category"
+  },
+  "Edit_Category": {
+    "string": "Edit Category"
+  },
+  "This_items_will_be_permanently_deleted_Do_you_want_to_delete_these_category_types": {
+    "string": "This items will be permanently deleted. Do you want to delete these category types?"
+  },
+  "Classification_of_Cleaning_Name": {
+    "string": "Classification of Cleaning Name"
+  },
+  "Search_Classification_of_Cleaning_Name": {
+    "string": "Search Classification of Cleaning Name"
+  },
+  "Action": {
+    "string": "Action"
+  },
+  "Add_new_Classification_of_Cleaning": {
+    "string": "Add new Classification of Cleaning"
+  },
+  "Edit_Classification_of_Cleaning": {
+    "string": "Edit Classification of Cleaning"
+  },
+  "This_item_will_be_permanently_deleted_Do_you_want_to_delete_this_classification_of_cleaning": {
+    "string": "This item will be permanently deleted. Do you want to delete this classification of cleaning?"
+  },
+  "Cleaning_Tool_Type": {
+    "string": "Cleaning Tool Type"
+  },
+  "Search_Cleaning_Tool_Type": {
+    "string": "Search Cleaning Tool Type"
+  },
+  "Add_New_Cleaning_Tool_Type": {
+    "string": "Add New Cleaning Tool Type"
+  },
+  "Cleaning_Tool_Type_Name": {
+    "string": "Cleaning Tool Type Name:"
+  },
+  "Edit_Cleaning_Tool_Type": {
+    "string": "Edit Cleaning Tool Type"
+  },
+  "This_item_will_be_permanently_deleted_Do_you_want_to_delete_this_cleaning_tool_type": {
+    "string": "This item will be permanently deleted. Do you want to delete this cleaning tool type?"
+  },
+  "Key": {
+    "string": "Key"
+  },
+  "Type": {
+    "string": "Type"
+  },
+  "Area": {
+    "string": "Area"
+  },
+  "Condition": {
+    "string": "Condition"
+  },
+  "Last_Used": {
+    "string": "Last Used"
+  },
+  "Search_Last_Used": {
+    "string": "Search Last Used"
+  },
+  "_of_Results": {
+    "string": "# of Results"
+  },
+  "Last_Checked_by": {
+    "string": "Last Checked by"
+  },
+  "Last_Checked": {
+    "string": "Last Checked"
+  },
+  "Add_New_Tool": {
+    "string": "Add New Tool"
+  },
+  "Item_Name": {
+    "string": "Item Name:"
+  },
+  "eg_Item_Name": {
+    "string": "e.g.: Item Name"
+  },
+  "Item_Type": {
+    "string": "Item Type:"
+  },
+  "Assigned_To": {
+    "string": "Assigned To:"
+  },
+  "Storage_Location": {
+    "string": "Storage Location:"
+  },
+  "eg_Storage_Closet": {
+    "string": "e.g.: Storage Closet"
+  },
+  "Added_By": {
+    "string": "Added By:"
+  },
+  "This_item_will_be_permanently_deleted_Do_you_want_to_delete_this_cleaning_tool": {
+    "string": "This item will be permanently deleted. Do you want to delete this cleaning tool?"
+  },
+  "Chemical_Name": {
+    "string": "Chemical Name"
+  },
+  "Search_Chemical_Name": {
+    "string": "Search Chemical Name"
+  },
+  "Last_Purchased": {
+    "string": "Last Purchased"
+  },
+  "Search_Last_Purchased": {
+    "string": "Search Last Purchased"
+  },
+  "Search_Location": {
+    "string": "Search Location"
+  },
+  "Vendor": {
+    "string": "Vendor"
+  },
+  "Search_Vendor": {
+    "string": "Search Vendor"
+  },
+  "Purchased": {
+    "string": "Purchased"
+  },
+  "Search_Purchased": {
+    "string": "Search Purchased"
+  },
+  "Updated_By": {
+    "string": "Updated By"
+  },
+  "Search_Updated_By": {
+    "string": "Search Updated By"
+  },
+  "Approved_Ratio": {
+    "string": "Approved Ratio"
+  },
+  "Search_Approved_Ratio": {
+    "string": "Search Approved Ratio"
+  },
+  "Indicator": {
+    "string": "Indicator"
+  },
+  "Search_Indicator": {
+    "string": "Search Indicator"
+  },
+  "Last_Updated": {
+    "string": "Last Updated"
+  },
+  "Search_Last_Updated": {
+    "string": "Search Last Updated"
+  },
+  "CAS": {
+    "string": "CAS#"
+  },
+  "Search_CAS": {
+    "string": "Search CAS#"
+  },
+  "Department": {
+    "string": "Department"
+  },
+  "Search_Department": {
+    "string": "Search Department"
+  },
+  "In_Stock": {
+    "string": "In Stock"
+  },
+  "Units": {
+    "string": "Units"
+  },
+  "MSDS": {
+    "string": "MSDS"
+  },
+  "View_Usage": {
+    "string": "View Usage"
+  },
+  "Add_New_Chemical": {
+    "string": "Add New Chemical"
+  },
+  "Chemical_Details": {
+    "string": "Chemical Details"
+  },
+  "Chemical": {
+    "string": "Chemical"
+  },
+  "Upload_File": {
+    "string": "Upload File"
+  },
+  "Purchased_On": {
+    "string": "Purchased On:"
+  },
+  "Purchased_Amount": {
+    "string": "Purchased Amount:"
+  },
+  "Gallon": {
+    "string": "Gallon"
+  },
+  "Quart": {
+    "string": "Quart"
+  },
+  "Fluid_Ounces": {
+    "string": "Fluid Ounces"
+  },
+  "Storage_Department": {
+    "string": "Storage Department:"
+  },
+  "Notification_Preferences": {
+    "string": "Notification Preferences"
+  },
+  "Low_Inventory_Warning": {
+    "string": "Low Inventory Warning"
+  },
+  "This_chemical_will_be_permanently_deleted_Do_you_want_to_delete_this_chemical": {
+    "string": "This chemical will be permanently deleted. Do you want to delete this chemical?"
+  },
+  "VRBL_is_currently_in_use_and_cannot_be_deleted": {
+    "string": "{vrbl6} is currently in use and cannot be deleted."
+  },
+  "Created_On": {
+    "string": "Created On"
+  },
+  "Search_Created_On": {
+    "string": "Search Created On"
+  },
+  "Created_By": {
+    "string": "Created By"
+  },
+  "Search_Created_By": {
+    "string": "Search Created By"
+  },
+  "Updated_On": {
+    "string": "Updated On"
+  },
+  "Search_Updated_On": {
+    "string": "Search Updated On"
+  },
+  "Worksheet_Name": {
+    "string": "Worksheet Name"
+  },
+  "of_Tasks": {
+    "string": "#of Tasks"
+  },
+  "Assign": {
+    "string": "Assign"
+  },
+  "Edit": {
+    "string": "Edit"
+  },
+  "Duplicate": {
+    "string": "Duplicate"
+  },
+  "Add_New_Task": {
+    "string": "Add New Task"
+  },
+  "Task_Name": {
+    "string": "Task Name:"
+  },
+  "Task_Notes": {
+    "string": "Task Notes:"
+  },
+  "Method": {
+    "string": "Method:"
+  },
+  "Select_to_add_the_field": {
+    "string": "Select to add the field"
+  },
+  "Temperature": {
+    "string": "Temperature"
+  },
+  "ToolsUtensils": {
+    "string": "Tools\/Utensils"
+  },
+  "Save__Add_New": {
+    "string": "Save & Add New"
+  },
+  "Add_New_Worksheet": {
+    "string": "Add New Worksheet"
+  },
+  "Publish": {
+    "string": "Publish"
+  },
+  "Worksheet": {
+    "string": "Worksheet"
+  },
+  "Frequency": {
+    "string": "Frequency:"
+  },
+  "Task_List": {
+    "string": "Task List"
+  },
+  "Task_Description": {
+    "string": "Task Description"
+  },
+  "Attachments": {
+    "string": "Attachments"
+  },
+  "Are_you_sure_you_want_to_delete_this_worksheet": {
+    "string": "Are you sure you want to delete this worksheet?"
+  },
+  "No": {
+    "string": "No"
+  },
+  "Yes": {
+    "string": "Yes"
+  },
+  "Edit_VRBL": {
+    "string": "Edit {vrbl7}"
+  },
+  "Sanitation_Schedules": {
+    "string": "Sanitation Schedules"
+  },
+  "Open": {
+    "string": "Open"
+  },
+  "Review": {
+    "string": "Review"
+  },
+  "History": {
+    "string": "History"
+  },
+  "Status": {
+    "string": "Status"
+  },
+  "Incidents": {
+    "string": "Incidents"
+  },
+  "View": {
+    "string": "View"
+  },
+  "Start": {
+    "string": "Start"
+  },
+  "Worksheet_Details": {
+    "string": "Worksheet Details"
+  },
+  "Schedule_Date": {
+    "string": "Schedule Date"
+  },
+  "Date_Performed": {
+    "string": "Date Performed"
+  },
+  "Version_": {
+    "string": "Version #"
+  },
+  "Bverified_By": {
+    "string": "Bverified By"
+  },
+  "Worksheet_Name_VRBL": {
+    "string": "Worksheet Name: {vrbl8}"
+  },
+  "Repetition_VRBL": {
+    "string": "Repetition: {vrbl9}"
+  },
+  "Completed": {
+    "string": "Completed"
+  },
+  "NA": {
+    "string": "N\/A"
+  },
+  "Incident_Description": {
+    "string": "Incident Description"
+  },
+  "Severity": {
+    "string": "Severity"
+  },
+  "Report_Date": {
+    "string": "Report Date"
+  },
+  "Reported_By": {
+    "string": "Reported By"
+  },
+  "Report_New_Incident": {
+    "string": "Report New Incident"
+  },
+  "Delete_Incident": {
+    "string": "Delete Incident"
+  },
+  "Reason": {
+    "string": "Reason"
+  },
+  "Are_you_ready_to_close_this_schedule_That_action_moving_schedule_to_Hitosry_tab": {
+    "string": "Are you ready to close this schedule? That action moving schedule to Hitosry tab!"
+  },
+  "Add_New_Incident": {
+    "string": "Add New Incident"
+  },
+  "High": {
+    "string": "High"
+  },
+  "Medium": {
+    "string": "Medium"
+  },
+  "Low": {
+    "string": "Low"
+  },
+  "Search_Name": {
+    "string": "Search Name"
+  },
+  "Search_Description": {
+    "string": "Search Description"
+  },
+  "File_Type": {
+    "string": "File Type"
+  },
+  "Search_File_Type": {
+    "string": "Search File Type"
+  },
+  "Duration": {
+    "string": "Duration"
+  },
+  "Search_Duration": {
+    "string": "Search Duration"
+  },
+  "Date_Added": {
+    "string": "Date Added"
+  },
+  "Search_Date_Added": {
+    "string": "Search Date Added"
+  },
+  "New_Video": {
+    "string": "New Video"
+  },
+  "File_Name": {
+    "string": "File Name:"
+  },
+  "Are_you_sure_you_want_to_permanently_delete_this_video": {
+    "string": "Are you sure you want to permanently delete this video?"
+  },
+  "Attached_Video": {
+    "string": "Attached Video"
+  },
+  "previous": {
+    "string": "Previous"
+  },
+  "next": {
+    "string": "Next"
+  },
+  "Analysis_types": {
+    "string": "Analysis Types"
+  },
+  "Click_here_to_add_an_image": {
+    "string": "Click here to add an image."
+  },
+  "Labeled": {
+    "string": "Labeled"
+  },
+  "All": {
+    "string": "All"
+  },
+  "Scheduled": {
+    "string": "Scheduled"
+  },
+  "Completed_Sample_Analyses": {
+    "string": "Completed Sample Analyses"
+  },
+  "Deleted_Sample_Analyses": {
+    "string": "Deleted Sample Analyses"
+  },
+  "filters": {
+    "string": "Filters"
+  },
+  "Available_Test_Points": {
+    "string": "Available Test Points"
+  },
+  "Download_Result": {
+    "string": "Download Results"
+  },
+  "Lab_Integrated": {
+    "string": "Lab Integrated"
+  },
+  "Corrective_Actions_Details": {
+    "string": "Corrective Action Details"
+  },
+  "List_of_Sample_Submissions": {
+    "string": "List of Sample Submissions"
+  },
+  "Lab": {
+    "string": "Lab"
+  },
+  "Policy": {
+    "string": "Policy"
+  },
+  "Lab__Site_Contacts": {
+    "string": "Lab & Site Contacts"
+  },
+  "Submittal_Details": {
+    "string": "Submittal Details"
+  },
+  "Audit_Trail": {
+    "string": "Audit Trail"
+  },
+  "New_Submittal": {
+    "string": "New Submittal"
+  },
+  "Labs": {
+    "string": "Labs"
+  },
+  "Lab_Mappings": {
+    "string": "Lab Mappings"
+  },
+  "Methods": {
+    "string": "Methods"
+  },
+  "Policies": {
+    "string": "Policies"
+  },
+  "Not_Yet": {
+    "string": "Not Yet"
+  },
+  "ViewAll": {
+    "string": "View All"
+  },
+  "positive_test_result": {
+    "string": "positive test result"
+  },
+  "failed_test_result": {
+    "string": "failed test result"
+  },
+  "Welcome": {
+    "string": "Welcome"
+  },
+  "List_of_Test_Points": {
+    "string": "List of Test Points"
+  },
+  "List_of_Deleted_Sample_Analyses": {
+    "string": "List of Deleted Sample Analyses"
+  },
+  "Enabled": {
+    "string": "Enabled"
+  },
+  "Disabled": {
+    "string": "Disabled"
+  },
+  "New_Test_Point": {
+    "string": "New Test Point"
+  },
+  "EMP_Last_Modified": {
+    "string": "EMP Last modified"
+  },
+  "Lab_Location_Name": {
+    "string": "Lab Location Name"
+  },
+  "City": {
+    "string": "City"
+  },
+  "State": {
+    "string": "State"
+  },
+  "Phone": {
+    "string": "Phone"
+  },
+  "List_of_Methods": {
+    "string": "List of Methods"
+  },
+  "Supports_Fermented": {
+    "string": "Supports Fermented"
+  },
+  "List_of_Lab_Mappings": {
+    "string": "List of Lab Mappings"
+  },
+  "Mapping_Name": {
+    "string": "Mapping Name"
+  },
+  "List_of_Policies": {
+    "string": "List of Policies"
+  },
+  "Policy_Name": {
+    "string": "Policy Name"
+  },
+  "Truncated": {
+    "string": "Truncated"
+  },
+  "Deactivate": {
+    "string": "Deactivate"
+  },
+  "Activate": {
+    "string": "Activate"
+  },
+  "Complete": {
+    "string": "Complete"
+  },
+  "Negative": {
+    "string": "Negative"
+  },
+  "Unconfirmed": {
+    "string": "Unconfirmed"
+  },
+  "All_Filters": {
+    "string": "All Filters"
+  },
+  "No_Filters": {
+    "string": "No Filters"
+  },
+  "None_Selected": {
+    "string": "None Selected"
+  },
+  "Collected_Sample_Analysis": {
+    "string": "Collected Sample Analysis"
+  },
+  "Page_of": {
+    "string": "Page {vrbl1} of {vrbl2}"
+  },
+  "Printed": {
+    "string": "Printed {vrbl3}"
+  },
+  "Ship_samples_to": {
+    "string": "Ship samples to"
+  },
+  "DESCRIPTION": {
+    "string": "DESCRIPTION"
+  },
+  "ID": {
+    "string": "ID"
+  },
+  "SA_DATE": {
+    "string": "SA DATE"
+  },
+  "START_TIME": {
+    "string": "START TIME"
+  },
+  "END_TIME": {
+    "string": "END TIME"
+  },
+  "STATUS": {
+    "string": "STATUS"
+  },
+  "OWNER": {
+    "string": "OWNER"
+  },
+  "METHOD": {
+    "string": "METHOD"
+  },
+  "LAB_METHOD": {
+    "string": "LAB METHOD"
+  },
+  "QA": {
+    "string": "QA"
+  },
+  "Start_Time": {
+    "string": "Start Time"
+  },
+  "End_Time": {
+    "string": "End Time"
+  },
+  "Notes": {
+    "string": "Notes"
+  },
+  "SAMPLE_#": {
+    "string": "SAMPLE #"
+  },
+  "FLOORPLAN_>_LOCATION": {
+    "string": "FLOORPLAN > LOCATION"
+  },
+  "TEST_POINT_NAME/DESCRIPTION": {
+    "string": "TEST POINT NAME/DESCRIPTION"
+  },
+  "ZONE": {
+    "string": "ZONE"
+  },
+  "NOTES": {
+    "string": "NOTES"
+  },
+  "REASON": {
+    "string": "REASON"
+  },
+  "Completed_Sample_Analysis": {
+    "string": "Completed Sample Analysis"
+  },
+  "DATE": {
+    "string": "DATE"
+  },
+  "RESULT": {
+    "string": "RESULT"
+  },
+  "TEST_COUNT": {
+    "string": "TEST COUNT"
+  },
+  "CONFIRMATION": {
+    "string": "CONFIRMATION"
+  },
+  "Audit_Log": {
+    "string": "Audit Log"
+  },
+  "Audit_Date": {
+    "string": "Audit Date"
+  },
+  "Description": {
+    "string": "Description"
+  },
+  "Test_Result": {
+    "string": "Test Result"
+  },
+  "User": {
+    "string": "User"
+  },
+  "SA_Status": {
+    "string": "SA Status"
+  },
+  "Collection_Sheet": {
+    "string": "Collection Sheet"
+  },
+  "Print_Labels": {
+    "string": "Print Labels"
+  },
+  "View_Sample_Analysis": {
+    "string": "View Sample Analysis"
+  },
+  "OPEN": {
+    "string": "open"
+  },
+  "REVIEW": {
+    "string": "review"
   }
+    ,
+    "Today": {
+      "string": "Today"
+    },
+    "Incomplete": {
+      "string": "Incomplete"
+    }
 }
